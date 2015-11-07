@@ -101,6 +101,7 @@
   <HelpKINode Title="ApplicationBarBehavior.ModeProperty field" Url="html/F_Cimbalino_Toolkit_Behaviors_ApplicationBarBehavior_ModeProperty.htm" />
   <HelpKINode Title="ApplicationBarBehavior.OnAttached method" Url="html/M_Cimbalino_Toolkit_Behaviors_ApplicationBarBehavior_OnAttached.htm" />
   <HelpKINode Title="ApplicationBarBehavior.OnBackgroundColorChanged method" Url="html/M_Cimbalino_Toolkit_Behaviors_ApplicationBarBehavior_OnBackgroundColorChanged.htm" />
+  <HelpKINode Title="ApplicationBarBehavior.OnDetaching method" Url="html/M_Cimbalino_Toolkit_Behaviors_ApplicationBarBehavior_OnDetaching.htm" />
   <HelpKINode Title="ApplicationBarBehavior.OnForegroundColorChanged method" Url="html/M_Cimbalino_Toolkit_Behaviors_ApplicationBarBehavior_OnForegroundColorChanged.htm" />
   <HelpKINode Title="ApplicationBarBehavior.OnIsMenuEnabledChanged method" Url="html/M_Cimbalino_Toolkit_Behaviors_ApplicationBarBehavior_OnIsMenuEnabledChanged.htm" />
   <HelpKINode Title="ApplicationBarBehavior.OnIsVisibleChanged method" Url="html/M_Cimbalino_Toolkit_Behaviors_ApplicationBarBehavior_OnIsVisibleChanged.htm" />
@@ -404,6 +405,7 @@
   <HelpKINode Title="Apply(Of TKey, TValue) method" Url="html/M_Cimbalino_Toolkit_Extensions_IDictionaryExtensions_Apply__2.htm" />
   <HelpKINode Title="Apply&lt;TKey, TValue&gt; method" Url="html/M_Cimbalino_Toolkit_Extensions_IDictionaryExtensions_Apply__2.htm" />
   <HelpKINode Title="AppPlatformVersion property" Url="html/P_Cimbalino_Toolkit_Helpers_ApplicationManifest_AppPlatformVersion.htm" />
+  <HelpKINode Title="AppUserModelId property" Url="html/P_Cimbalino_Toolkit_Services_LauncherServiceAppInfo_AppUserModelId.htm" />
   <HelpKINode Title="AssociatedObject property">
     <HelpKINode Title="Behavior(T).AssociatedObject Property " Url="html/P_Cimbalino_Toolkit_Behaviors_Behavior_1_AssociatedObject.htm" />
     <HelpKINode Title="Behavior.AssociatedObject Property " Url="html/P_Cimbalino_Toolkit_Behaviors_Behavior_AssociatedObject.htm" />
@@ -481,6 +483,8 @@
   </HelpKINode>
   <HelpKINode Title="Behavior&lt;T&gt;.AssociatedObject property" Url="html/P_Cimbalino_Toolkit_Behaviors_Behavior_1_AssociatedObject.htm" />
   <HelpKINode Title="Behavior&lt;T&gt;.Behavior constructor" Url="html/M_Cimbalino_Toolkit_Behaviors_Behavior_1__ctor.htm" />
+  <HelpKINode Title="Behaviors attached property" Url="html/P_Cimbalino_Toolkit_Behaviors_MonitoredInteraction_Behaviors.htm" />
+  <HelpKINode Title="BehaviorsProperty field" Url="html/F_Cimbalino_Toolkit_Behaviors_MonitoredInteraction_BehaviorsProperty.htm" />
   <HelpKINode Title="Between(Of T) method" Url="html/M_Cimbalino_Toolkit_Extensions_IComparableExtensions_Between__1.htm" />
   <HelpKINode Title="Between&lt;T&gt; method" Url="html/M_Cimbalino_Toolkit_Extensions_IComparableExtensions_Between__1.htm" />
   <HelpKINode Title="BitsPerPixel property" Url="html/P_Cimbalino_Toolkit_Helpers_ApplicationManifestAppNode_BitsPerPixel.htm" />
@@ -557,6 +561,10 @@
     <HelpKINode Title="IDisplayPropertiesService.Bounds Property " Url="html/P_Cimbalino_Toolkit_Services_IDisplayPropertiesService_Bounds.htm" />
   </HelpKINode>
   <HelpKINode Title="Build method" Url="html/M_Cimbalino_Toolkit_Extensions_UriBuilderExtensions_Build.htm" />
+  <HelpKINode Title="BuildFileUri method">
+    <HelpKINode Title="IStorageServiceHandler.BuildFileUri Method " Url="html/M_Cimbalino_Toolkit_Services_IStorageServiceHandler_BuildFileUri.htm" />
+    <HelpKINode Title="StorageServiceHandler.BuildFileUri Method " Url="html/M_Cimbalino_Toolkit_Services_StorageServiceHandler_BuildFileUri.htm" />
+  </HelpKINode>
   <HelpKINode Title="Buttons property">
     <HelpKINode Title="ApplicationBar.Buttons Property " Url="html/P_Cimbalino_Toolkit_Behaviors_ApplicationBar_Buttons.htm" />
     <HelpKINode Title="ApplicationBarBehavior.Buttons Property " Url="html/P_Cimbalino_Toolkit_Behaviors_ApplicationBarBehavior_Buttons.htm" />
@@ -637,6 +645,7 @@
   <HelpKINode Title="Cimbalino.Toolkit.Behaviors.Behavior(Of T) class" Url="html/T_Cimbalino_Toolkit_Behaviors_Behavior_1.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Behaviors.Behavior&lt;T&gt; class" Url="html/T_Cimbalino_Toolkit_Behaviors_Behavior_1.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Behaviors.EnterKeyBehavior class" Url="html/T_Cimbalino_Toolkit_Behaviors_EnterKeyBehavior.htm" />
+  <HelpKINode Title="Cimbalino.Toolkit.Behaviors.MonitoredInteraction class" Url="html/T_Cimbalino_Toolkit_Behaviors_MonitoredInteraction.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Behaviors.MultiApplicationBarBehavior class" Url="html/T_Cimbalino_Toolkit_Behaviors_MultiApplicationBarBehavior.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Behaviors.MultiBindingBehavior class" Url="html/T_Cimbalino_Toolkit_Behaviors_MultiBindingBehavior.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Behaviors.MultiBindingItem class" Url="html/T_Cimbalino_Toolkit_Behaviors_MultiBindingItem.htm" />
@@ -705,6 +714,7 @@
   <HelpKINode Title="Cimbalino.Toolkit.Helpers.ApplicationManifestTaskNodeBase class" Url="html/T_Cimbalino_Toolkit_Helpers_ApplicationManifestTaskNodeBase.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Helpers.ApplicationManifestTokenNode class" Url="html/T_Cimbalino_Toolkit_Helpers_ApplicationManifestTokenNode.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Helpers.ChunkedStream class" Url="html/T_Cimbalino_Toolkit_Helpers_ChunkedStream.htm" />
+  <HelpKINode Title="Cimbalino.Toolkit.Helpers.DebugOptions class" Url="html/T_Cimbalino_Toolkit_Helpers_DebugOptions.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Helpers.DependencyObjectCollection(Of T) class" Url="html/T_Cimbalino_Toolkit_Helpers_DependencyObjectCollection_1.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Helpers.DependencyObjectCollection&lt;T&gt; class" Url="html/T_Cimbalino_Toolkit_Helpers_DependencyObjectCollection_1.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Helpers.NamescopeBinding class" Url="html/T_Cimbalino_Toolkit_Helpers_NamescopeBinding.htm" />
@@ -732,6 +742,7 @@
   <HelpKINode Title="Cimbalino.Toolkit.Services.ApplicationProfileServiceMode enumeration" Url="html/T_Cimbalino_Toolkit_Services_ApplicationProfileServiceMode.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.ApplicationSettingsService class" Url="html/T_Cimbalino_Toolkit_Services_ApplicationSettingsService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.ApplicationSettingsServiceHandler class" Url="html/T_Cimbalino_Toolkit_Services_ApplicationSettingsServiceHandler.htm" />
+  <HelpKINode Title="Cimbalino.Toolkit.Services.ClipboardService class" Url="html/T_Cimbalino_Toolkit_Services_ClipboardService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.DeviceSettingsService class" Url="html/T_Cimbalino_Toolkit_Services_DeviceSettingsService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.DeviceStatusService class" Url="html/T_Cimbalino_Toolkit_Services_DeviceStatusService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.DeviceStatusServicePowerSource enumeration" Url="html/T_Cimbalino_Toolkit_Services_DeviceStatusServicePowerSource.htm" />
@@ -742,16 +753,19 @@
   <HelpKINode Title="Cimbalino.Toolkit.Services.IApplicationProfileService interface" Url="html/T_Cimbalino_Toolkit_Services_IApplicationProfileService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.IApplicationSettingsService interface" Url="html/T_Cimbalino_Toolkit_Services_IApplicationSettingsService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.IApplicationSettingsServiceHandler interface" Url="html/T_Cimbalino_Toolkit_Services_IApplicationSettingsServiceHandler.htm" />
+  <HelpKINode Title="Cimbalino.Toolkit.Services.IClipboardService interface" Url="html/T_Cimbalino_Toolkit_Services_IClipboardService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.IDeviceSettingsService interface" Url="html/T_Cimbalino_Toolkit_Services_IDeviceSettingsService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.IDeviceStatusService interface" Url="html/T_Cimbalino_Toolkit_Services_IDeviceStatusService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.IDisplayPropertiesService interface" Url="html/T_Cimbalino_Toolkit_Services_IDisplayPropertiesService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.IEmailComposeService interface" Url="html/T_Cimbalino_Toolkit_Services_IEmailComposeService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.ILauncherService interface" Url="html/T_Cimbalino_Toolkit_Services_ILauncherService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.ILocationService interface" Url="html/T_Cimbalino_Toolkit_Services_ILocationService.htm" />
+  <HelpKINode Title="Cimbalino.Toolkit.Services.ILockScreenService interface" Url="html/T_Cimbalino_Toolkit_Services_ILockScreenService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.IMapManagerService interface" Url="html/T_Cimbalino_Toolkit_Services_IMapManagerService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.IMessageBoxService interface" Url="html/T_Cimbalino_Toolkit_Services_IMessageBoxService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.INavigationService interface" Url="html/T_Cimbalino_Toolkit_Services_INavigationService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.INetworkInformationService interface" Url="html/T_Cimbalino_Toolkit_Services_INetworkInformationService.htm" />
+  <HelpKINode Title="Cimbalino.Toolkit.Services.IPersonalizationService interface" Url="html/T_Cimbalino_Toolkit_Services_IPersonalizationService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.IPhoneCallService interface" Url="html/T_Cimbalino_Toolkit_Services_IPhoneCallService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.IRuntimeInformationService interface" Url="html/T_Cimbalino_Toolkit_Services_IRuntimeInformationService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.ISmsComposeService interface" Url="html/T_Cimbalino_Toolkit_Services_ISmsComposeService.htm" />
@@ -759,10 +773,12 @@
   <HelpKINode Title="Cimbalino.Toolkit.Services.IStorageService interface" Url="html/T_Cimbalino_Toolkit_Services_IStorageService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.IStorageServiceHandler interface" Url="html/T_Cimbalino_Toolkit_Services_IStorageServiceHandler.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.IStoreService interface" Url="html/T_Cimbalino_Toolkit_Services_IStoreService.htm" />
+  <HelpKINode Title="Cimbalino.Toolkit.Services.ITitleBarService interface" Url="html/T_Cimbalino_Toolkit_Services_ITitleBarService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.IVibrationService interface" Url="html/T_Cimbalino_Toolkit_Services_IVibrationService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.IWindowsPhoneStoreService interface" Url="html/T_Cimbalino_Toolkit_Services_IWindowsPhoneStoreService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.IWindowsStoreService interface" Url="html/T_Cimbalino_Toolkit_Services_IWindowsStoreService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.LauncherService class" Url="html/T_Cimbalino_Toolkit_Services_LauncherService.htm" />
+  <HelpKINode Title="Cimbalino.Toolkit.Services.LauncherServiceAppInfo class" Url="html/T_Cimbalino_Toolkit_Services_LauncherServiceAppInfo.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.LegacyApplicationSettingsServiceHandler class" Url="html/T_Cimbalino_Toolkit_Services_LegacyApplicationSettingsServiceHandler.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.LocationService class" Url="html/T_Cimbalino_Toolkit_Services_LocationService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.LocationServiceAccuracy enumeration" Url="html/T_Cimbalino_Toolkit_Services_LocationServiceAccuracy.htm" />
@@ -770,20 +786,28 @@
   <HelpKINode Title="Cimbalino.Toolkit.Services.LocationServicePositionChangedEventArgs class" Url="html/T_Cimbalino_Toolkit_Services_LocationServicePositionChangedEventArgs.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.LocationServiceStatus enumeration" Url="html/T_Cimbalino_Toolkit_Services_LocationServiceStatus.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.LocationServiceStatusChangedEventArgs class" Url="html/T_Cimbalino_Toolkit_Services_LocationServiceStatusChangedEventArgs.htm" />
+  <HelpKINode Title="Cimbalino.Toolkit.Services.LockScreenService class" Url="html/T_Cimbalino_Toolkit_Services_LockScreenService.htm" />
+  <HelpKINode Title="Cimbalino.Toolkit.Services.LockScreenServiceRequestResult enumeration" Url="html/T_Cimbalino_Toolkit_Services_LockScreenServiceRequestResult.htm" />
+  <HelpKINode Title="Cimbalino.Toolkit.Services.LockScreenWithRequestService class" Url="html/T_Cimbalino_Toolkit_Services_LockScreenWithRequestService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.MapManagerService class" Url="html/T_Cimbalino_Toolkit_Services_MapManagerService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.MessageBoxService class" Url="html/T_Cimbalino_Toolkit_Services_MessageBoxService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.NavigationService class" Url="html/T_Cimbalino_Toolkit_Services_NavigationService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.NavigationServiceBackKeyPressedBehavior enumeration" Url="html/T_Cimbalino_Toolkit_Services_NavigationServiceBackKeyPressedBehavior.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.NavigationServiceBackKeyPressedEventArgs class" Url="html/T_Cimbalino_Toolkit_Services_NavigationServiceBackKeyPressedEventArgs.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.NetworkInformationService class" Url="html/T_Cimbalino_Toolkit_Services_NetworkInformationService.htm" />
+  <HelpKINode Title="Cimbalino.Toolkit.Services.PersonalizationService class" Url="html/T_Cimbalino_Toolkit_Services_PersonalizationService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.PhoneCallService class" Url="html/T_Cimbalino_Toolkit_Services_PhoneCallService.htm" />
+  <HelpKINode Title="Cimbalino.Toolkit.Services.PowerStatusChangedEventArgs class" Url="html/T_Cimbalino_Toolkit_Services_PowerStatusChangedEventArgs.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.RuntimeInformationService class" Url="html/T_Cimbalino_Toolkit_Services_RuntimeInformationService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.RuntimeInformationServiceProfile enumeration" Url="html/T_Cimbalino_Toolkit_Services_RuntimeInformationServiceProfile.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.SmsComposeService class" Url="html/T_Cimbalino_Toolkit_Services_SmsComposeService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.StatusBarService class" Url="html/T_Cimbalino_Toolkit_Services_StatusBarService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.StorageService class" Url="html/T_Cimbalino_Toolkit_Services_StorageService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.StorageServiceHandler class" Url="html/T_Cimbalino_Toolkit_Services_StorageServiceHandler.htm" />
+  <HelpKINode Title="Cimbalino.Toolkit.Services.StorageServiceStorageType enumeration" Url="html/T_Cimbalino_Toolkit_Services_StorageServiceStorageType.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.StoreService class" Url="html/T_Cimbalino_Toolkit_Services_StoreService.htm" />
+  <HelpKINode Title="Cimbalino.Toolkit.Services.TitleBarIsVisibleChangedArgs class" Url="html/T_Cimbalino_Toolkit_Services_TitleBarIsVisibleChangedArgs.htm" />
+  <HelpKINode Title="Cimbalino.Toolkit.Services.TitleBarService class" Url="html/T_Cimbalino_Toolkit_Services_TitleBarService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.VibrationService class" Url="html/T_Cimbalino_Toolkit_Services_VibrationService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.WindowsPhoneStoreService class" Url="html/T_Cimbalino_Toolkit_Services_WindowsPhoneStoreService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.WindowsPhoneStoreServiceAppCapabilitiesNode class" Url="html/T_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppCapabilitiesNode.htm" />
@@ -809,6 +833,32 @@
     <HelpKINode Title="WindowsPhoneStoreServiceAppEntryNode.ClientTypes Property " Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppEntryNode_ClientTypes.htm" />
     <HelpKINode Title="WindowsPhoneStoreServiceAppOfferNode.ClientTypes Property " Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppOfferNode_ClientTypes.htm" />
   </HelpKINode>
+  <HelpKINode Title="ClipboardService class">
+    <HelpKINode Title="ClipboardService Class" Url="html/T_Cimbalino_Toolkit_Services_ClipboardService.htm" />
+    <HelpKINode Title="about ClipboardService class" Url="html/T_Cimbalino_Toolkit_Services_ClipboardService.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Cimbalino_Toolkit_Services_ClipboardService__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Cimbalino_Toolkit_Services_ClipboardService.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Cimbalino_Toolkit_Services_ClipboardService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ClipboardService.ClipboardService constructor" Url="html/M_Cimbalino_Toolkit_Services_ClipboardService__ctor.htm" />
+  <HelpKINode Title="ClipboardService.ContainsApplicationLink property" Url="html/P_Cimbalino_Toolkit_Services_ClipboardService_ContainsApplicationLink.htm" />
+  <HelpKINode Title="ClipboardService.ContainsBitmap property" Url="html/P_Cimbalino_Toolkit_Services_ClipboardService_ContainsBitmap.htm" />
+  <HelpKINode Title="ClipboardService.ContainsHtml property" Url="html/P_Cimbalino_Toolkit_Services_ClipboardService_ContainsHtml.htm" />
+  <HelpKINode Title="ClipboardService.ContainsRtf property" Url="html/P_Cimbalino_Toolkit_Services_ClipboardService_ContainsRtf.htm" />
+  <HelpKINode Title="ClipboardService.ContainsText property" Url="html/P_Cimbalino_Toolkit_Services_ClipboardService_ContainsText.htm" />
+  <HelpKINode Title="ClipboardService.ContainsWebLink property" Url="html/P_Cimbalino_Toolkit_Services_ClipboardService_ContainsWebLink.htm" />
+  <HelpKINode Title="ClipboardService.GetApplicationLinkAsync method" Url="html/M_Cimbalino_Toolkit_Services_ClipboardService_GetApplicationLinkAsync.htm" />
+  <HelpKINode Title="ClipboardService.GetBitmapAsync method" Url="html/M_Cimbalino_Toolkit_Services_ClipboardService_GetBitmapAsync.htm" />
+  <HelpKINode Title="ClipboardService.GetHtmlAsync method" Url="html/M_Cimbalino_Toolkit_Services_ClipboardService_GetHtmlAsync.htm" />
+  <HelpKINode Title="ClipboardService.GetRtfAsync method" Url="html/M_Cimbalino_Toolkit_Services_ClipboardService_GetRtfAsync.htm" />
+  <HelpKINode Title="ClipboardService.GetTextAsync method" Url="html/M_Cimbalino_Toolkit_Services_ClipboardService_GetTextAsync.htm" />
+  <HelpKINode Title="ClipboardService.GetWebLinkAsync method" Url="html/M_Cimbalino_Toolkit_Services_ClipboardService_GetWebLinkAsync.htm" />
+  <HelpKINode Title="ClipboardService.SetApplicationLink method" Url="html/M_Cimbalino_Toolkit_Services_ClipboardService_SetApplicationLink.htm" />
+  <HelpKINode Title="ClipboardService.SetBitmap method" Url="html/M_Cimbalino_Toolkit_Services_ClipboardService_SetBitmap.htm" />
+  <HelpKINode Title="ClipboardService.SetHtml method" Url="html/M_Cimbalino_Toolkit_Services_ClipboardService_SetHtml.htm" />
+  <HelpKINode Title="ClipboardService.SetRtf method" Url="html/M_Cimbalino_Toolkit_Services_ClipboardService_SetRtf.htm" />
+  <HelpKINode Title="ClipboardService.SetText method" Url="html/M_Cimbalino_Toolkit_Services_ClipboardService_SetText.htm" />
+  <HelpKINode Title="ClipboardService.SetWebLink method" Url="html/M_Cimbalino_Toolkit_Services_ClipboardService_SetWebLink.htm" />
   <HelpKINode Title="Code property" Url="html/P_Cimbalino_Toolkit_Helpers_ApplicationManifestLanguageNode_Code.htm" />
   <HelpKINode Title="CollectionChanged event" Url="html/E_Cimbalino_Toolkit_Helpers_DependencyObjectCollection_1_CollectionChanged.htm" />
   <HelpKINode Title="ColorToBrushConverter class">
@@ -874,6 +924,30 @@
     <HelpKINode Title="IApplicationSettingsServiceHandler.Contains Method " Url="html/M_Cimbalino_Toolkit_Services_IApplicationSettingsServiceHandler_Contains.htm" />
     <HelpKINode Title="LegacyApplicationSettingsServiceHandler.Contains Method " Url="html/M_Cimbalino_Toolkit_Services_LegacyApplicationSettingsServiceHandler_Contains.htm" />
     <HelpKINode Title="Rect.Contains Method " Url="html/Overload_Cimbalino_Toolkit_Foundation_Rect_Contains.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContainsApplicationLink property">
+    <HelpKINode Title="ClipboardService.ContainsApplicationLink Property " Url="html/P_Cimbalino_Toolkit_Services_ClipboardService_ContainsApplicationLink.htm" />
+    <HelpKINode Title="IClipboardService.ContainsApplicationLink Property " Url="html/P_Cimbalino_Toolkit_Services_IClipboardService_ContainsApplicationLink.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContainsBitmap property">
+    <HelpKINode Title="ClipboardService.ContainsBitmap Property " Url="html/P_Cimbalino_Toolkit_Services_ClipboardService_ContainsBitmap.htm" />
+    <HelpKINode Title="IClipboardService.ContainsBitmap Property " Url="html/P_Cimbalino_Toolkit_Services_IClipboardService_ContainsBitmap.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContainsHtml property">
+    <HelpKINode Title="ClipboardService.ContainsHtml Property " Url="html/P_Cimbalino_Toolkit_Services_ClipboardService_ContainsHtml.htm" />
+    <HelpKINode Title="IClipboardService.ContainsHtml Property " Url="html/P_Cimbalino_Toolkit_Services_IClipboardService_ContainsHtml.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContainsRtf property">
+    <HelpKINode Title="ClipboardService.ContainsRtf Property " Url="html/P_Cimbalino_Toolkit_Services_ClipboardService_ContainsRtf.htm" />
+    <HelpKINode Title="IClipboardService.ContainsRtf Property " Url="html/P_Cimbalino_Toolkit_Services_IClipboardService_ContainsRtf.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContainsText property">
+    <HelpKINode Title="ClipboardService.ContainsText Property " Url="html/P_Cimbalino_Toolkit_Services_ClipboardService_ContainsText.htm" />
+    <HelpKINode Title="IClipboardService.ContainsText Property " Url="html/P_Cimbalino_Toolkit_Services_IClipboardService_ContainsText.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContainsWebLink property">
+    <HelpKINode Title="ClipboardService.ContainsWebLink Property " Url="html/P_Cimbalino_Toolkit_Services_ClipboardService_ContainsWebLink.htm" />
+    <HelpKINode Title="IClipboardService.ContainsWebLink Property " Url="html/P_Cimbalino_Toolkit_Services_IClipboardService_ContainsWebLink.htm" />
   </HelpKINode>
   <HelpKINode Title="Content property" Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppNode_Content.htm" />
   <HelpKINode Title="Convert method">
@@ -954,6 +1028,12 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Cimbalino_Toolkit_Extensions_DateTimeOffsetExtensions.htm" />
   </HelpKINode>
   <HelpKINode Title="DateTimeOffsetExtensions.ToUnixTime method" Url="html/M_Cimbalino_Toolkit_Extensions_DateTimeOffsetExtensions_ToUnixTime.htm" />
+  <HelpKINode Title="DebugOptions class">
+    <HelpKINode Title="DebugOptions Class" Url="html/T_Cimbalino_Toolkit_Helpers_DebugOptions.htm" />
+    <HelpKINode Title="about DebugOptions class" Url="html/T_Cimbalino_Toolkit_Helpers_DebugOptions.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Cimbalino_Toolkit_Helpers_DebugOptions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DebugOptions.ThrowNotSupportedExceptions property" Url="html/P_Cimbalino_Toolkit_Helpers_DebugOptions_ThrowNotSupportedExceptions.htm" />
   <HelpKINode Title="Default enumeration member">
     <HelpKINode Title="ApplicationProfileServiceMode Enumeration" Url="html/T_Cimbalino_Toolkit_Services_ApplicationProfileServiceMode.htm" />
     <HelpKINode Title="LocationServiceAccuracy Enumeration" Url="html/T_Cimbalino_Toolkit_Services_LocationServiceAccuracy.htm" />
@@ -967,6 +1047,7 @@
     <HelpKINode Title="IStorageServiceHandler.DeleteFileAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IStorageServiceHandler_DeleteFileAsync.htm" />
     <HelpKINode Title="StorageServiceHandler.DeleteFileAsync Method " Url="html/M_Cimbalino_Toolkit_Services_StorageServiceHandler_DeleteFileAsync.htm" />
   </HelpKINode>
+  <HelpKINode Title="Denied enumeration member" Url="html/T_Cimbalino_Toolkit_Services_LockScreenServiceRequestResult.htm" />
   <HelpKINode Title="DependencyObjectCollection(Of T) class">
     <HelpKINode Title="DependencyObjectCollection(T) Class" Url="html/T_Cimbalino_Toolkit_Helpers_DependencyObjectCollection_1.htm" />
     <HelpKINode Title="about DependencyObjectCollection(Of T) class" Url="html/T_Cimbalino_Toolkit_Helpers_DependencyObjectCollection_1.htm" />
@@ -1002,6 +1083,7 @@
   <HelpKINode Title="Descendants&lt;TResult&gt; method" Url="html/M_Cimbalino_Toolkit_Extensions_IEnumerableExtensions_Descendants__1.htm" />
   <HelpKINode Title="Description property">
     <HelpKINode Title="ApplicationManifestAppNode.Description Property " Url="html/P_Cimbalino_Toolkit_Helpers_ApplicationManifestAppNode_Description.htm" />
+    <HelpKINode Title="LauncherServiceAppInfo.Description Property " Url="html/P_Cimbalino_Toolkit_Services_LauncherServiceAppInfo_Description.htm" />
     <HelpKINode Title="WindowsStoreServiceAppNode.Description Property " Url="html/P_Cimbalino_Toolkit_Services_WindowsStoreServiceAppNode_Description.htm" />
   </HelpKINode>
   <HelpKINode Title="DesiredAccuracy property">
@@ -1041,21 +1123,44 @@
   <HelpKINode Title="DeviceSettingsService.DeviceSettingsService constructor" Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService__ctor.htm" />
   <HelpKINode Title="DeviceSettingsService.ShowAirplaneModeSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowAirplaneModeSettingsAsync.htm" />
   <HelpKINode Title="DeviceSettingsService.ShowBluetoothSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowBluetoothSettingsAsync.htm" />
+  <HelpKINode Title="DeviceSettingsService.ShowCalendarSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowCalendarSettingsAsync.htm" />
   <HelpKINode Title="DeviceSettingsService.ShowCameraSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowCameraSettingsAsync.htm" />
   <HelpKINode Title="DeviceSettingsService.ShowCellularSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowCellularSettingsAsync.htm" />
+  <HelpKINode Title="DeviceSettingsService.ShowConnectedDevicesSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowConnectedDevicesSettingsAsync.htm" />
+  <HelpKINode Title="DeviceSettingsService.ShowContactsSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowContactsSettingsAsync.htm" />
+  <HelpKINode Title="DeviceSettingsService.ShowCustomDevicesSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowCustomDevicesSettingsAsync.htm" />
+  <HelpKINode Title="DeviceSettingsService.ShowDataSenseSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowDataSenseSettingsAsync.htm" />
+  <HelpKINode Title="DeviceSettingsService.ShowDateAndTimeSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowDateAndTimeSettingsAsync.htm" />
+  <HelpKINode Title="DeviceSettingsService.ShowDialUpSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowDialUpSettingsAsync.htm" />
+  <HelpKINode Title="DeviceSettingsService.ShowDisplaySettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowDisplaySettingsAsync.htm" />
   <HelpKINode Title="DeviceSettingsService.ShowEmailAndAccountsSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowEmailAndAccountsSettingsAsync.htm" />
+  <HelpKINode Title="DeviceSettingsService.ShowEthernetSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowEthernetSettingsAsync.htm" />
   <HelpKINode Title="DeviceSettingsService.ShowLocationSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowLocationSettingsAsync.htm" />
   <HelpKINode Title="DeviceSettingsService.ShowLockScreenSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowLockScreenSettingsAsync.htm" />
+  <HelpKINode Title="DeviceSettingsService.ShowMapsSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowMapsSettingsAsync.htm" />
+  <HelpKINode Title="DeviceSettingsService.ShowMessagingSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowMessagingSettingsAsync.htm" />
+  <HelpKINode Title="DeviceSettingsService.ShowMicrophoneSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowMicrophoneSettingsAsync.htm" />
+  <HelpKINode Title="DeviceSettingsService.ShowMobileHotspotSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowMobileHotspotSettingsAsync.htm" />
+  <HelpKINode Title="DeviceSettingsService.ShowMouseAndTouchpadSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowMouseAndTouchpadSettingsAsync.htm" />
   <HelpKINode Title="DeviceSettingsService.ShowNotificationSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowNotificationSettingsAsync.htm" />
+  <HelpKINode Title="DeviceSettingsService.ShowPersonalizationSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowPersonalizationSettingsAsync.htm" />
   <HelpKINode Title="DeviceSettingsService.ShowPowerSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowPowerSettingsAsync.htm" />
-  <HelpKINode Title="DeviceSettingsService.ShowProximitySettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowProximitySettingsAsync.htm" />
+  <HelpKINode Title="DeviceSettingsService.ShowProxySettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowProxySettingsAsync.htm" />
+  <HelpKINode Title="DeviceSettingsService.ShowRadiosSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowRadiosSettingsAsync.htm" />
+  <HelpKINode Title="DeviceSettingsService.ShowRegionAndLanguageSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowRegionAndLanguageSettingsAsync.htm" />
   <HelpKINode Title="DeviceSettingsService.ShowScreenRotationSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowScreenRotationSettingsAsync.htm" />
+  <HelpKINode Title="DeviceSettingsService.ShowSpeechPrivacySettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowSpeechPrivacySettingsAsync.htm" />
+  <HelpKINode Title="DeviceSettingsService.ShowSpeechSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowSpeechSettingsAsync.htm" />
+  <HelpKINode Title="DeviceSettingsService.ShowStorageSenseSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowStorageSenseSettingsAsync.htm" />
+  <HelpKINode Title="DeviceSettingsService.ShowWebcamSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowWebcamSettingsAsync.htm" />
   <HelpKINode Title="DeviceSettingsService.ShowWiFiSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowWiFiSettingsAsync.htm" />
+  <HelpKINode Title="DeviceSettingsService.ShowWindowsUpdateSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowWindowsUpdateSettingsAsync.htm" />
   <HelpKINode Title="DeviceSettingsService.ShowWorkplaceSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowWorkplaceSettingsAsync.htm" />
   <HelpKINode Title="DeviceStatusService class">
     <HelpKINode Title="DeviceStatusService Class" Url="html/T_Cimbalino_Toolkit_Services_DeviceStatusService.htm" />
     <HelpKINode Title="about DeviceStatusService class" Url="html/T_Cimbalino_Toolkit_Services_DeviceStatusService.htm" />
     <HelpKINode Title="constructor" Url="html/M_Cimbalino_Toolkit_Services_DeviceStatusService__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_Cimbalino_Toolkit_Services_DeviceStatusService.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Cimbalino_Toolkit_Services_DeviceStatusService.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Cimbalino_Toolkit_Services_DeviceStatusService.htm" />
   </HelpKINode>
@@ -1068,15 +1173,19 @@
   <HelpKINode Title="DeviceStatusService.DeviceName property" Url="html/P_Cimbalino_Toolkit_Services_DeviceStatusService_DeviceName.htm" />
   <HelpKINode Title="DeviceStatusService.DeviceStatusService constructor" Url="html/M_Cimbalino_Toolkit_Services_DeviceStatusService__ctor.htm" />
   <HelpKINode Title="DeviceStatusService.DeviceTotalMemory property" Url="html/P_Cimbalino_Toolkit_Services_DeviceStatusService_DeviceTotalMemory.htm" />
+  <HelpKINode Title="DeviceStatusService.IsInPowerSaverMode property" Url="html/P_Cimbalino_Toolkit_Services_DeviceStatusService_IsInPowerSaverMode.htm" />
   <HelpKINode Title="DeviceStatusService.IsKeyboardDeployed property" Url="html/P_Cimbalino_Toolkit_Services_DeviceStatusService_IsKeyboardDeployed.htm" />
   <HelpKINode Title="DeviceStatusService.IsKeyboardPresent property" Url="html/P_Cimbalino_Toolkit_Services_DeviceStatusService_IsKeyboardPresent.htm" />
   <HelpKINode Title="DeviceStatusService.IsLowMemoryDevice property" Url="html/P_Cimbalino_Toolkit_Services_DeviceStatusService_IsLowMemoryDevice.htm" />
   <HelpKINode Title="DeviceStatusService.PowerSource property" Url="html/P_Cimbalino_Toolkit_Services_DeviceStatusService_PowerSource.htm" />
+  <HelpKINode Title="DeviceStatusService.PowerStatusChanged event" Url="html/E_Cimbalino_Toolkit_Services_DeviceStatusService_PowerStatusChanged.htm" />
+  <HelpKINode Title="DeviceStatusService.RemainingChargePercent property" Url="html/P_Cimbalino_Toolkit_Services_DeviceStatusService_RemainingChargePercent.htm" />
   <HelpKINode Title="DeviceStatusServicePowerSource enumeration" Url="html/T_Cimbalino_Toolkit_Services_DeviceStatusServicePowerSource.htm" />
   <HelpKINode Title="DeviceStatusWithKeyboardService class">
     <HelpKINode Title="DeviceStatusWithKeyboardService Class" Url="html/T_Cimbalino_Toolkit_Services_DeviceStatusWithKeyboardService.htm" />
     <HelpKINode Title="about DeviceStatusWithKeyboardService class" Url="html/T_Cimbalino_Toolkit_Services_DeviceStatusWithKeyboardService.htm" />
     <HelpKINode Title="constructor" Url="html/M_Cimbalino_Toolkit_Services_DeviceStatusWithKeyboardService__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_Cimbalino_Toolkit_Services_DeviceStatusWithKeyboardService.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Cimbalino_Toolkit_Services_DeviceStatusWithKeyboardService.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Cimbalino_Toolkit_Services_DeviceStatusWithKeyboardService.htm" />
   </HelpKINode>
@@ -1093,6 +1202,7 @@
   </HelpKINode>
   <HelpKINode Title="Disabled enumeration member" Url="html/T_Cimbalino_Toolkit_Services_LocationServiceStatus.htm" />
   <HelpKINode Title="Disclosure property" Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppCapabilityNode_Disclosure.htm" />
+  <HelpKINode Title="DisplayName property" Url="html/P_Cimbalino_Toolkit_Services_LauncherServiceAppInfo_DisplayName.htm" />
   <HelpKINode Title="DisplayPrice property" Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppOfferNode_DisplayPrice.htm" />
   <HelpKINode Title="DisplayPropertiesService class">
     <HelpKINode Title="DisplayPropertiesService Class" Url="html/T_Cimbalino_Toolkit_Services_DisplayPropertiesService.htm" />
@@ -1171,6 +1281,10 @@
   </HelpKINode>
   <HelpKINode Title="ExitApp enumeration member" Url="html/T_Cimbalino_Toolkit_Services_NavigationServiceBackKeyPressedBehavior.htm" />
   <HelpKINode Title="Expiration property" Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppOfferNode_Expiration.htm" />
+  <HelpKINode Title="ExtendViewIntoTitleBar property">
+    <HelpKINode Title="ITitleBarService.ExtendViewIntoTitleBar Property " Url="html/P_Cimbalino_Toolkit_Services_ITitleBarService_ExtendViewIntoTitleBar.htm" />
+    <HelpKINode Title="TitleBarService.ExtendViewIntoTitleBar Property " Url="html/P_Cimbalino_Toolkit_Services_TitleBarService_ExtendViewIntoTitleBar.htm" />
+  </HelpKINode>
   <HelpKINode Title="External enumeration member" Url="html/T_Cimbalino_Toolkit_Services_DeviceStatusServicePowerSource.htm" />
   <HelpKINode Title="FalseValue property" Url="html/P_Cimbalino_Toolkit_Converters_BooleanToValueConverterBase_1_FalseValue.htm" />
   <HelpKINode Title="FalseValueProperty field" Url="html/F_Cimbalino_Toolkit_Converters_BooleanToValueConverterBase_1_FalseValueProperty.htm" />
@@ -1179,6 +1293,14 @@
   <HelpKINode Title="FileExistsAsync method">
     <HelpKINode Title="IStorageServiceHandler.FileExistsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IStorageServiceHandler_FileExistsAsync.htm" />
     <HelpKINode Title="StorageServiceHandler.FileExistsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_StorageServiceHandler_FileExistsAsync.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FindFileHandlersAsync method">
+    <HelpKINode Title="ILauncherService.FindFileHandlersAsync Method " Url="html/M_Cimbalino_Toolkit_Services_ILauncherService_FindFileHandlersAsync.htm" />
+    <HelpKINode Title="LauncherService.FindFileHandlersAsync Method " Url="html/M_Cimbalino_Toolkit_Services_LauncherService_FindFileHandlersAsync.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FindUriSchemeHandlersAsync method">
+    <HelpKINode Title="ILauncherService.FindUriSchemeHandlersAsync Method " Url="html/M_Cimbalino_Toolkit_Services_ILauncherService_FindUriSchemeHandlersAsync.htm" />
+    <HelpKINode Title="LauncherService.FindUriSchemeHandlersAsync Method " Url="html/M_Cimbalino_Toolkit_Services_LauncherService_FindUriSchemeHandlersAsync.htm" />
   </HelpKINode>
   <HelpKINode Title="FiveStarRatings property" Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppRatingsDistributionsNode_FiveStarRatings.htm" />
   <HelpKINode Title="Flush method" Url="html/M_Cimbalino_Toolkit_Helpers_ChunkedStream_Flush.htm" />
@@ -1221,6 +1343,10 @@
     <HelpKINode Title="WindowsPhoneStoreService.GetAppInformationAsync Method " Url="html/Overload_Cimbalino_Toolkit_Services_WindowsPhoneStoreService_GetAppInformationAsync.htm" />
     <HelpKINode Title="WindowsStoreService.GetAppInformationAsync Method " Url="html/Overload_Cimbalino_Toolkit_Services_WindowsStoreService_GetAppInformationAsync.htm" />
   </HelpKINode>
+  <HelpKINode Title="GetApplicationLinkAsync method">
+    <HelpKINode Title="ClipboardService.GetApplicationLinkAsync Method " Url="html/M_Cimbalino_Toolkit_Services_ClipboardService_GetApplicationLinkAsync.htm" />
+    <HelpKINode Title="IClipboardService.GetApplicationLinkAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IClipboardService_GetApplicationLinkAsync.htm" />
+  </HelpKINode>
   <HelpKINode Title="GetApplicationManifest method">
     <HelpKINode Title="ApplicationManifestService.GetApplicationManifest Method " Url="html/M_Cimbalino_Toolkit_Services_ApplicationManifestService_GetApplicationManifest.htm" />
     <HelpKINode Title="IApplicationManifestService.GetApplicationManifest Method " Url="html/M_Cimbalino_Toolkit_Services_IApplicationManifestService_GetApplicationManifest.htm" />
@@ -1228,8 +1354,19 @@
   <HelpKINode Title="GetAttributeAsBool method" Url="html/M_Cimbalino_Toolkit_Extensions_XmlReaderExtensions_GetAttributeAsBool.htm" />
   <HelpKINode Title="GetAttributeAsInt method" Url="html/M_Cimbalino_Toolkit_Extensions_XmlReaderExtensions_GetAttributeAsInt.htm" />
   <HelpKINode Title="GetBehavior method" Url="html/Overload_Cimbalino_Toolkit_Extensions_FrameworkElementExtensions_GetBehavior.htm" />
-  <HelpKINode Title="GetBehaviors method" Url="html/Overload_Cimbalino_Toolkit_Extensions_FrameworkElementExtensions_GetBehaviors.htm" />
+  <HelpKINode Title="GetBehaviors method">
+    <HelpKINode Title="FrameworkElementExtensions.GetBehaviors Method " Url="html/Overload_Cimbalino_Toolkit_Extensions_FrameworkElementExtensions_GetBehaviors.htm" />
+    <HelpKINode Title="MonitoredInteraction.GetBehaviors Method " Url="html/Overload_Cimbalino_Toolkit_Behaviors_MonitoredInteraction_GetBehaviors.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetBitmapAsync method">
+    <HelpKINode Title="ClipboardService.GetBitmapAsync Method " Url="html/M_Cimbalino_Toolkit_Services_ClipboardService_GetBitmapAsync.htm" />
+    <HelpKINode Title="IClipboardService.GetBitmapAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IClipboardService_GetBitmapAsync.htm" />
+  </HelpKINode>
   <HelpKINode Title="GetBytes method" Url="html/Overload_Cimbalino_Toolkit_Extensions_StringExtensions_GetBytes.htm" />
+  <HelpKINode Title="GetCurrentLockScreenUri method">
+    <HelpKINode Title="ILockScreenService.GetCurrentLockScreenUri Method " Url="html/M_Cimbalino_Toolkit_Services_ILockScreenService_GetCurrentLockScreenUri.htm" />
+    <HelpKINode Title="LockScreenService.GetCurrentLockScreenUri Method " Url="html/M_Cimbalino_Toolkit_Services_LockScreenService_GetCurrentLockScreenUri.htm" />
+  </HelpKINode>
   <HelpKINode Title="GetDirectoryNamesAsync method">
     <HelpKINode Title="IStorageServiceHandler.GetDirectoryNamesAsync Method " Url="html/Overload_Cimbalino_Toolkit_Services_IStorageServiceHandler_GetDirectoryNamesAsync.htm" />
     <HelpKINode Title="StorageServiceHandler.GetDirectoryNamesAsync Method " Url="html/Overload_Cimbalino_Toolkit_Services_StorageServiceHandler_GetDirectoryNamesAsync.htm" />
@@ -1242,6 +1379,10 @@
   <HelpKINode Title="GetHash method" Url="html/Overload_System_Security_Cryptography_MD5_GetHash.htm" />
   <HelpKINode Title="GetHashCode method" Url="html/M_Cimbalino_Toolkit_Services_LocationServicePosition_GetHashCode.htm" />
   <HelpKINode Title="GetHashString method" Url="html/Overload_System_Security_Cryptography_MD5_GetHashString.htm" />
+  <HelpKINode Title="GetHtmlAsync method">
+    <HelpKINode Title="ClipboardService.GetHtmlAsync Method " Url="html/M_Cimbalino_Toolkit_Services_ClipboardService_GetHtmlAsync.htm" />
+    <HelpKINode Title="IClipboardService.GetHtmlAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IClipboardService_GetHtmlAsync.htm" />
+  </HelpKINode>
   <HelpKINode Title="GetPositionAsync method">
     <HelpKINode Title="ILocationService.GetPositionAsync Method " Url="html/Overload_Cimbalino_Toolkit_Services_ILocationService_GetPositionAsync.htm" />
     <HelpKINode Title="LocationService.GetPositionAsync Method " Url="html/Overload_Cimbalino_Toolkit_Services_LocationService_GetPositionAsync.htm" />
@@ -1249,6 +1390,14 @@
   <HelpKINode Title="GetPropertyName(Of T) method" Url="html/M_Cimbalino_Toolkit_Helpers_ObservableBase_GetPropertyName__1.htm" />
   <HelpKINode Title="GetPropertyName&lt;T&gt; method" Url="html/M_Cimbalino_Toolkit_Helpers_ObservableBase_GetPropertyName__1.htm" />
   <HelpKINode Title="GetPropertyValue method" Url="html/Overload_Cimbalino_Toolkit_Extensions_ObjectExtensions_GetPropertyValue.htm" />
+  <HelpKINode Title="GetRtfAsync method">
+    <HelpKINode Title="ClipboardService.GetRtfAsync Method " Url="html/M_Cimbalino_Toolkit_Services_ClipboardService_GetRtfAsync.htm" />
+    <HelpKINode Title="IClipboardService.GetRtfAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IClipboardService_GetRtfAsync.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetTextAsync method">
+    <HelpKINode Title="ClipboardService.GetTextAsync Method " Url="html/M_Cimbalino_Toolkit_Services_ClipboardService_GetTextAsync.htm" />
+    <HelpKINode Title="IClipboardService.GetTextAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IClipboardService_GetTextAsync.htm" />
+  </HelpKINode>
   <HelpKINode Title="GetTrigger(Of T) method" Url="html/M_Cimbalino_Toolkit_Extensions_FrameworkElementExtensions_GetTrigger__1.htm" />
   <HelpKINode Title="GetTrigger&lt;T&gt; method" Url="html/M_Cimbalino_Toolkit_Extensions_FrameworkElementExtensions_GetTrigger__1.htm" />
   <HelpKINode Title="GetTriggers method" Url="html/M_Cimbalino_Toolkit_Extensions_FrameworkElementExtensions_GetTriggers.htm" />
@@ -1262,6 +1411,10 @@
   <HelpKINode Title="GetVisualChilds method" Url="html/Overload_Cimbalino_Toolkit_Extensions_DependencyObjectExtensions_GetVisualChilds.htm" />
   <HelpKINode Title="GetVisualDescendents method" Url="html/Overload_Cimbalino_Toolkit_Extensions_DependencyObjectExtensions_GetVisualDescendents.htm" />
   <HelpKINode Title="GetVisualParent method" Url="html/Overload_Cimbalino_Toolkit_Extensions_DependencyObjectExtensions_GetVisualParent.htm" />
+  <HelpKINode Title="GetWebLinkAsync method">
+    <HelpKINode Title="ClipboardService.GetWebLinkAsync Method " Url="html/M_Cimbalino_Toolkit_Services_ClipboardService_GetWebLinkAsync.htm" />
+    <HelpKINode Title="IClipboardService.GetWebLinkAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IClipboardService_GetWebLinkAsync.htm" />
+  </HelpKINode>
   <HelpKINode Title="GoBack enumeration member" Url="html/T_Cimbalino_Toolkit_Services_NavigationServiceBackKeyPressedBehavior.htm" />
   <HelpKINode Title="GoBack method">
     <HelpKINode Title="INavigationService.GoBack Method " Url="html/M_Cimbalino_Toolkit_Services_INavigationService_GoBack.htm" />
@@ -1271,6 +1424,7 @@
     <HelpKINode Title="INavigationService.GoForward Method " Url="html/M_Cimbalino_Toolkit_Services_INavigationService_GoForward.htm" />
     <HelpKINode Title="NavigationService.GoForward Method " Url="html/M_Cimbalino_Toolkit_Services_NavigationService_GoForward.htm" />
   </HelpKINode>
+  <HelpKINode Title="Granted enumeration member" Url="html/T_Cimbalino_Toolkit_Services_LockScreenServiceRequestResult.htm" />
   <HelpKINode Title="HardwareCapabilities property" Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppCapabilitiesNode_HardwareCapabilities.htm" />
   <HelpKINode Title="HashAlgorithmBase class">
     <HelpKINode Title="HashAlgorithmBase Class" Url="html/T_System_Security_Cryptography_HashAlgorithmBase.htm" />
@@ -1288,8 +1442,10 @@
   <HelpKINode Title="HasSettings property" Url="html/P_Cimbalino_Toolkit_Helpers_ApplicationManifestAppNode_HasSettings.htm" />
   <HelpKINode Title="Heading property" Url="html/P_Cimbalino_Toolkit_Services_LocationServicePosition_Heading.htm" />
   <HelpKINode Title="Height property">
+    <HelpKINode Title="ITitleBarService.Height Property " Url="html/P_Cimbalino_Toolkit_Services_ITitleBarService_Height.htm" />
     <HelpKINode Title="Rect.Height Property " Url="html/P_Cimbalino_Toolkit_Foundation_Rect_Height.htm" />
     <HelpKINode Title="Size.Height Property " Url="html/P_Cimbalino_Toolkit_Foundation_Size_Height.htm" />
+    <HelpKINode Title="TitleBarService.Height Property " Url="html/P_Cimbalino_Toolkit_Services_TitleBarService_Height.htm" />
   </HelpKINode>
   <HelpKINode Title="HideApp enumeration member" Url="html/T_Cimbalino_Toolkit_Services_NavigationServiceBackKeyPressedBehavior.htm" />
   <HelpKINode Title="HideAsync method">
@@ -1367,6 +1523,30 @@
   <HelpKINode Title="IApplicationSettingsServiceHandler.Remove method" Url="html/M_Cimbalino_Toolkit_Services_IApplicationSettingsServiceHandler_Remove.htm" />
   <HelpKINode Title="IApplicationSettingsServiceHandler.Set(Of T) method" Url="html/M_Cimbalino_Toolkit_Services_IApplicationSettingsServiceHandler_Set__1.htm" />
   <HelpKINode Title="IApplicationSettingsServiceHandler.Set&lt;T&gt; method" Url="html/M_Cimbalino_Toolkit_Services_IApplicationSettingsServiceHandler_Set__1.htm" />
+  <HelpKINode Title="IClipboardService interface">
+    <HelpKINode Title="IClipboardService Interface" Url="html/T_Cimbalino_Toolkit_Services_IClipboardService.htm" />
+    <HelpKINode Title="about IClipboardService interface" Url="html/T_Cimbalino_Toolkit_Services_IClipboardService.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Cimbalino_Toolkit_Services_IClipboardService.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Cimbalino_Toolkit_Services_IClipboardService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IClipboardService.ContainsApplicationLink property" Url="html/P_Cimbalino_Toolkit_Services_IClipboardService_ContainsApplicationLink.htm" />
+  <HelpKINode Title="IClipboardService.ContainsBitmap property" Url="html/P_Cimbalino_Toolkit_Services_IClipboardService_ContainsBitmap.htm" />
+  <HelpKINode Title="IClipboardService.ContainsHtml property" Url="html/P_Cimbalino_Toolkit_Services_IClipboardService_ContainsHtml.htm" />
+  <HelpKINode Title="IClipboardService.ContainsRtf property" Url="html/P_Cimbalino_Toolkit_Services_IClipboardService_ContainsRtf.htm" />
+  <HelpKINode Title="IClipboardService.ContainsText property" Url="html/P_Cimbalino_Toolkit_Services_IClipboardService_ContainsText.htm" />
+  <HelpKINode Title="IClipboardService.ContainsWebLink property" Url="html/P_Cimbalino_Toolkit_Services_IClipboardService_ContainsWebLink.htm" />
+  <HelpKINode Title="IClipboardService.GetApplicationLinkAsync method" Url="html/M_Cimbalino_Toolkit_Services_IClipboardService_GetApplicationLinkAsync.htm" />
+  <HelpKINode Title="IClipboardService.GetBitmapAsync method" Url="html/M_Cimbalino_Toolkit_Services_IClipboardService_GetBitmapAsync.htm" />
+  <HelpKINode Title="IClipboardService.GetHtmlAsync method" Url="html/M_Cimbalino_Toolkit_Services_IClipboardService_GetHtmlAsync.htm" />
+  <HelpKINode Title="IClipboardService.GetRtfAsync method" Url="html/M_Cimbalino_Toolkit_Services_IClipboardService_GetRtfAsync.htm" />
+  <HelpKINode Title="IClipboardService.GetTextAsync method" Url="html/M_Cimbalino_Toolkit_Services_IClipboardService_GetTextAsync.htm" />
+  <HelpKINode Title="IClipboardService.GetWebLinkAsync method" Url="html/M_Cimbalino_Toolkit_Services_IClipboardService_GetWebLinkAsync.htm" />
+  <HelpKINode Title="IClipboardService.SetApplicationLink method" Url="html/M_Cimbalino_Toolkit_Services_IClipboardService_SetApplicationLink.htm" />
+  <HelpKINode Title="IClipboardService.SetBitmap method" Url="html/M_Cimbalino_Toolkit_Services_IClipboardService_SetBitmap.htm" />
+  <HelpKINode Title="IClipboardService.SetHtml method" Url="html/M_Cimbalino_Toolkit_Services_IClipboardService_SetHtml.htm" />
+  <HelpKINode Title="IClipboardService.SetRtf method" Url="html/M_Cimbalino_Toolkit_Services_IClipboardService_SetRtf.htm" />
+  <HelpKINode Title="IClipboardService.SetText method" Url="html/M_Cimbalino_Toolkit_Services_IClipboardService_SetText.htm" />
+  <HelpKINode Title="IClipboardService.SetWebLink method" Url="html/M_Cimbalino_Toolkit_Services_IClipboardService_SetWebLink.htm" />
   <HelpKINode Title="ICollectionExtensions class">
     <HelpKINode Title="ICollectionExtensions Class" Url="html/T_Cimbalino_Toolkit_Extensions_ICollectionExtensions.htm" />
     <HelpKINode Title="about ICollectionExtensions class" Url="html/T_Cimbalino_Toolkit_Extensions_ICollectionExtensions.htm" />
@@ -1394,6 +1574,7 @@
   <HelpKINode Title="IconUri property" Url="html/P_Cimbalino_Toolkit_Behaviors_ApplicationBarIconButton_IconUri.htm" />
   <HelpKINode Title="IconUriProperty field" Url="html/F_Cimbalino_Toolkit_Behaviors_ApplicationBarIconButton_IconUriProperty.htm" />
   <HelpKINode Title="Id property">
+    <HelpKINode Title="LauncherServiceAppInfo.Id Property " Url="html/P_Cimbalino_Toolkit_Services_LauncherServiceAppInfo_Id.htm" />
     <HelpKINode Title="WindowsPhoneStoreServiceAppCapabilityNode.Id Property " Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppCapabilityNode_Id.htm" />
     <HelpKINode Title="WindowsPhoneStoreServiceAppCategoryNode.Id Property " Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppCategoryNode_Id.htm" />
     <HelpKINode Title="WindowsPhoneStoreServiceAppEntryNode.Id Property " Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppEntryNode_Id.htm" />
@@ -1410,20 +1591,43 @@
   </HelpKINode>
   <HelpKINode Title="IDeviceSettingsService.ShowAirplaneModeSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowAirplaneModeSettingsAsync.htm" />
   <HelpKINode Title="IDeviceSettingsService.ShowBluetoothSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowBluetoothSettingsAsync.htm" />
+  <HelpKINode Title="IDeviceSettingsService.ShowCalendarSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowCalendarSettingsAsync.htm" />
   <HelpKINode Title="IDeviceSettingsService.ShowCameraSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowCameraSettingsAsync.htm" />
   <HelpKINode Title="IDeviceSettingsService.ShowCellularSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowCellularSettingsAsync.htm" />
+  <HelpKINode Title="IDeviceSettingsService.ShowConnectedDevicesSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowConnectedDevicesSettingsAsync.htm" />
+  <HelpKINode Title="IDeviceSettingsService.ShowContactsSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowContactsSettingsAsync.htm" />
+  <HelpKINode Title="IDeviceSettingsService.ShowCustomDevicesSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowCustomDevicesSettingsAsync.htm" />
+  <HelpKINode Title="IDeviceSettingsService.ShowDataSenseSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowDataSenseSettingsAsync.htm" />
+  <HelpKINode Title="IDeviceSettingsService.ShowDateAndTimeSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowDateAndTimeSettingsAsync.htm" />
+  <HelpKINode Title="IDeviceSettingsService.ShowDialUpSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowDialUpSettingsAsync.htm" />
+  <HelpKINode Title="IDeviceSettingsService.ShowDisplaySettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowDisplaySettingsAsync.htm" />
   <HelpKINode Title="IDeviceSettingsService.ShowEmailAndAccountsSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowEmailAndAccountsSettingsAsync.htm" />
+  <HelpKINode Title="IDeviceSettingsService.ShowEthernetSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowEthernetSettingsAsync.htm" />
   <HelpKINode Title="IDeviceSettingsService.ShowLocationSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowLocationSettingsAsync.htm" />
   <HelpKINode Title="IDeviceSettingsService.ShowLockScreenSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowLockScreenSettingsAsync.htm" />
+  <HelpKINode Title="IDeviceSettingsService.ShowMapsSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowMapsSettingsAsync.htm" />
+  <HelpKINode Title="IDeviceSettingsService.ShowMessagingSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowMessagingSettingsAsync.htm" />
+  <HelpKINode Title="IDeviceSettingsService.ShowMicrophoneSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowMicrophoneSettingsAsync.htm" />
+  <HelpKINode Title="IDeviceSettingsService.ShowMobileHotspotSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowMobileHotspotSettingsAsync.htm" />
+  <HelpKINode Title="IDeviceSettingsService.ShowMouseAndTouchpadSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowMouseAndTouchpadSettingsAsync.htm" />
   <HelpKINode Title="IDeviceSettingsService.ShowNotificationSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowNotificationSettingsAsync.htm" />
+  <HelpKINode Title="IDeviceSettingsService.ShowPersonalizationSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowPersonalizationSettingsAsync.htm" />
   <HelpKINode Title="IDeviceSettingsService.ShowPowerSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowPowerSettingsAsync.htm" />
-  <HelpKINode Title="IDeviceSettingsService.ShowProximitySettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowProximitySettingsAsync.htm" />
+  <HelpKINode Title="IDeviceSettingsService.ShowProxySettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowProxySettingsAsync.htm" />
+  <HelpKINode Title="IDeviceSettingsService.ShowRadiosSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowRadiosSettingsAsync.htm" />
+  <HelpKINode Title="IDeviceSettingsService.ShowRegionAndLanguageSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowRegionAndLanguageSettingsAsync.htm" />
   <HelpKINode Title="IDeviceSettingsService.ShowScreenRotationSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowScreenRotationSettingsAsync.htm" />
+  <HelpKINode Title="IDeviceSettingsService.ShowSpeechPrivacySettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowSpeechPrivacySettingsAsync.htm" />
+  <HelpKINode Title="IDeviceSettingsService.ShowSpeechSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowSpeechSettingsAsync.htm" />
+  <HelpKINode Title="IDeviceSettingsService.ShowStorageSenseSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowStorageSenseSettingsAsync.htm" />
+  <HelpKINode Title="IDeviceSettingsService.ShowWebcamSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowWebcamSettingsAsync.htm" />
   <HelpKINode Title="IDeviceSettingsService.ShowWiFiSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowWiFiSettingsAsync.htm" />
+  <HelpKINode Title="IDeviceSettingsService.ShowWindowsUpdateSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowWindowsUpdateSettingsAsync.htm" />
   <HelpKINode Title="IDeviceSettingsService.ShowWorkplaceSettingsAsync method" Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowWorkplaceSettingsAsync.htm" />
   <HelpKINode Title="IDeviceStatusService interface">
     <HelpKINode Title="IDeviceStatusService Interface" Url="html/T_Cimbalino_Toolkit_Services_IDeviceStatusService.htm" />
     <HelpKINode Title="about IDeviceStatusService interface" Url="html/T_Cimbalino_Toolkit_Services_IDeviceStatusService.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_Cimbalino_Toolkit_Services_IDeviceStatusService.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Cimbalino_Toolkit_Services_IDeviceStatusService.htm" />
   </HelpKINode>
   <HelpKINode Title="IDeviceStatusService.ApplicationCurrentMemoryUsage property" Url="html/P_Cimbalino_Toolkit_Services_IDeviceStatusService_ApplicationCurrentMemoryUsage.htm" />
@@ -1434,10 +1638,13 @@
   <HelpKINode Title="IDeviceStatusService.DeviceManufacturer property" Url="html/P_Cimbalino_Toolkit_Services_IDeviceStatusService_DeviceManufacturer.htm" />
   <HelpKINode Title="IDeviceStatusService.DeviceName property" Url="html/P_Cimbalino_Toolkit_Services_IDeviceStatusService_DeviceName.htm" />
   <HelpKINode Title="IDeviceStatusService.DeviceTotalMemory property" Url="html/P_Cimbalino_Toolkit_Services_IDeviceStatusService_DeviceTotalMemory.htm" />
+  <HelpKINode Title="IDeviceStatusService.IsInPowerSaverMode property" Url="html/P_Cimbalino_Toolkit_Services_IDeviceStatusService_IsInPowerSaverMode.htm" />
   <HelpKINode Title="IDeviceStatusService.IsKeyboardDeployed property" Url="html/P_Cimbalino_Toolkit_Services_IDeviceStatusService_IsKeyboardDeployed.htm" />
   <HelpKINode Title="IDeviceStatusService.IsKeyboardPresent property" Url="html/P_Cimbalino_Toolkit_Services_IDeviceStatusService_IsKeyboardPresent.htm" />
   <HelpKINode Title="IDeviceStatusService.IsLowMemoryDevice property" Url="html/P_Cimbalino_Toolkit_Services_IDeviceStatusService_IsLowMemoryDevice.htm" />
   <HelpKINode Title="IDeviceStatusService.PowerSource property" Url="html/P_Cimbalino_Toolkit_Services_IDeviceStatusService_PowerSource.htm" />
+  <HelpKINode Title="IDeviceStatusService.PowerStatusChanged event" Url="html/E_Cimbalino_Toolkit_Services_IDeviceStatusService_PowerStatusChanged.htm" />
+  <HelpKINode Title="IDeviceStatusService.RemainingChargePercent property" Url="html/P_Cimbalino_Toolkit_Services_IDeviceStatusService_RemainingChargePercent.htm" />
   <HelpKINode Title="IDictionaryExtensions class">
     <HelpKINode Title="IDictionaryExtensions Class" Url="html/T_Cimbalino_Toolkit_Extensions_IDictionaryExtensions.htm" />
     <HelpKINode Title="about IDictionaryExtensions class" Url="html/T_Cimbalino_Toolkit_Extensions_IDictionaryExtensions.htm" />
@@ -1492,6 +1699,10 @@
   <HelpKINode Title="IEnumerableExtensions.ToObservableCollection&lt;TResult&gt; method" Url="html/M_Cimbalino_Toolkit_Extensions_IEnumerableExtensions_ToObservableCollection__1.htm" />
   <HelpKINode Title="IEnumerableExtensions.ToOptimizedObservableCollection(Of TResult) method" Url="html/M_Cimbalino_Toolkit_Extensions_IEnumerableExtensions_ToOptimizedObservableCollection__1.htm" />
   <HelpKINode Title="IEnumerableExtensions.ToOptimizedObservableCollection&lt;TResult&gt; method" Url="html/M_Cimbalino_Toolkit_Extensions_IEnumerableExtensions_ToOptimizedObservableCollection__1.htm" />
+  <HelpKINode Title="IEnumerableExtensions.ToQueue(Of TResult) method" Url="html/M_Cimbalino_Toolkit_Extensions_IEnumerableExtensions_ToQueue__1.htm" />
+  <HelpKINode Title="IEnumerableExtensions.ToQueue&lt;TResult&gt; method" Url="html/M_Cimbalino_Toolkit_Extensions_IEnumerableExtensions_ToQueue__1.htm" />
+  <HelpKINode Title="IEnumerableExtensions.ToStack(Of TResult) method" Url="html/M_Cimbalino_Toolkit_Extensions_IEnumerableExtensions_ToStack__1.htm" />
+  <HelpKINode Title="IEnumerableExtensions.ToStack&lt;TResult&gt; method" Url="html/M_Cimbalino_Toolkit_Extensions_IEnumerableExtensions_ToStack__1.htm" />
   <HelpKINode Title="IFormattableExtensions class">
     <HelpKINode Title="IFormattableExtensions Class" Url="html/T_Cimbalino_Toolkit_Extensions_IFormattableExtensions.htm" />
     <HelpKINode Title="about IFormattableExtensions class" Url="html/T_Cimbalino_Toolkit_Extensions_IFormattableExtensions.htm" />
@@ -1503,6 +1714,8 @@
     <HelpKINode Title="about ILauncherService interface" Url="html/T_Cimbalino_Toolkit_Services_ILauncherService.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Cimbalino_Toolkit_Services_ILauncherService.htm" />
   </HelpKINode>
+  <HelpKINode Title="ILauncherService.FindFileHandlersAsync method" Url="html/M_Cimbalino_Toolkit_Services_ILauncherService_FindFileHandlersAsync.htm" />
+  <HelpKINode Title="ILauncherService.FindUriSchemeHandlersAsync method" Url="html/M_Cimbalino_Toolkit_Services_ILauncherService_FindUriSchemeHandlersAsync.htm" />
   <HelpKINode Title="ILauncherService.LaunchFileAsync method" Url="html/M_Cimbalino_Toolkit_Services_ILauncherService_LaunchFileAsync.htm" />
   <HelpKINode Title="ILauncherService.LaunchUriAsync method" Url="html/Overload_Cimbalino_Toolkit_Services_ILauncherService_LaunchUriAsync.htm" />
   <HelpKINode Title="ILocationService interface">
@@ -1522,6 +1735,14 @@
   <HelpKINode Title="ILocationService.Status property" Url="html/P_Cimbalino_Toolkit_Services_ILocationService_Status.htm" />
   <HelpKINode Title="ILocationService.StatusChanged event" Url="html/E_Cimbalino_Toolkit_Services_ILocationService_StatusChanged.htm" />
   <HelpKINode Title="ILocationService.Stop method" Url="html/M_Cimbalino_Toolkit_Services_ILocationService_Stop.htm" />
+  <HelpKINode Title="ILockScreenService interface">
+    <HelpKINode Title="ILockScreenService Interface" Url="html/T_Cimbalino_Toolkit_Services_ILockScreenService.htm" />
+    <HelpKINode Title="about ILockScreenService interface" Url="html/T_Cimbalino_Toolkit_Services_ILockScreenService.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Cimbalino_Toolkit_Services_ILockScreenService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ILockScreenService.GetCurrentLockScreenUri method" Url="html/M_Cimbalino_Toolkit_Services_ILockScreenService_GetCurrentLockScreenUri.htm" />
+  <HelpKINode Title="ILockScreenService.RequestAccessAsync method" Url="html/M_Cimbalino_Toolkit_Services_ILockScreenService_RequestAccessAsync.htm" />
+  <HelpKINode Title="ILockScreenService.SetLockScreenAsync method" Url="html/Overload_Cimbalino_Toolkit_Services_ILockScreenService_SetLockScreenAsync.htm" />
   <HelpKINode Title="Image property" Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppNode_Image.htm" />
   <HelpKINode Title="IMapManagerService interface">
     <HelpKINode Title="IMapManagerService Interface" Url="html/T_Cimbalino_Toolkit_Services_IMapManagerService.htm" />
@@ -1586,6 +1807,15 @@
     <HelpKINode Title="StringToVisibilityConverter.InvertValueProperty Field" Url="html/F_Cimbalino_Toolkit_Converters_StringToVisibilityConverter_InvertValueProperty.htm" />
   </HelpKINode>
   <HelpKINode Title="InvokeMethod method" Url="html/Overload_Cimbalino_Toolkit_Extensions_ObjectExtensions_InvokeMethod.htm" />
+  <HelpKINode Title="IPersonalizationService interface">
+    <HelpKINode Title="IPersonalizationService Interface" Url="html/T_Cimbalino_Toolkit_Services_IPersonalizationService.htm" />
+    <HelpKINode Title="about IPersonalizationService interface" Url="html/T_Cimbalino_Toolkit_Services_IPersonalizationService.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Cimbalino_Toolkit_Services_IPersonalizationService.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Cimbalino_Toolkit_Services_IPersonalizationService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IPersonalizationService.IsSupported property" Url="html/P_Cimbalino_Toolkit_Services_IPersonalizationService_IsSupported.htm" />
+  <HelpKINode Title="IPersonalizationService.SetLockScreenImageAsync method" Url="html/M_Cimbalino_Toolkit_Services_IPersonalizationService_SetLockScreenImageAsync.htm" />
+  <HelpKINode Title="IPersonalizationService.SetWallpaperImageAsync method" Url="html/M_Cimbalino_Toolkit_Services_IPersonalizationService_SetWallpaperImageAsync.htm" />
   <HelpKINode Title="IPhoneCallService interface">
     <HelpKINode Title="IPhoneCallService Interface" Url="html/T_Cimbalino_Toolkit_Services_IPhoneCallService.htm" />
     <HelpKINode Title="about IPhoneCallService interface" Url="html/T_Cimbalino_Toolkit_Services_IPhoneCallService.htm" />
@@ -1630,6 +1860,11 @@
   </HelpKINode>
   <HelpKINode Title="IsFaulted property" Url="html/P_Cimbalino_Toolkit_Helpers_ObservableTaskBase_1_IsFaulted.htm" />
   <HelpKINode Title="IsHardwareCompatible property" Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppEntryNode_IsHardwareCompatible.htm" />
+  <HelpKINode Title="IsInPowerSaverMode property">
+    <HelpKINode Title="DeviceStatusService.IsInPowerSaverMode Property " Url="html/P_Cimbalino_Toolkit_Services_DeviceStatusService_IsInPowerSaverMode.htm" />
+    <HelpKINode Title="IDeviceStatusService.IsInPowerSaverMode Property " Url="html/P_Cimbalino_Toolkit_Services_IDeviceStatusService_IsInPowerSaverMode.htm" />
+    <HelpKINode Title="PowerStatusChangedEventArgs.IsInPowerSaverMode Property " Url="html/P_Cimbalino_Toolkit_Services_PowerStatusChangedEventArgs_IsInPowerSaverMode.htm" />
+  </HelpKINode>
   <HelpKINode Title="IsKeyboardDeployed property">
     <HelpKINode Title="DeviceStatusService.IsKeyboardDeployed Property " Url="html/P_Cimbalino_Toolkit_Services_DeviceStatusService_IsKeyboardDeployed.htm" />
     <HelpKINode Title="DeviceStatusWithKeyboardService.IsKeyboardDeployed Property " Url="html/P_Cimbalino_Toolkit_Services_DeviceStatusWithKeyboardService_IsKeyboardDeployed.htm" />
@@ -1666,6 +1901,10 @@
   <HelpKINode Title="IsRelative property" Url="html/P_Cimbalino_Toolkit_Helpers_ApplicationManifestIconPathNode_IsRelative.htm" />
   <HelpKINode Title="IsResource property" Url="html/P_Cimbalino_Toolkit_Helpers_ApplicationManifestIconPathNode_IsResource.htm" />
   <HelpKINode Title="IsRoot property" Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppCategoryNode_IsRoot.htm" />
+  <HelpKINode Title="IsSupported property">
+    <HelpKINode Title="IPersonalizationService.IsSupported Property " Url="html/P_Cimbalino_Toolkit_Services_IPersonalizationService_IsSupported.htm" />
+    <HelpKINode Title="PersonalizationService.IsSupported Property " Url="html/P_Cimbalino_Toolkit_Services_PersonalizationService_IsSupported.htm" />
+  </HelpKINode>
   <HelpKINode Title="IStatusBarService interface">
     <HelpKINode Title="IStatusBarService Interface" Url="html/T_Cimbalino_Toolkit_Services_IStatusBarService.htm" />
     <HelpKINode Title="about IStatusBarService interface" Url="html/T_Cimbalino_Toolkit_Services_IStatusBarService.htm" />
@@ -1690,6 +1929,7 @@
   </HelpKINode>
   <HelpKINode Title="IStorageServiceHandler.AppendAllLines method" Url="html/Overload_Cimbalino_Toolkit_Services_IStorageServiceHandler_AppendAllLines.htm" />
   <HelpKINode Title="IStorageServiceHandler.AppendAllText method" Url="html/Overload_Cimbalino_Toolkit_Services_IStorageServiceHandler_AppendAllText.htm" />
+  <HelpKINode Title="IStorageServiceHandler.BuildFileUri method" Url="html/M_Cimbalino_Toolkit_Services_IStorageServiceHandler_BuildFileUri.htm" />
   <HelpKINode Title="IStorageServiceHandler.CopyFileAsync method" Url="html/Overload_Cimbalino_Toolkit_Services_IStorageServiceHandler_CopyFileAsync.htm" />
   <HelpKINode Title="IStorageServiceHandler.CreateDirectoryAsync method" Url="html/M_Cimbalino_Toolkit_Services_IStorageServiceHandler_CreateDirectoryAsync.htm" />
   <HelpKINode Title="IStorageServiceHandler.CreateFileAsync method" Url="html/M_Cimbalino_Toolkit_Services_IStorageServiceHandler_CreateFileAsync.htm" />
@@ -1723,6 +1963,11 @@
     <HelpKINode Title="ApplicationBarBehavior.IsVisible Property " Url="html/P_Cimbalino_Toolkit_Behaviors_ApplicationBarBehavior_IsVisible.htm" />
     <HelpKINode Title="ApplicationBarItemBase(T).IsVisible Property " Url="html/P_Cimbalino_Toolkit_Behaviors_ApplicationBarItemBase_1_IsVisible.htm" />
     <HelpKINode Title="MultiApplicationBarBehavior.IsVisible Property " Url="html/P_Cimbalino_Toolkit_Behaviors_MultiApplicationBarBehavior_IsVisible.htm" />
+    <HelpKINode Title="TitleBarIsVisibleChangedArgs.IsVisible Property " Url="html/P_Cimbalino_Toolkit_Services_TitleBarIsVisibleChangedArgs_IsVisible.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsVisibleChanged event">
+    <HelpKINode Title="ITitleBarService.IsVisibleChanged Event" Url="html/E_Cimbalino_Toolkit_Services_ITitleBarService_IsVisibleChanged.htm" />
+    <HelpKINode Title="TitleBarService.IsVisibleChanged Event" Url="html/E_Cimbalino_Toolkit_Services_TitleBarService_IsVisibleChanged.htm" />
   </HelpKINode>
   <HelpKINode Title="IsVisibleProperty field">
     <HelpKINode Title="ApplicationBar.IsVisibleProperty Field" Url="html/F_Cimbalino_Toolkit_Behaviors_ApplicationBar_IsVisibleProperty.htm" />
@@ -1732,6 +1977,15 @@
   </HelpKINode>
   <HelpKINode Title="Items property" Url="html/P_Cimbalino_Toolkit_Behaviors_MultiBindingBehavior_Items.htm" />
   <HelpKINode Title="ItemsProperty field" Url="html/F_Cimbalino_Toolkit_Behaviors_MultiBindingBehavior_ItemsProperty.htm" />
+  <HelpKINode Title="ITitleBarService interface">
+    <HelpKINode Title="ITitleBarService Interface" Url="html/T_Cimbalino_Toolkit_Services_ITitleBarService.htm" />
+    <HelpKINode Title="about ITitleBarService interface" Url="html/T_Cimbalino_Toolkit_Services_ITitleBarService.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_Cimbalino_Toolkit_Services_ITitleBarService.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Cimbalino_Toolkit_Services_ITitleBarService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ITitleBarService.ExtendViewIntoTitleBar property" Url="html/P_Cimbalino_Toolkit_Services_ITitleBarService_ExtendViewIntoTitleBar.htm" />
+  <HelpKINode Title="ITitleBarService.Height property" Url="html/P_Cimbalino_Toolkit_Services_ITitleBarService_Height.htm" />
+  <HelpKINode Title="ITitleBarService.IsVisibleChanged event" Url="html/E_Cimbalino_Toolkit_Services_ITitleBarService_IsVisibleChanged.htm" />
   <HelpKINode Title="IVibrationService interface">
     <HelpKINode Title="IVibrationService Interface" Url="html/T_Cimbalino_Toolkit_Services_IVibrationService.htm" />
     <HelpKINode Title="about IVibrationService interface" Url="html/T_Cimbalino_Toolkit_Services_IVibrationService.htm" />
@@ -1766,9 +2020,24 @@
     <HelpKINode Title="constructor" Url="html/M_Cimbalino_Toolkit_Services_LauncherService__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Cimbalino_Toolkit_Services_LauncherService.htm" />
   </HelpKINode>
+  <HelpKINode Title="LauncherService.FindFileHandlersAsync method" Url="html/M_Cimbalino_Toolkit_Services_LauncherService_FindFileHandlersAsync.htm" />
+  <HelpKINode Title="LauncherService.FindUriSchemeHandlersAsync method" Url="html/M_Cimbalino_Toolkit_Services_LauncherService_FindUriSchemeHandlersAsync.htm" />
   <HelpKINode Title="LauncherService.LauncherService constructor" Url="html/M_Cimbalino_Toolkit_Services_LauncherService__ctor.htm" />
   <HelpKINode Title="LauncherService.LaunchFileAsync method" Url="html/M_Cimbalino_Toolkit_Services_LauncherService_LaunchFileAsync.htm" />
   <HelpKINode Title="LauncherService.LaunchUriAsync method" Url="html/Overload_Cimbalino_Toolkit_Services_LauncherService_LaunchUriAsync.htm" />
+  <HelpKINode Title="LauncherServiceAppInfo class">
+    <HelpKINode Title="LauncherServiceAppInfo Class" Url="html/T_Cimbalino_Toolkit_Services_LauncherServiceAppInfo.htm" />
+    <HelpKINode Title="about LauncherServiceAppInfo class" Url="html/T_Cimbalino_Toolkit_Services_LauncherServiceAppInfo.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Cimbalino_Toolkit_Services_LauncherServiceAppInfo__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Cimbalino_Toolkit_Services_LauncherServiceAppInfo.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Cimbalino_Toolkit_Services_LauncherServiceAppInfo.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LauncherServiceAppInfo.AppUserModelId property" Url="html/P_Cimbalino_Toolkit_Services_LauncherServiceAppInfo_AppUserModelId.htm" />
+  <HelpKINode Title="LauncherServiceAppInfo.Description property" Url="html/P_Cimbalino_Toolkit_Services_LauncherServiceAppInfo_Description.htm" />
+  <HelpKINode Title="LauncherServiceAppInfo.DisplayName property" Url="html/P_Cimbalino_Toolkit_Services_LauncherServiceAppInfo_DisplayName.htm" />
+  <HelpKINode Title="LauncherServiceAppInfo.Id property" Url="html/P_Cimbalino_Toolkit_Services_LauncherServiceAppInfo_Id.htm" />
+  <HelpKINode Title="LauncherServiceAppInfo.LauncherServiceAppInfo constructor" Url="html/Overload_Cimbalino_Toolkit_Services_LauncherServiceAppInfo__ctor.htm" />
+  <HelpKINode Title="LauncherServiceAppInfo.PackageFamilyName property" Url="html/P_Cimbalino_Toolkit_Services_LauncherServiceAppInfo_PackageFamilyName.htm" />
   <HelpKINode Title="LaunchFileAsync method">
     <HelpKINode Title="ILauncherService.LaunchFileAsync Method " Url="html/M_Cimbalino_Toolkit_Services_ILauncherService_LaunchFileAsync.htm" />
     <HelpKINode Title="LauncherService.LaunchFileAsync Method " Url="html/M_Cimbalino_Toolkit_Services_LauncherService_LaunchFileAsync.htm" />
@@ -1800,12 +2069,14 @@
   <HelpKINode Title="LegacyApplicationSettingsServiceHandler.Set&lt;T&gt; method" Url="html/M_Cimbalino_Toolkit_Services_LegacyApplicationSettingsServiceHandler_Set__1.htm" />
   <HelpKINode Title="Length property" Url="html/P_Cimbalino_Toolkit_Helpers_ChunkedStream_Length.htm" />
   <HelpKINode Title="LicenseRight property" Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppOfferNode_LicenseRight.htm" />
+  <HelpKINode Title="Local enumeration member" Url="html/T_Cimbalino_Toolkit_Services_StorageServiceStorageType.htm" />
   <HelpKINode Title="Local property">
     <HelpKINode Title="ApplicationSettingsService.Local Property " Url="html/P_Cimbalino_Toolkit_Services_ApplicationSettingsService_Local.htm" />
     <HelpKINode Title="IApplicationSettingsService.Local Property " Url="html/P_Cimbalino_Toolkit_Services_IApplicationSettingsService_Local.htm" />
     <HelpKINode Title="IStorageService.Local Property " Url="html/P_Cimbalino_Toolkit_Services_IStorageService_Local.htm" />
     <HelpKINode Title="StorageService.Local Property " Url="html/P_Cimbalino_Toolkit_Services_StorageService_Local.htm" />
   </HelpKINode>
+  <HelpKINode Title="LocalCache enumeration member" Url="html/T_Cimbalino_Toolkit_Services_StorageServiceStorageType.htm" />
   <HelpKINode Title="LocalCache property">
     <HelpKINode Title="IStorageService.LocalCache Property " Url="html/P_Cimbalino_Toolkit_Services_IStorageService_LocalCache.htm" />
     <HelpKINode Title="StorageService.LocalCache Property " Url="html/P_Cimbalino_Toolkit_Services_StorageService_LocalCache.htm" />
@@ -1877,6 +2148,25 @@
   </HelpKINode>
   <HelpKINode Title="LocationServiceStatusChangedEventArgs.LocationServiceStatusChangedEventArgs constructor" Url="html/M_Cimbalino_Toolkit_Services_LocationServiceStatusChangedEventArgs__ctor.htm" />
   <HelpKINode Title="LocationServiceStatusChangedEventArgs.Status property" Url="html/P_Cimbalino_Toolkit_Services_LocationServiceStatusChangedEventArgs_Status.htm" />
+  <HelpKINode Title="LockScreenService class">
+    <HelpKINode Title="LockScreenService Class" Url="html/T_Cimbalino_Toolkit_Services_LockScreenService.htm" />
+    <HelpKINode Title="about LockScreenService class" Url="html/T_Cimbalino_Toolkit_Services_LockScreenService.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Cimbalino_Toolkit_Services_LockScreenService__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Cimbalino_Toolkit_Services_LockScreenService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LockScreenService.GetCurrentLockScreenUri method" Url="html/M_Cimbalino_Toolkit_Services_LockScreenService_GetCurrentLockScreenUri.htm" />
+  <HelpKINode Title="LockScreenService.LockScreenService constructor" Url="html/M_Cimbalino_Toolkit_Services_LockScreenService__ctor.htm" />
+  <HelpKINode Title="LockScreenService.RequestAccessAsync method" Url="html/M_Cimbalino_Toolkit_Services_LockScreenService_RequestAccessAsync.htm" />
+  <HelpKINode Title="LockScreenService.SetLockScreenAsync method" Url="html/Overload_Cimbalino_Toolkit_Services_LockScreenService_SetLockScreenAsync.htm" />
+  <HelpKINode Title="LockScreenServiceRequestResult enumeration" Url="html/T_Cimbalino_Toolkit_Services_LockScreenServiceRequestResult.htm" />
+  <HelpKINode Title="LockScreenWithRequestService class">
+    <HelpKINode Title="LockScreenWithRequestService Class" Url="html/T_Cimbalino_Toolkit_Services_LockScreenWithRequestService.htm" />
+    <HelpKINode Title="about LockScreenWithRequestService class" Url="html/T_Cimbalino_Toolkit_Services_LockScreenWithRequestService.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Cimbalino_Toolkit_Services_LockScreenWithRequestService__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Cimbalino_Toolkit_Services_LockScreenWithRequestService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LockScreenWithRequestService.LockScreenWithRequestService constructor" Url="html/M_Cimbalino_Toolkit_Services_LockScreenWithRequestService__ctor.htm" />
+  <HelpKINode Title="LockScreenWithRequestService.RequestAccessAsync method" Url="html/M_Cimbalino_Toolkit_Services_LockScreenWithRequestService_RequestAccessAsync.htm" />
   <HelpKINode Title="LogicalDpi property">
     <HelpKINode Title="DisplayPropertiesService.LogicalDpi Property " Url="html/P_Cimbalino_Toolkit_Services_DisplayPropertiesService_LogicalDpi.htm" />
     <HelpKINode Title="IDisplayPropertiesService.LogicalDpi Property " Url="html/P_Cimbalino_Toolkit_Services_IDisplayPropertiesService_LogicalDpi.htm" />
@@ -1949,6 +2239,18 @@
     <HelpKINode Title="ApplicationBarBehavior.ModeProperty Field" Url="html/F_Cimbalino_Toolkit_Behaviors_ApplicationBarBehavior_ModeProperty.htm" />
     <HelpKINode Title="MultiBindingBehavior.ModeProperty Field" Url="html/F_Cimbalino_Toolkit_Behaviors_MultiBindingBehavior_ModeProperty.htm" />
   </HelpKINode>
+  <HelpKINode Title="MonitoredInteraction class">
+    <HelpKINode Title="MonitoredInteraction Class" Url="html/T_Cimbalino_Toolkit_Behaviors_MonitoredInteraction.htm" />
+    <HelpKINode Title="about MonitoredInteraction class" Url="html/T_Cimbalino_Toolkit_Behaviors_MonitoredInteraction.htm" />
+    <HelpKINode Title="attached properties" Url="html/AttachedProperties_T_Cimbalino_Toolkit_Behaviors_MonitoredInteraction.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Cimbalino_Toolkit_Behaviors_MonitoredInteraction__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Cimbalino_Toolkit_Behaviors_MonitoredInteraction.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Cimbalino_Toolkit_Behaviors_MonitoredInteraction.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MonitoredInteraction.Behaviors attached property" Url="html/P_Cimbalino_Toolkit_Behaviors_MonitoredInteraction_Behaviors.htm" />
+  <HelpKINode Title="MonitoredInteraction.BehaviorsProperty field" Url="html/F_Cimbalino_Toolkit_Behaviors_MonitoredInteraction_BehaviorsProperty.htm" />
+  <HelpKINode Title="MonitoredInteraction.GetBehaviors method" Url="html/Overload_Cimbalino_Toolkit_Behaviors_MonitoredInteraction_GetBehaviors.htm" />
+  <HelpKINode Title="MonitoredInteraction.MonitoredInteraction constructor" Url="html/M_Cimbalino_Toolkit_Behaviors_MonitoredInteraction__ctor.htm" />
   <HelpKINode Title="MoveFileAsync method">
     <HelpKINode Title="IStorageServiceHandler.MoveFileAsync Method " Url="html/Overload_Cimbalino_Toolkit_Services_IStorageServiceHandler_MoveFileAsync.htm" />
     <HelpKINode Title="StorageServiceHandler.MoveFileAsync Method " Url="html/Overload_Cimbalino_Toolkit_Services_StorageServiceHandler_MoveFileAsync.htm" />
@@ -1971,6 +2273,7 @@
   <HelpKINode Title="MultiApplicationBarBehavior.IsVisibleProperty field" Url="html/F_Cimbalino_Toolkit_Behaviors_MultiApplicationBarBehavior_IsVisibleProperty.htm" />
   <HelpKINode Title="MultiApplicationBarBehavior.MultiApplicationBarBehavior constructor" Url="html/M_Cimbalino_Toolkit_Behaviors_MultiApplicationBarBehavior__ctor.htm" />
   <HelpKINode Title="MultiApplicationBarBehavior.OnAttached method" Url="html/M_Cimbalino_Toolkit_Behaviors_MultiApplicationBarBehavior_OnAttached.htm" />
+  <HelpKINode Title="MultiApplicationBarBehavior.OnDetaching method" Url="html/M_Cimbalino_Toolkit_Behaviors_MultiApplicationBarBehavior_OnDetaching.htm" />
   <HelpKINode Title="MultiApplicationBarBehavior.SelectedIndex property" Url="html/P_Cimbalino_Toolkit_Behaviors_MultiApplicationBarBehavior_SelectedIndex.htm" />
   <HelpKINode Title="MultiApplicationBarBehavior.SelectedIndexProperty field" Url="html/F_Cimbalino_Toolkit_Behaviors_MultiApplicationBarBehavior_SelectedIndexProperty.htm" />
   <HelpKINode Title="MultiBindingBehavior class">
@@ -2229,9 +2532,11 @@
   </HelpKINode>
   <HelpKINode Title="OnCollectionChanged method" Url="html/M_Cimbalino_Toolkit_Helpers_OptimizedObservableCollection_1_OnCollectionChanged.htm" />
   <HelpKINode Title="OnDetaching method">
+    <HelpKINode Title="ApplicationBarBehavior.OnDetaching Method " Url="html/M_Cimbalino_Toolkit_Behaviors_ApplicationBarBehavior_OnDetaching.htm" />
     <HelpKINode Title="AutoFocusBehavior.OnDetaching Method " Url="html/M_Cimbalino_Toolkit_Behaviors_AutoFocusBehavior_OnDetaching.htm" />
     <HelpKINode Title="Behavior.OnDetaching Method " Url="html/M_Cimbalino_Toolkit_Behaviors_Behavior_OnDetaching.htm" />
     <HelpKINode Title="EnterKeyBehavior.OnDetaching Method " Url="html/M_Cimbalino_Toolkit_Behaviors_EnterKeyBehavior_OnDetaching.htm" />
+    <HelpKINode Title="MultiApplicationBarBehavior.OnDetaching Method " Url="html/M_Cimbalino_Toolkit_Behaviors_MultiApplicationBarBehavior_OnDetaching.htm" />
     <HelpKINode Title="UpdatePasswordBindingOnPropertyChanged.OnDetaching Method " Url="html/M_Cimbalino_Toolkit_Behaviors_UpdatePasswordBindingOnPropertyChanged_OnDetaching.htm" />
     <HelpKINode Title="UpdateTextBindingOnPropertyChanged.OnDetaching Method " Url="html/M_Cimbalino_Toolkit_Behaviors_UpdateTextBindingOnPropertyChanged_OnDetaching.htm" />
   </HelpKINode>
@@ -2297,11 +2602,13 @@
   <HelpKINode Title="Options property" Url="html/P_Cimbalino_Toolkit_Converters_StringRegexConverter_Options.htm" />
   <HelpKINode Title="OptionsProperty field" Url="html/F_Cimbalino_Toolkit_Converters_StringRegexConverter_OptionsProperty.htm" />
   <HelpKINode Title="Orientation property" Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppImageNode_Orientation.htm" />
+  <HelpKINode Title="Package enumeration member" Url="html/T_Cimbalino_Toolkit_Services_StorageServiceStorageType.htm" />
   <HelpKINode Title="Package property">
     <HelpKINode Title="IStorageService.Package Property " Url="html/P_Cimbalino_Toolkit_Services_IStorageService_Package.htm" />
     <HelpKINode Title="StorageService.Package Property " Url="html/P_Cimbalino_Toolkit_Services_StorageService_Package.htm" />
     <HelpKINode Title="WindowsStoreServiceAppNode.Package Property " Url="html/P_Cimbalino_Toolkit_Services_WindowsStoreServiceAppNode_Package.htm" />
   </HelpKINode>
+  <HelpKINode Title="PackageFamilyName property" Url="html/P_Cimbalino_Toolkit_Services_LauncherServiceAppInfo_PackageFamilyName.htm" />
   <HelpKINode Title="PackageSize property" Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppEntryNode_PackageSize.htm" />
   <HelpKINode Title="ParentId property" Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppCategoryNode_ParentId.htm" />
   <HelpKINode Title="Pattern property" Url="html/P_Cimbalino_Toolkit_Converters_StringRegexConverter_Pattern.htm" />
@@ -2310,6 +2617,17 @@
   <HelpKINode Title="PaymentTypes property" Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppOfferNode_PaymentTypes.htm" />
   <HelpKINode Title="Permutations(Of TResult) method" Url="html/M_Cimbalino_Toolkit_Extensions_IEnumerableExtensions_Permutations__1.htm" />
   <HelpKINode Title="Permutations&lt;TResult&gt; method" Url="html/M_Cimbalino_Toolkit_Extensions_IEnumerableExtensions_Permutations__1.htm" />
+  <HelpKINode Title="PersonalizationService class">
+    <HelpKINode Title="PersonalizationService Class" Url="html/T_Cimbalino_Toolkit_Services_PersonalizationService.htm" />
+    <HelpKINode Title="about PersonalizationService class" Url="html/T_Cimbalino_Toolkit_Services_PersonalizationService.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Cimbalino_Toolkit_Services_PersonalizationService__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Cimbalino_Toolkit_Services_PersonalizationService.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Cimbalino_Toolkit_Services_PersonalizationService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PersonalizationService.IsSupported property" Url="html/P_Cimbalino_Toolkit_Services_PersonalizationService_IsSupported.htm" />
+  <HelpKINode Title="PersonalizationService.PersonalizationService constructor" Url="html/M_Cimbalino_Toolkit_Services_PersonalizationService__ctor.htm" />
+  <HelpKINode Title="PersonalizationService.SetLockScreenImageAsync method" Url="html/M_Cimbalino_Toolkit_Services_PersonalizationService_SetLockScreenImageAsync.htm" />
+  <HelpKINode Title="PersonalizationService.SetWallpaperImageAsync method" Url="html/M_Cimbalino_Toolkit_Services_PersonalizationService_SetWallpaperImageAsync.htm" />
   <HelpKINode Title="PhoneCallService class">
     <HelpKINode Title="PhoneCallService Class" Url="html/T_Cimbalino_Toolkit_Services_PhoneCallService.htm" />
     <HelpKINode Title="about PhoneCallService class" Url="html/T_Cimbalino_Toolkit_Services_PhoneCallService.htm" />
@@ -2344,6 +2662,20 @@
     <HelpKINode Title="DeviceStatusService.PowerSource Property " Url="html/P_Cimbalino_Toolkit_Services_DeviceStatusService_PowerSource.htm" />
     <HelpKINode Title="IDeviceStatusService.PowerSource Property " Url="html/P_Cimbalino_Toolkit_Services_IDeviceStatusService_PowerSource.htm" />
   </HelpKINode>
+  <HelpKINode Title="PowerStatusChanged event">
+    <HelpKINode Title="DeviceStatusService.PowerStatusChanged Event" Url="html/E_Cimbalino_Toolkit_Services_DeviceStatusService_PowerStatusChanged.htm" />
+    <HelpKINode Title="IDeviceStatusService.PowerStatusChanged Event" Url="html/E_Cimbalino_Toolkit_Services_IDeviceStatusService_PowerStatusChanged.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PowerStatusChangedEventArgs class">
+    <HelpKINode Title="PowerStatusChangedEventArgs Class" Url="html/T_Cimbalino_Toolkit_Services_PowerStatusChangedEventArgs.htm" />
+    <HelpKINode Title="about PowerStatusChangedEventArgs class" Url="html/T_Cimbalino_Toolkit_Services_PowerStatusChangedEventArgs.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Cimbalino_Toolkit_Services_PowerStatusChangedEventArgs__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Cimbalino_Toolkit_Services_PowerStatusChangedEventArgs.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Cimbalino_Toolkit_Services_PowerStatusChangedEventArgs.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PowerStatusChangedEventArgs.IsInPowerSaverMode property" Url="html/P_Cimbalino_Toolkit_Services_PowerStatusChangedEventArgs_IsInPowerSaverMode.htm" />
+  <HelpKINode Title="PowerStatusChangedEventArgs.PowerStatusChangedEventArgs constructor" Url="html/M_Cimbalino_Toolkit_Services_PowerStatusChangedEventArgs__ctor.htm" />
+  <HelpKINode Title="PowerStatusChangedEventArgs.RemainingChargePercent property" Url="html/P_Cimbalino_Toolkit_Services_PowerStatusChangedEventArgs_RemainingChargePercent.htm" />
   <HelpKINode Title="Price property">
     <HelpKINode Title="WindowsPhoneStoreServiceAppOfferNode.Price Property " Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppOfferNode_Price.htm" />
     <HelpKINode Title="WindowsStoreServiceAppPackageNode.Price Property " Url="html/P_Cimbalino_Toolkit_Services_WindowsStoreServiceAppPackageNode_Price.htm" />
@@ -2451,6 +2783,11 @@
   <HelpKINode Title="RegexReplace method" Url="html/Overload_Cimbalino_Toolkit_Extensions_StringExtensions_RegexReplace.htm" />
   <HelpKINode Title="ReleaseDate property" Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppNode_ReleaseDate.htm" />
   <HelpKINode Title="ReleaseId property" Url="html/P_Cimbalino_Toolkit_Services_WindowsStoreServiceAppPackageNode_ReleaseId.htm" />
+  <HelpKINode Title="RemainingChargePercent property">
+    <HelpKINode Title="DeviceStatusService.RemainingChargePercent Property " Url="html/P_Cimbalino_Toolkit_Services_DeviceStatusService_RemainingChargePercent.htm" />
+    <HelpKINode Title="IDeviceStatusService.RemainingChargePercent Property " Url="html/P_Cimbalino_Toolkit_Services_IDeviceStatusService_RemainingChargePercent.htm" />
+    <HelpKINode Title="PowerStatusChangedEventArgs.RemainingChargePercent Property " Url="html/P_Cimbalino_Toolkit_Services_PowerStatusChangedEventArgs_RemainingChargePercent.htm" />
+  </HelpKINode>
   <HelpKINode Title="Remove method">
     <HelpKINode Title="ApplicationSettingsServiceHandler.Remove Method " Url="html/M_Cimbalino_Toolkit_Services_ApplicationSettingsServiceHandler_Remove.htm" />
     <HelpKINode Title="IApplicationSettingsServiceHandler.Remove Method " Url="html/M_Cimbalino_Toolkit_Services_IApplicationSettingsServiceHandler_Remove.htm" />
@@ -2477,6 +2814,11 @@
     <HelpKINode Title="ILocationService.ReportInterval Property " Url="html/P_Cimbalino_Toolkit_Services_ILocationService_ReportInterval.htm" />
     <HelpKINode Title="LocationService.ReportInterval Property " Url="html/P_Cimbalino_Toolkit_Services_LocationService_ReportInterval.htm" />
   </HelpKINode>
+  <HelpKINode Title="RequestAccessAsync method">
+    <HelpKINode Title="ILockScreenService.RequestAccessAsync Method " Url="html/M_Cimbalino_Toolkit_Services_ILockScreenService_RequestAccessAsync.htm" />
+    <HelpKINode Title="LockScreenService.RequestAccessAsync Method " Url="html/M_Cimbalino_Toolkit_Services_LockScreenService_RequestAccessAsync.htm" />
+    <HelpKINode Title="LockScreenWithRequestService.RequestAccessAsync Method " Url="html/M_Cimbalino_Toolkit_Services_LockScreenWithRequestService_RequestAccessAsync.htm" />
+  </HelpKINode>
   <HelpKINode Title="Required property" Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppHwCapabilityNode_Required.htm" />
   <HelpKINode Title="Requirements property" Url="html/P_Cimbalino_Toolkit_Helpers_ApplicationManifestAppNode_Requirements.htm" />
   <HelpKINode Title="RequirementType property" Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppHwCapabilityNode_RequirementType.htm" />
@@ -2486,6 +2828,7 @@
   </HelpKINode>
   <HelpKINode Title="Right method" Url="html/M_Cimbalino_Toolkit_Extensions_StringExtensions_Right.htm" />
   <HelpKINode Title="Right property" Url="html/P_Cimbalino_Toolkit_Foundation_Rect_Right.htm" />
+  <HelpKINode Title="Roaming enumeration member" Url="html/T_Cimbalino_Toolkit_Services_StorageServiceStorageType.htm" />
   <HelpKINode Title="Roaming property">
     <HelpKINode Title="ApplicationSettingsService.Roaming Property " Url="html/P_Cimbalino_Toolkit_Services_ApplicationSettingsService_Roaming.htm" />
     <HelpKINode Title="IApplicationSettingsService.Roaming Property " Url="html/P_Cimbalino_Toolkit_Services_IApplicationSettingsService_Roaming.htm" />
@@ -2552,9 +2895,29 @@
     <HelpKINode Title="IApplicationSettingsServiceHandler.Set(T) Method " Url="html/M_Cimbalino_Toolkit_Services_IApplicationSettingsServiceHandler_Set__1.htm" />
     <HelpKINode Title="LegacyApplicationSettingsServiceHandler.Set(T) Method " Url="html/M_Cimbalino_Toolkit_Services_LegacyApplicationSettingsServiceHandler_Set__1.htm" />
   </HelpKINode>
+  <HelpKINode Title="SetApplicationLink method">
+    <HelpKINode Title="ClipboardService.SetApplicationLink Method " Url="html/M_Cimbalino_Toolkit_Services_ClipboardService_SetApplicationLink.htm" />
+    <HelpKINode Title="IClipboardService.SetApplicationLink Method " Url="html/M_Cimbalino_Toolkit_Services_IClipboardService_SetApplicationLink.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SetBitmap method">
+    <HelpKINode Title="ClipboardService.SetBitmap Method " Url="html/M_Cimbalino_Toolkit_Services_ClipboardService_SetBitmap.htm" />
+    <HelpKINode Title="IClipboardService.SetBitmap Method " Url="html/M_Cimbalino_Toolkit_Services_IClipboardService_SetBitmap.htm" />
+  </HelpKINode>
   <HelpKINode Title="SetFragment method" Url="html/M_Cimbalino_Toolkit_Extensions_UriBuilderExtensions_SetFragment.htm" />
   <HelpKINode Title="SetHost method" Url="html/M_Cimbalino_Toolkit_Extensions_UriBuilderExtensions_SetHost.htm" />
+  <HelpKINode Title="SetHtml method">
+    <HelpKINode Title="ClipboardService.SetHtml Method " Url="html/M_Cimbalino_Toolkit_Services_ClipboardService_SetHtml.htm" />
+    <HelpKINode Title="IClipboardService.SetHtml Method " Url="html/M_Cimbalino_Toolkit_Services_IClipboardService_SetHtml.htm" />
+  </HelpKINode>
   <HelpKINode Title="SetLength method" Url="html/M_Cimbalino_Toolkit_Helpers_ChunkedStream_SetLength.htm" />
+  <HelpKINode Title="SetLockScreenAsync method">
+    <HelpKINode Title="ILockScreenService.SetLockScreenAsync Method " Url="html/Overload_Cimbalino_Toolkit_Services_ILockScreenService_SetLockScreenAsync.htm" />
+    <HelpKINode Title="LockScreenService.SetLockScreenAsync Method " Url="html/Overload_Cimbalino_Toolkit_Services_LockScreenService_SetLockScreenAsync.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SetLockScreenImageAsync method">
+    <HelpKINode Title="IPersonalizationService.SetLockScreenImageAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IPersonalizationService_SetLockScreenImageAsync.htm" />
+    <HelpKINode Title="PersonalizationService.SetLockScreenImageAsync Method " Url="html/M_Cimbalino_Toolkit_Services_PersonalizationService_SetLockScreenImageAsync.htm" />
+  </HelpKINode>
   <HelpKINode Title="SetNoCacheHeaders method" Url="html/M_Cimbalino_Toolkit_Extensions_WebRequestExtensions_SetNoCacheHeaders.htm" />
   <HelpKINode Title="SetPageProgressIndicator method" Url="html/M_Cimbalino_Toolkit_Services_StatusBarService_SetPageProgressIndicator.htm" />
   <HelpKINode Title="SetPassword method" Url="html/M_Cimbalino_Toolkit_Extensions_UriBuilderExtensions_SetPassword.htm" />
@@ -2564,10 +2927,26 @@
   <HelpKINode Title="SetPropertyValue(Of TObject) method" Url="html/M_Cimbalino_Toolkit_Extensions_ObjectExtensions_SetPropertyValue__1.htm" />
   <HelpKINode Title="SetPropertyValue&lt;TObject&gt; method" Url="html/M_Cimbalino_Toolkit_Extensions_ObjectExtensions_SetPropertyValue__1.htm" />
   <HelpKINode Title="SetQuery method" Url="html/M_Cimbalino_Toolkit_Extensions_UriBuilderExtensions_SetQuery.htm" />
+  <HelpKINode Title="SetRtf method">
+    <HelpKINode Title="ClipboardService.SetRtf Method " Url="html/M_Cimbalino_Toolkit_Services_ClipboardService_SetRtf.htm" />
+    <HelpKINode Title="IClipboardService.SetRtf Method " Url="html/M_Cimbalino_Toolkit_Services_IClipboardService_SetRtf.htm" />
+  </HelpKINode>
   <HelpKINode Title="SetScheme method" Url="html/M_Cimbalino_Toolkit_Extensions_UriBuilderExtensions_SetScheme.htm" />
+  <HelpKINode Title="SetText method">
+    <HelpKINode Title="ClipboardService.SetText Method " Url="html/M_Cimbalino_Toolkit_Services_ClipboardService_SetText.htm" />
+    <HelpKINode Title="IClipboardService.SetText Method " Url="html/M_Cimbalino_Toolkit_Services_IClipboardService_SetText.htm" />
+  </HelpKINode>
   <HelpKINode Title="SetUserName method" Url="html/M_Cimbalino_Toolkit_Extensions_UriBuilderExtensions_SetUserName.htm" />
   <HelpKINode Title="SetValue(Of TKey, TValue) method" Url="html/M_Cimbalino_Toolkit_Extensions_IDictionaryExtensions_SetValue__2.htm" />
   <HelpKINode Title="SetValue&lt;TKey, TValue&gt; method" Url="html/M_Cimbalino_Toolkit_Extensions_IDictionaryExtensions_SetValue__2.htm" />
+  <HelpKINode Title="SetWallpaperImageAsync method">
+    <HelpKINode Title="IPersonalizationService.SetWallpaperImageAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IPersonalizationService_SetWallpaperImageAsync.htm" />
+    <HelpKINode Title="PersonalizationService.SetWallpaperImageAsync Method " Url="html/M_Cimbalino_Toolkit_Services_PersonalizationService_SetWallpaperImageAsync.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SetWebLink method">
+    <HelpKINode Title="ClipboardService.SetWebLink Method " Url="html/M_Cimbalino_Toolkit_Services_ClipboardService_SetWebLink.htm" />
+    <HelpKINode Title="IClipboardService.SetWebLink Method " Url="html/M_Cimbalino_Toolkit_Services_IClipboardService_SetWebLink.htm" />
+  </HelpKINode>
   <HelpKINode Title="SHA1Managed class">
     <HelpKINode Title="SHA1Managed Class" Url="html/T_System_Security_Cryptography_SHA1Managed.htm" />
     <HelpKINode Title="about SHA1Managed class" Url="html/T_System_Security_Cryptography_SHA1Managed.htm" />
@@ -2606,6 +2985,10 @@
     <HelpKINode Title="DeviceSettingsService.ShowBluetoothSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowBluetoothSettingsAsync.htm" />
     <HelpKINode Title="IDeviceSettingsService.ShowBluetoothSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowBluetoothSettingsAsync.htm" />
   </HelpKINode>
+  <HelpKINode Title="ShowCalendarSettingsAsync method">
+    <HelpKINode Title="DeviceSettingsService.ShowCalendarSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowCalendarSettingsAsync.htm" />
+    <HelpKINode Title="IDeviceSettingsService.ShowCalendarSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowCalendarSettingsAsync.htm" />
+  </HelpKINode>
   <HelpKINode Title="ShowCameraSettingsAsync method">
     <HelpKINode Title="DeviceSettingsService.ShowCameraSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowCameraSettingsAsync.htm" />
     <HelpKINode Title="IDeviceSettingsService.ShowCameraSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowCameraSettingsAsync.htm" />
@@ -2613,6 +2996,34 @@
   <HelpKINode Title="ShowCellularSettingsAsync method">
     <HelpKINode Title="DeviceSettingsService.ShowCellularSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowCellularSettingsAsync.htm" />
     <HelpKINode Title="IDeviceSettingsService.ShowCellularSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowCellularSettingsAsync.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ShowConnectedDevicesSettingsAsync method">
+    <HelpKINode Title="DeviceSettingsService.ShowConnectedDevicesSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowConnectedDevicesSettingsAsync.htm" />
+    <HelpKINode Title="IDeviceSettingsService.ShowConnectedDevicesSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowConnectedDevicesSettingsAsync.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ShowContactsSettingsAsync method">
+    <HelpKINode Title="DeviceSettingsService.ShowContactsSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowContactsSettingsAsync.htm" />
+    <HelpKINode Title="IDeviceSettingsService.ShowContactsSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowContactsSettingsAsync.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ShowCustomDevicesSettingsAsync method">
+    <HelpKINode Title="DeviceSettingsService.ShowCustomDevicesSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowCustomDevicesSettingsAsync.htm" />
+    <HelpKINode Title="IDeviceSettingsService.ShowCustomDevicesSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowCustomDevicesSettingsAsync.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ShowDataSenseSettingsAsync method">
+    <HelpKINode Title="DeviceSettingsService.ShowDataSenseSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowDataSenseSettingsAsync.htm" />
+    <HelpKINode Title="IDeviceSettingsService.ShowDataSenseSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowDataSenseSettingsAsync.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ShowDateAndTimeSettingsAsync method">
+    <HelpKINode Title="DeviceSettingsService.ShowDateAndTimeSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowDateAndTimeSettingsAsync.htm" />
+    <HelpKINode Title="IDeviceSettingsService.ShowDateAndTimeSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowDateAndTimeSettingsAsync.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ShowDialUpSettingsAsync method">
+    <HelpKINode Title="DeviceSettingsService.ShowDialUpSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowDialUpSettingsAsync.htm" />
+    <HelpKINode Title="IDeviceSettingsService.ShowDialUpSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowDialUpSettingsAsync.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ShowDisplaySettingsAsync method">
+    <HelpKINode Title="DeviceSettingsService.ShowDisplaySettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowDisplaySettingsAsync.htm" />
+    <HelpKINode Title="IDeviceSettingsService.ShowDisplaySettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowDisplaySettingsAsync.htm" />
   </HelpKINode>
   <HelpKINode Title="ShowDownloadedMapsUI method">
     <HelpKINode Title="IMapManagerService.ShowDownloadedMapsUI Method " Url="html/M_Cimbalino_Toolkit_Services_IMapManagerService_ShowDownloadedMapsUI.htm" />
@@ -2622,6 +3033,10 @@
     <HelpKINode Title="DeviceSettingsService.ShowEmailAndAccountsSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowEmailAndAccountsSettingsAsync.htm" />
     <HelpKINode Title="IDeviceSettingsService.ShowEmailAndAccountsSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowEmailAndAccountsSettingsAsync.htm" />
   </HelpKINode>
+  <HelpKINode Title="ShowEthernetSettingsAsync method">
+    <HelpKINode Title="DeviceSettingsService.ShowEthernetSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowEthernetSettingsAsync.htm" />
+    <HelpKINode Title="IDeviceSettingsService.ShowEthernetSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowEthernetSettingsAsync.htm" />
+  </HelpKINode>
   <HelpKINode Title="ShowLocationSettingsAsync method">
     <HelpKINode Title="DeviceSettingsService.ShowLocationSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowLocationSettingsAsync.htm" />
     <HelpKINode Title="IDeviceSettingsService.ShowLocationSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowLocationSettingsAsync.htm" />
@@ -2630,33 +3045,85 @@
     <HelpKINode Title="DeviceSettingsService.ShowLockScreenSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowLockScreenSettingsAsync.htm" />
     <HelpKINode Title="IDeviceSettingsService.ShowLockScreenSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowLockScreenSettingsAsync.htm" />
   </HelpKINode>
+  <HelpKINode Title="ShowMapsSettingsAsync method">
+    <HelpKINode Title="DeviceSettingsService.ShowMapsSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowMapsSettingsAsync.htm" />
+    <HelpKINode Title="IDeviceSettingsService.ShowMapsSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowMapsSettingsAsync.htm" />
+  </HelpKINode>
   <HelpKINode Title="ShowMapsUpdateUI method">
     <HelpKINode Title="IMapManagerService.ShowMapsUpdateUI Method " Url="html/M_Cimbalino_Toolkit_Services_IMapManagerService_ShowMapsUpdateUI.htm" />
     <HelpKINode Title="MapManagerService.ShowMapsUpdateUI Method " Url="html/M_Cimbalino_Toolkit_Services_MapManagerService_ShowMapsUpdateUI.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ShowMessagingSettingsAsync method">
+    <HelpKINode Title="DeviceSettingsService.ShowMessagingSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowMessagingSettingsAsync.htm" />
+    <HelpKINode Title="IDeviceSettingsService.ShowMessagingSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowMessagingSettingsAsync.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ShowMicrophoneSettingsAsync method">
+    <HelpKINode Title="DeviceSettingsService.ShowMicrophoneSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowMicrophoneSettingsAsync.htm" />
+    <HelpKINode Title="IDeviceSettingsService.ShowMicrophoneSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowMicrophoneSettingsAsync.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ShowMobileHotspotSettingsAsync method">
+    <HelpKINode Title="DeviceSettingsService.ShowMobileHotspotSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowMobileHotspotSettingsAsync.htm" />
+    <HelpKINode Title="IDeviceSettingsService.ShowMobileHotspotSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowMobileHotspotSettingsAsync.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ShowMouseAndTouchpadSettingsAsync method">
+    <HelpKINode Title="DeviceSettingsService.ShowMouseAndTouchpadSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowMouseAndTouchpadSettingsAsync.htm" />
+    <HelpKINode Title="IDeviceSettingsService.ShowMouseAndTouchpadSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowMouseAndTouchpadSettingsAsync.htm" />
   </HelpKINode>
   <HelpKINode Title="ShowNotificationSettingsAsync method">
     <HelpKINode Title="DeviceSettingsService.ShowNotificationSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowNotificationSettingsAsync.htm" />
     <HelpKINode Title="IDeviceSettingsService.ShowNotificationSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowNotificationSettingsAsync.htm" />
   </HelpKINode>
+  <HelpKINode Title="ShowPersonalizationSettingsAsync method">
+    <HelpKINode Title="DeviceSettingsService.ShowPersonalizationSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowPersonalizationSettingsAsync.htm" />
+    <HelpKINode Title="IDeviceSettingsService.ShowPersonalizationSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowPersonalizationSettingsAsync.htm" />
+  </HelpKINode>
   <HelpKINode Title="ShowPowerSettingsAsync method">
     <HelpKINode Title="DeviceSettingsService.ShowPowerSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowPowerSettingsAsync.htm" />
     <HelpKINode Title="IDeviceSettingsService.ShowPowerSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowPowerSettingsAsync.htm" />
   </HelpKINode>
-  <HelpKINode Title="ShowProximitySettingsAsync method">
-    <HelpKINode Title="DeviceSettingsService.ShowProximitySettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowProximitySettingsAsync.htm" />
-    <HelpKINode Title="IDeviceSettingsService.ShowProximitySettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowProximitySettingsAsync.htm" />
+  <HelpKINode Title="ShowProxySettingsAsync method">
+    <HelpKINode Title="DeviceSettingsService.ShowProxySettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowProxySettingsAsync.htm" />
+    <HelpKINode Title="IDeviceSettingsService.ShowProxySettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowProxySettingsAsync.htm" />
   </HelpKINode>
   <HelpKINode Title="ShowPublisherAsync method">
     <HelpKINode Title="IStoreService.ShowPublisherAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IStoreService_ShowPublisherAsync.htm" />
     <HelpKINode Title="StoreService.ShowPublisherAsync Method " Url="html/M_Cimbalino_Toolkit_Services_StoreService_ShowPublisherAsync.htm" />
   </HelpKINode>
+  <HelpKINode Title="ShowRadiosSettingsAsync method">
+    <HelpKINode Title="DeviceSettingsService.ShowRadiosSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowRadiosSettingsAsync.htm" />
+    <HelpKINode Title="IDeviceSettingsService.ShowRadiosSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowRadiosSettingsAsync.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ShowRegionAndLanguageSettingsAsync method">
+    <HelpKINode Title="DeviceSettingsService.ShowRegionAndLanguageSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowRegionAndLanguageSettingsAsync.htm" />
+    <HelpKINode Title="IDeviceSettingsService.ShowRegionAndLanguageSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowRegionAndLanguageSettingsAsync.htm" />
+  </HelpKINode>
   <HelpKINode Title="ShowScreenRotationSettingsAsync method">
     <HelpKINode Title="DeviceSettingsService.ShowScreenRotationSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowScreenRotationSettingsAsync.htm" />
     <HelpKINode Title="IDeviceSettingsService.ShowScreenRotationSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowScreenRotationSettingsAsync.htm" />
   </HelpKINode>
+  <HelpKINode Title="ShowSpeechPrivacySettingsAsync method">
+    <HelpKINode Title="DeviceSettingsService.ShowSpeechPrivacySettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowSpeechPrivacySettingsAsync.htm" />
+    <HelpKINode Title="IDeviceSettingsService.ShowSpeechPrivacySettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowSpeechPrivacySettingsAsync.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ShowSpeechSettingsAsync method">
+    <HelpKINode Title="DeviceSettingsService.ShowSpeechSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowSpeechSettingsAsync.htm" />
+    <HelpKINode Title="IDeviceSettingsService.ShowSpeechSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowSpeechSettingsAsync.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ShowStorageSenseSettingsAsync method">
+    <HelpKINode Title="DeviceSettingsService.ShowStorageSenseSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowStorageSenseSettingsAsync.htm" />
+    <HelpKINode Title="IDeviceSettingsService.ShowStorageSenseSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowStorageSenseSettingsAsync.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ShowWebcamSettingsAsync method">
+    <HelpKINode Title="DeviceSettingsService.ShowWebcamSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowWebcamSettingsAsync.htm" />
+    <HelpKINode Title="IDeviceSettingsService.ShowWebcamSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowWebcamSettingsAsync.htm" />
+  </HelpKINode>
   <HelpKINode Title="ShowWiFiSettingsAsync method">
     <HelpKINode Title="DeviceSettingsService.ShowWiFiSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowWiFiSettingsAsync.htm" />
     <HelpKINode Title="IDeviceSettingsService.ShowWiFiSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowWiFiSettingsAsync.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ShowWindowsUpdateSettingsAsync method">
+    <HelpKINode Title="DeviceSettingsService.ShowWindowsUpdateSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowWindowsUpdateSettingsAsync.htm" />
+    <HelpKINode Title="IDeviceSettingsService.ShowWindowsUpdateSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IDeviceSettingsService_ShowWindowsUpdateSettingsAsync.htm" />
   </HelpKINode>
   <HelpKINode Title="ShowWorkplaceSettingsAsync method">
     <HelpKINode Title="DeviceSettingsService.ShowWorkplaceSettingsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_DeviceSettingsService_ShowWorkplaceSettingsAsync.htm" />
@@ -2760,6 +3227,7 @@
   </HelpKINode>
   <HelpKINode Title="StorageServiceHandler.AppendAllLines method" Url="html/Overload_Cimbalino_Toolkit_Services_StorageServiceHandler_AppendAllLines.htm" />
   <HelpKINode Title="StorageServiceHandler.AppendAllText method" Url="html/Overload_Cimbalino_Toolkit_Services_StorageServiceHandler_AppendAllText.htm" />
+  <HelpKINode Title="StorageServiceHandler.BuildFileUri method" Url="html/M_Cimbalino_Toolkit_Services_StorageServiceHandler_BuildFileUri.htm" />
   <HelpKINode Title="StorageServiceHandler.CopyFileAsync method" Url="html/Overload_Cimbalino_Toolkit_Services_StorageServiceHandler_CopyFileAsync.htm" />
   <HelpKINode Title="StorageServiceHandler.CreateDirectoryAsync method" Url="html/M_Cimbalino_Toolkit_Services_StorageServiceHandler_CreateDirectoryAsync.htm" />
   <HelpKINode Title="StorageServiceHandler.CreateFileAsync method" Url="html/M_Cimbalino_Toolkit_Services_StorageServiceHandler_CreateFileAsync.htm" />
@@ -2779,6 +3247,7 @@
   <HelpKINode Title="StorageServiceHandler.WriteAllBytesAsync method" Url="html/M_Cimbalino_Toolkit_Services_StorageServiceHandler_WriteAllBytesAsync.htm" />
   <HelpKINode Title="StorageServiceHandler.WriteAllLinesAsync method" Url="html/Overload_Cimbalino_Toolkit_Services_StorageServiceHandler_WriteAllLinesAsync.htm" />
   <HelpKINode Title="StorageServiceHandler.WriteAllTextAsync method" Url="html/Overload_Cimbalino_Toolkit_Services_StorageServiceHandler_WriteAllTextAsync.htm" />
+  <HelpKINode Title="StorageServiceStorageType enumeration" Url="html/T_Cimbalino_Toolkit_Services_StorageServiceStorageType.htm" />
   <HelpKINode Title="Store property" Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppOfferNode_Store.htm" />
   <HelpKINode Title="StoreService class">
     <HelpKINode Title="StoreService Class" Url="html/T_Cimbalino_Toolkit_Services_StoreService.htm" />
@@ -2920,6 +3389,7 @@
   <HelpKINode Title="TaskName property" Url="html/P_Cimbalino_Toolkit_Helpers_ApplicationManifestTokenNode_TaskName.htm" />
   <HelpKINode Title="Tasks property" Url="html/P_Cimbalino_Toolkit_Helpers_ApplicationManifestAppNode_Tasks.htm" />
   <HelpKINode Title="TaxString property" Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppNode_TaxString.htm" />
+  <HelpKINode Title="Temporary enumeration member" Url="html/T_Cimbalino_Toolkit_Services_StorageServiceStorageType.htm" />
   <HelpKINode Title="Temporary property">
     <HelpKINode Title="IStorageService.Temporary Property " Url="html/P_Cimbalino_Toolkit_Services_IStorageService_Temporary.htm" />
     <HelpKINode Title="StorageService.Temporary Property " Url="html/P_Cimbalino_Toolkit_Services_StorageService_Temporary.htm" />
@@ -2930,6 +3400,7 @@
   </HelpKINode>
   <HelpKINode Title="TextProperty field" Url="html/F_Cimbalino_Toolkit_Behaviors_ApplicationBarItemBase_1_TextProperty.htm" />
   <HelpKINode Title="ThreeStarRatings property" Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppRatingsDistributionsNode_ThreeStarRatings.htm" />
+  <HelpKINode Title="ThrowNotSupportedExceptions property" Url="html/P_Cimbalino_Toolkit_Helpers_DebugOptions_ThrowNotSupportedExceptions.htm" />
   <HelpKINode Title="Times method">
     <HelpKINode Title="IntExtensions.Times Method " Url="html/Overload_Cimbalino_Toolkit_Extensions_IntExtensions_Times.htm" />
     <HelpKINode Title="StringExtensions.Times Method " Url="html/M_Cimbalino_Toolkit_Extensions_StringExtensions_Times.htm" />
@@ -2944,6 +3415,27 @@
     <HelpKINode Title="WindowsPhoneStoreServiceAppNode.Title Property " Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppNode_Title.htm" />
     <HelpKINode Title="WindowsStoreServiceAppPackageNode.Title Property " Url="html/P_Cimbalino_Toolkit_Services_WindowsStoreServiceAppPackageNode_Title.htm" />
   </HelpKINode>
+  <HelpKINode Title="TitleBarIsVisibleChangedArgs class">
+    <HelpKINode Title="TitleBarIsVisibleChangedArgs Class" Url="html/T_Cimbalino_Toolkit_Services_TitleBarIsVisibleChangedArgs.htm" />
+    <HelpKINode Title="about TitleBarIsVisibleChangedArgs class" Url="html/T_Cimbalino_Toolkit_Services_TitleBarIsVisibleChangedArgs.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Cimbalino_Toolkit_Services_TitleBarIsVisibleChangedArgs__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Cimbalino_Toolkit_Services_TitleBarIsVisibleChangedArgs.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Cimbalino_Toolkit_Services_TitleBarIsVisibleChangedArgs.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TitleBarIsVisibleChangedArgs.IsVisible property" Url="html/P_Cimbalino_Toolkit_Services_TitleBarIsVisibleChangedArgs_IsVisible.htm" />
+  <HelpKINode Title="TitleBarIsVisibleChangedArgs.TitleBarIsVisibleChangedArgs constructor" Url="html/M_Cimbalino_Toolkit_Services_TitleBarIsVisibleChangedArgs__ctor.htm" />
+  <HelpKINode Title="TitleBarService class">
+    <HelpKINode Title="TitleBarService Class" Url="html/T_Cimbalino_Toolkit_Services_TitleBarService.htm" />
+    <HelpKINode Title="about TitleBarService class" Url="html/T_Cimbalino_Toolkit_Services_TitleBarService.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Cimbalino_Toolkit_Services_TitleBarService__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_Cimbalino_Toolkit_Services_TitleBarService.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Cimbalino_Toolkit_Services_TitleBarService.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Cimbalino_Toolkit_Services_TitleBarService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TitleBarService.ExtendViewIntoTitleBar property" Url="html/P_Cimbalino_Toolkit_Services_TitleBarService_ExtendViewIntoTitleBar.htm" />
+  <HelpKINode Title="TitleBarService.Height property" Url="html/P_Cimbalino_Toolkit_Services_TitleBarService_Height.htm" />
+  <HelpKINode Title="TitleBarService.IsVisibleChanged event" Url="html/E_Cimbalino_Toolkit_Services_TitleBarService_IsVisibleChanged.htm" />
+  <HelpKINode Title="TitleBarService.TitleBarService constructor" Url="html/M_Cimbalino_Toolkit_Services_TitleBarService__ctor.htm" />
   <HelpKINode Title="To method" Url="html/M_Cimbalino_Toolkit_Extensions_IntExtensions_To.htm" />
   <HelpKINode Title="ToArray method" Url="html/M_Cimbalino_Toolkit_Extensions_StreamExtensions_ToArray.htm" />
   <HelpKINode Title="ToArrayAsync method" Url="html/M_Cimbalino_Toolkit_Extensions_StreamExtensions_ToArrayAsync.htm" />
@@ -2961,6 +3453,10 @@
   <HelpKINode Title="TopLeft property" Url="html/P_Cimbalino_Toolkit_Foundation_Rect_TopLeft.htm" />
   <HelpKINode Title="TopRight property" Url="html/P_Cimbalino_Toolkit_Foundation_Rect_TopRight.htm" />
   <HelpKINode Title="ToQueryString method" Url="html/Overload_Cimbalino_Toolkit_Extensions_IDictionaryExtensions_ToQueryString.htm" />
+  <HelpKINode Title="ToQueue(Of TResult) method" Url="html/M_Cimbalino_Toolkit_Extensions_IEnumerableExtensions_ToQueue__1.htm" />
+  <HelpKINode Title="ToQueue&lt;TResult&gt; method" Url="html/M_Cimbalino_Toolkit_Extensions_IEnumerableExtensions_ToQueue__1.htm" />
+  <HelpKINode Title="ToStack(Of TResult) method" Url="html/M_Cimbalino_Toolkit_Extensions_IEnumerableExtensions_ToStack__1.htm" />
+  <HelpKINode Title="ToStack&lt;TResult&gt; method" Url="html/M_Cimbalino_Toolkit_Extensions_IEnumerableExtensions_ToStack__1.htm" />
   <HelpKINode Title="ToString method">
     <HelpKINode Title="ByteArrayExtensions.ToString Method " Url="html/M_Cimbalino_Toolkit_Extensions_ByteArrayExtensions_ToString.htm" />
     <HelpKINode Title="LocationServicePosition.ToString Method " Url="html/M_Cimbalino_Toolkit_Services_LocationServicePosition_ToString.htm" />
@@ -2977,6 +3473,7 @@
     <HelpKINode Title="ApplicationManifestBackgroundServiceAgentNode.Type Property " Url="html/P_Cimbalino_Toolkit_Helpers_ApplicationManifestBackgroundServiceAgentNode_Type.htm" />
     <HelpKINode Title="WindowsPhoneStoreServiceAppContentNode.Type Property " Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppContentNode_Type.htm" />
   </HelpKINode>
+  <HelpKINode Title="UniversalAppPlatform enumeration member" Url="html/T_Cimbalino_Toolkit_Services_RuntimeInformationServiceProfile.htm" />
   <HelpKINode Title="Unknown enumeration member" Url="html/T_Cimbalino_Toolkit_Services_ApplicationProfileServiceMode.htm" />
   <HelpKINode Title="Unknown field" Url="html/F_Cimbalino_Toolkit_Services_LocationServicePosition_Unknown.htm" />
   <HelpKINode Title="Update method">
