@@ -598,9 +598,18 @@
     <HelpKINode Title="INavigationService.CanGoForward Property " Url="html/P_Cimbalino_Toolkit_Services_INavigationService_CanGoForward.htm" />
     <HelpKINode Title="NavigationService.CanGoForward Property " Url="html/P_Cimbalino_Toolkit_Services_NavigationService_CanGoForward.htm" />
   </HelpKINode>
-  <HelpKINode Title="CanRead property" Url="html/P_Cimbalino_Toolkit_Helpers_ChunkedStream_CanRead.htm" />
-  <HelpKINode Title="CanSeek property" Url="html/P_Cimbalino_Toolkit_Helpers_ChunkedStream_CanSeek.htm" />
-  <HelpKINode Title="CanWrite property" Url="html/P_Cimbalino_Toolkit_Helpers_ChunkedStream_CanWrite.htm" />
+  <HelpKINode Title="CanRead property">
+    <HelpKINode Title="ChunkedStream.CanRead Property " Url="html/P_Cimbalino_Toolkit_Helpers_ChunkedStream_CanRead.htm" />
+    <HelpKINode Title="ZlibStream.CanRead Property " Url="html/P_Cimbalino_Toolkit_Compression_ZlibStream_CanRead.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CanSeek property">
+    <HelpKINode Title="ChunkedStream.CanSeek Property " Url="html/P_Cimbalino_Toolkit_Helpers_ChunkedStream_CanSeek.htm" />
+    <HelpKINode Title="ZlibStream.CanSeek Property " Url="html/P_Cimbalino_Toolkit_Compression_ZlibStream_CanSeek.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CanWrite property">
+    <HelpKINode Title="ChunkedStream.CanWrite Property " Url="html/P_Cimbalino_Toolkit_Helpers_ChunkedStream_CanWrite.htm" />
+    <HelpKINode Title="ZlibStream.CanWrite Property " Url="html/P_Cimbalino_Toolkit_Compression_ZlibStream_CanWrite.htm" />
+  </HelpKINode>
   <HelpKINode Title="Capabilities property">
     <HelpKINode Title="ApplicationManifestAppNode.Capabilities Property " Url="html/P_Cimbalino_Toolkit_Helpers_ApplicationManifestAppNode_Capabilities.htm" />
     <HelpKINode Title="WindowsPhoneStoreServiceAppCapabilitiesNode.Capabilities Property " Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppCapabilitiesNode_Capabilities.htm" />
@@ -655,6 +664,7 @@
   <HelpKINode Title="Cimbalino.Toolkit.Behaviors.UpdateTextBindingOnPropertyChanged class" Url="html/T_Cimbalino_Toolkit_Behaviors_UpdateTextBindingOnPropertyChanged.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Compression namespace" Url="html/N_Cimbalino_Toolkit_Compression.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Compression.Adler32 class" Url="html/T_Cimbalino_Toolkit_Compression_Adler32.htm" />
+  <HelpKINode Title="Cimbalino.Toolkit.Compression.CompressionLevel enumeration" Url="html/T_Cimbalino_Toolkit_Compression_CompressionLevel.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Compression.Crc32 class" Url="html/T_Cimbalino_Toolkit_Compression_Crc32.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Compression.ZlibStream class" Url="html/T_Cimbalino_Toolkit_Compression_ZlibStream.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Converters namespace" Url="html/N_Cimbalino_Toolkit_Converters.htm" />
@@ -676,9 +686,11 @@
   <HelpKINode Title="Cimbalino.Toolkit.Converters.ValueConverterBase class" Url="html/T_Cimbalino_Toolkit_Converters_ValueConverterBase.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Extensions namespace" Url="html/N_Cimbalino_Toolkit_Extensions.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Extensions.ByteArrayExtensions class" Url="html/T_Cimbalino_Toolkit_Extensions_ByteArrayExtensions.htm" />
+  <HelpKINode Title="Cimbalino.Toolkit.Extensions.CoreDispatcherExtensions class" Url="html/T_Cimbalino_Toolkit_Extensions_CoreDispatcherExtensions.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Extensions.DateTimeExtensions class" Url="html/T_Cimbalino_Toolkit_Extensions_DateTimeExtensions.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Extensions.DateTimeOffsetExtensions class" Url="html/T_Cimbalino_Toolkit_Extensions_DateTimeOffsetExtensions.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Extensions.DependencyObjectExtensions class" Url="html/T_Cimbalino_Toolkit_Extensions_DependencyObjectExtensions.htm" />
+  <HelpKINode Title="Cimbalino.Toolkit.Extensions.DispatcherExtensions class" Url="html/T_Cimbalino_Toolkit_Extensions_DispatcherExtensions.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Extensions.EventHandlerExtensions class" Url="html/T_Cimbalino_Toolkit_Extensions_EventHandlerExtensions.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Extensions.FrameworkElementExtensions class" Url="html/T_Cimbalino_Toolkit_Extensions_FrameworkElementExtensions.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Extensions.ICollectionExtensions class" Url="html/T_Cimbalino_Toolkit_Extensions_ICollectionExtensions.htm" />
@@ -731,6 +743,8 @@
   <HelpKINode Title="Cimbalino.Toolkit.Helpers.WeakAction&lt;T&gt; class" Url="html/T_Cimbalino_Toolkit_Helpers_WeakAction_1.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Helpers.WeakEventSubscription class" Url="html/T_Cimbalino_Toolkit_Helpers_WeakEventSubscription.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Helpers.WeakEventSubscription(Of T) class" Url="html/T_Cimbalino_Toolkit_Helpers_WeakEventSubscription_1.htm" />
+  <HelpKINode Title="Cimbalino.Toolkit.Helpers.WeakEventSubscription(Of T1, T2) class" Url="html/T_Cimbalino_Toolkit_Helpers_WeakEventSubscription_2.htm" />
+  <HelpKINode Title="Cimbalino.Toolkit.Helpers.WeakEventSubscription&lt;T1, T2&gt; class" Url="html/T_Cimbalino_Toolkit_Helpers_WeakEventSubscription_2.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Helpers.WeakEventSubscription&lt;T&gt; class" Url="html/T_Cimbalino_Toolkit_Helpers_WeakEventSubscription_1.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Helpers.WeakFunc(Of T, TResult) class" Url="html/T_Cimbalino_Toolkit_Helpers_WeakFunc_2.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Helpers.WeakFunc(Of TResult) class" Url="html/T_Cimbalino_Toolkit_Helpers_WeakFunc_1.htm" />
@@ -747,8 +761,14 @@
   <HelpKINode Title="Cimbalino.Toolkit.Services.DeviceStatusService class" Url="html/T_Cimbalino_Toolkit_Services_DeviceStatusService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.DeviceStatusServicePowerSource enumeration" Url="html/T_Cimbalino_Toolkit_Services_DeviceStatusServicePowerSource.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.DeviceStatusWithKeyboardService class" Url="html/T_Cimbalino_Toolkit_Services_DeviceStatusWithKeyboardService.htm" />
+  <HelpKINode Title="Cimbalino.Toolkit.Services.DispatcherService class" Url="html/T_Cimbalino_Toolkit_Services_DispatcherService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.DisplayPropertiesService class" Url="html/T_Cimbalino_Toolkit_Services_DisplayPropertiesService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.EmailComposeService class" Url="html/T_Cimbalino_Toolkit_Services_EmailComposeService.htm" />
+  <HelpKINode Title="Cimbalino.Toolkit.Services.FilePickerService class" Url="html/T_Cimbalino_Toolkit_Services_FilePickerService.htm" />
+  <HelpKINode Title="Cimbalino.Toolkit.Services.FilePickerServiceFileResult class" Url="html/T_Cimbalino_Toolkit_Services_FilePickerServiceFileResult.htm" />
+  <HelpKINode Title="Cimbalino.Toolkit.Services.FilePickerServiceLocationId enumeration" Url="html/T_Cimbalino_Toolkit_Services_FilePickerServiceLocationId.htm" />
+  <HelpKINode Title="Cimbalino.Toolkit.Services.FilePickerServiceOptions class" Url="html/T_Cimbalino_Toolkit_Services_FilePickerServiceOptions.htm" />
+  <HelpKINode Title="Cimbalino.Toolkit.Services.FilePickerServiceViewMode enumeration" Url="html/T_Cimbalino_Toolkit_Services_FilePickerServiceViewMode.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.IApplicationManifestService interface" Url="html/T_Cimbalino_Toolkit_Services_IApplicationManifestService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.IApplicationProfileService interface" Url="html/T_Cimbalino_Toolkit_Services_IApplicationProfileService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.IApplicationSettingsService interface" Url="html/T_Cimbalino_Toolkit_Services_IApplicationSettingsService.htm" />
@@ -756,8 +776,10 @@
   <HelpKINode Title="Cimbalino.Toolkit.Services.IClipboardService interface" Url="html/T_Cimbalino_Toolkit_Services_IClipboardService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.IDeviceSettingsService interface" Url="html/T_Cimbalino_Toolkit_Services_IDeviceSettingsService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.IDeviceStatusService interface" Url="html/T_Cimbalino_Toolkit_Services_IDeviceStatusService.htm" />
+  <HelpKINode Title="Cimbalino.Toolkit.Services.IDispatcherService interface" Url="html/T_Cimbalino_Toolkit_Services_IDispatcherService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.IDisplayPropertiesService interface" Url="html/T_Cimbalino_Toolkit_Services_IDisplayPropertiesService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.IEmailComposeService interface" Url="html/T_Cimbalino_Toolkit_Services_IEmailComposeService.htm" />
+  <HelpKINode Title="Cimbalino.Toolkit.Services.IFilePickerService interface" Url="html/T_Cimbalino_Toolkit_Services_IFilePickerService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.ILauncherService interface" Url="html/T_Cimbalino_Toolkit_Services_ILauncherService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.ILocationService interface" Url="html/T_Cimbalino_Toolkit_Services_ILocationService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.ILockScreenService interface" Url="html/T_Cimbalino_Toolkit_Services_ILockScreenService.htm" />
@@ -890,6 +912,7 @@
     <HelpKINode Title="ApplicationBarItemBase(T).CommandProperty Field" Url="html/F_Cimbalino_Toolkit_Behaviors_ApplicationBarItemBase_1_CommandProperty.htm" />
     <HelpKINode Title="EnterKeyBehavior.CommandProperty Field" Url="html/F_Cimbalino_Toolkit_Behaviors_EnterKeyBehavior_CommandProperty.htm" />
   </HelpKINode>
+  <HelpKINode Title="CompressionLevel enumeration" Url="html/T_Cimbalino_Toolkit_Compression_CompressionLevel.htm" />
   <HelpKINode Title="ComputeHash method">
     <HelpKINode Title="HashAlgorithmBase.ComputeHash Method " Url="html/Overload_System_Security_Cryptography_HashAlgorithmBase_ComputeHash.htm" />
     <HelpKINode Title="HmacHashAlgorithmBase.ComputeHash Method " Url="html/Overload_System_Security_Cryptography_HmacHashAlgorithmBase_ComputeHash.htm" />
@@ -909,6 +932,7 @@
     <HelpKINode Title="ByteArrayExtensions.ComputeMD5Hash Method " Url="html/Overload_Cimbalino_Toolkit_Extensions_ByteArrayExtensions_ComputeMD5Hash.htm" />
     <HelpKINode Title="StreamExtensions.ComputeMD5Hash Method " Url="html/M_Cimbalino_Toolkit_Extensions_StreamExtensions_ComputeMD5Hash.htm" />
   </HelpKINode>
+  <HelpKINode Title="ComputerFolder enumeration member" Url="html/T_Cimbalino_Toolkit_Services_FilePickerServiceLocationId.htm" />
   <HelpKINode Title="ComputeSHA1Hash method">
     <HelpKINode Title="ByteArrayExtensions.ComputeSHA1Hash Method " Url="html/Overload_Cimbalino_Toolkit_Extensions_ByteArrayExtensions_ComputeSHA1Hash.htm" />
     <HelpKINode Title="StreamExtensions.ComputeSHA1Hash Method " Url="html/M_Cimbalino_Toolkit_Extensions_StreamExtensions_ComputeSHA1Hash.htm" />
@@ -989,6 +1013,12 @@
     <HelpKINode Title="StorageServiceHandler.CopyFileAsync Method " Url="html/Overload_Cimbalino_Toolkit_Services_StorageServiceHandler_CopyFileAsync.htm" />
   </HelpKINode>
   <HelpKINode Title="Copyright property" Url="html/P_Cimbalino_Toolkit_Services_WindowsStoreServiceAppNode_Copyright.htm" />
+  <HelpKINode Title="CoreDispatcherExtensions class">
+    <HelpKINode Title="CoreDispatcherExtensions Class" Url="html/T_Cimbalino_Toolkit_Extensions_CoreDispatcherExtensions.htm" />
+    <HelpKINode Title="about CoreDispatcherExtensions class" Url="html/T_Cimbalino_Toolkit_Extensions_CoreDispatcherExtensions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Cimbalino_Toolkit_Extensions_CoreDispatcherExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CoreDispatcherExtensions.RunAndAwaitAsync method" Url="html/Overload_Cimbalino_Toolkit_Extensions_CoreDispatcherExtensions_RunAndAwaitAsync.htm" />
   <HelpKINode Title="Crc32 class">
     <HelpKINode Title="Crc32 Class" Url="html/T_Cimbalino_Toolkit_Compression_Crc32.htm" />
     <HelpKINode Title="about Crc32 class" Url="html/T_Cimbalino_Toolkit_Compression_Crc32.htm" />
@@ -1094,6 +1124,7 @@
     <HelpKINode Title="ILocationService.DesiredAccuracyInMeters Property " Url="html/P_Cimbalino_Toolkit_Services_ILocationService_DesiredAccuracyInMeters.htm" />
     <HelpKINode Title="LocationService.DesiredAccuracyInMeters Property " Url="html/P_Cimbalino_Toolkit_Services_LocationService_DesiredAccuracyInMeters.htm" />
   </HelpKINode>
+  <HelpKINode Title="Desktop enumeration member" Url="html/T_Cimbalino_Toolkit_Services_FilePickerServiceLocationId.htm" />
   <HelpKINode Title="Detach method" Url="html/M_Cimbalino_Toolkit_Behaviors_Behavior_Detach.htm" />
   <HelpKINode Title="DeveloperId property" Url="html/P_Cimbalino_Toolkit_Services_WindowsStoreServiceAppNode_DeveloperId.htm" />
   <HelpKINode Title="DeveloperName property" Url="html/P_Cimbalino_Toolkit_Services_WindowsStoreServiceAppNode_DeveloperName.htm" />
@@ -1202,6 +1233,20 @@
   </HelpKINode>
   <HelpKINode Title="Disabled enumeration member" Url="html/T_Cimbalino_Toolkit_Services_LocationServiceStatus.htm" />
   <HelpKINode Title="Disclosure property" Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppCapabilityNode_Disclosure.htm" />
+  <HelpKINode Title="DispatcherExtensions class">
+    <HelpKINode Title="DispatcherExtensions Class" Url="html/T_Cimbalino_Toolkit_Extensions_DispatcherExtensions.htm" />
+    <HelpKINode Title="about DispatcherExtensions class" Url="html/T_Cimbalino_Toolkit_Extensions_DispatcherExtensions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Cimbalino_Toolkit_Extensions_DispatcherExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DispatcherExtensions.RunAndAwaitAsync method" Url="html/Overload_Cimbalino_Toolkit_Extensions_DispatcherExtensions_RunAndAwaitAsync.htm" />
+  <HelpKINode Title="DispatcherService class">
+    <HelpKINode Title="DispatcherService Class" Url="html/T_Cimbalino_Toolkit_Services_DispatcherService.htm" />
+    <HelpKINode Title="about DispatcherService class" Url="html/T_Cimbalino_Toolkit_Services_DispatcherService.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Cimbalino_Toolkit_Services_DispatcherService__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Cimbalino_Toolkit_Services_DispatcherService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DispatcherService.DispatcherService constructor" Url="html/M_Cimbalino_Toolkit_Services_DispatcherService__ctor.htm" />
+  <HelpKINode Title="DispatcherService.InvokeOnUiThreadAsync method" Url="html/Overload_Cimbalino_Toolkit_Services_DispatcherService_InvokeOnUiThreadAsync.htm" />
   <HelpKINode Title="DisplayName property" Url="html/P_Cimbalino_Toolkit_Services_LauncherServiceAppInfo_DisplayName.htm" />
   <HelpKINode Title="DisplayPrice property" Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppOfferNode_DisplayPrice.htm" />
   <HelpKINode Title="DisplayPropertiesService class">
@@ -1223,11 +1268,14 @@
     <HelpKINode Title="ChunkedStream.Dispose Method " Url="html/Overload_Cimbalino_Toolkit_Helpers_ChunkedStream_Dispose.htm" />
     <HelpKINode Title="WeakAction.Dispose Method " Url="html/M_Cimbalino_Toolkit_Helpers_WeakAction_Dispose.htm" />
     <HelpKINode Title="WeakEventSubscription(T).Dispose Method " Url="html/M_Cimbalino_Toolkit_Helpers_WeakEventSubscription_1_Dispose.htm" />
+    <HelpKINode Title="WeakEventSubscription(T1, T2).Dispose Method " Url="html/M_Cimbalino_Toolkit_Helpers_WeakEventSubscription_2_Dispose.htm" />
     <HelpKINode Title="WeakEventSubscription.Dispose Method " Url="html/M_Cimbalino_Toolkit_Helpers_WeakEventSubscription_Dispose.htm" />
     <HelpKINode Title="WeakFunc(TResult).Dispose Method " Url="html/M_Cimbalino_Toolkit_Helpers_WeakFunc_1_Dispose.htm" />
     <HelpKINode Title="ZlibStream.Dispose Method " Url="html/Overload_Cimbalino_Toolkit_Compression_ZlibStream_Dispose.htm" />
   </HelpKINode>
+  <HelpKINode Title="DocumentsLibrary enumeration member" Url="html/T_Cimbalino_Toolkit_Services_FilePickerServiceLocationId.htm" />
   <HelpKINode Title="DoNothing enumeration member" Url="html/T_Cimbalino_Toolkit_Services_NavigationServiceBackKeyPressedBehavior.htm" />
+  <HelpKINode Title="Downloads enumeration member" Url="html/T_Cimbalino_Toolkit_Services_FilePickerServiceLocationId.htm" />
   <HelpKINode Title="EmailComposeService class">
     <HelpKINode Title="EmailComposeService Class" Url="html/T_Cimbalino_Toolkit_Services_EmailComposeService.htm" />
     <HelpKINode Title="about EmailComposeService class" Url="html/T_Cimbalino_Toolkit_Services_EmailComposeService.htm" />
@@ -1242,8 +1290,6 @@
   </HelpKINode>
   <HelpKINode Title="EndUserLicenseAgreement property" Url="html/P_Cimbalino_Toolkit_Services_WindowsStoreServiceAppNode_EndUserLicenseAgreement.htm" />
   <HelpKINode Title="EnsureInitialization method" Url="html/M_Cimbalino_Toolkit_Services_StatusBarService_EnsureInitialization.htm" />
-  <HelpKINode Title="EnsureMainFrame method" Url="html/M_Cimbalino_Toolkit_Services_NavigationService_EnsureMainFrame.htm" />
-  <HelpKINode Title="EnsureNavigationService method" Url="html/M_Cimbalino_Toolkit_Services_NavigationService_EnsureNavigationService.htm" />
   <HelpKINode Title="EnterKeyBehavior class">
     <HelpKINode Title="EnterKeyBehavior Class" Url="html/T_Cimbalino_Toolkit_Behaviors_EnterKeyBehavior.htm" />
     <HelpKINode Title="about EnterKeyBehavior class" Url="html/T_Cimbalino_Toolkit_Behaviors_EnterKeyBehavior.htm" />
@@ -1270,6 +1316,7 @@
   <HelpKINode Title="EventHandlerExtensions.SafeInvoke method" Url="html/Overload_Cimbalino_Toolkit_Extensions_EventHandlerExtensions_SafeInvoke.htm" />
   <HelpKINode Title="EventHandlerReference property">
     <HelpKINode Title="WeakEventSubscription(T).EventHandlerReference Property " Url="html/P_Cimbalino_Toolkit_Helpers_WeakEventSubscription_1_EventHandlerReference.htm" />
+    <HelpKINode Title="WeakEventSubscription(T1, T2).EventHandlerReference Property " Url="html/P_Cimbalino_Toolkit_Helpers_WeakEventSubscription_2_EventHandlerReference.htm" />
     <HelpKINode Title="WeakEventSubscription.EventHandlerReference Property " Url="html/P_Cimbalino_Toolkit_Helpers_WeakEventSubscription_EventHandlerReference.htm" />
   </HelpKINode>
   <HelpKINode Title="Exception property" Url="html/P_Cimbalino_Toolkit_Helpers_ObservableTaskBase_1_Exception.htm" />
@@ -1289,11 +1336,46 @@
   <HelpKINode Title="FalseValue property" Url="html/P_Cimbalino_Toolkit_Converters_BooleanToValueConverterBase_1_FalseValue.htm" />
   <HelpKINode Title="FalseValueProperty field" Url="html/F_Cimbalino_Toolkit_Converters_BooleanToValueConverterBase_1_FalseValueProperty.htm" />
   <HelpKINode Title="FamilyName property" Url="html/P_Cimbalino_Toolkit_Services_WindowsStoreServiceAppPackageNode_FamilyName.htm" />
+  <HelpKINode Title="Fastest enumeration member" Url="html/T_Cimbalino_Toolkit_Compression_CompressionLevel.htm" />
   <HelpKINode Title="Features property" Url="html/P_Cimbalino_Toolkit_Services_WindowsStoreServiceAppNode_Features.htm" />
   <HelpKINode Title="FileExistsAsync method">
     <HelpKINode Title="IStorageServiceHandler.FileExistsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IStorageServiceHandler_FileExistsAsync.htm" />
     <HelpKINode Title="StorageServiceHandler.FileExistsAsync Method " Url="html/M_Cimbalino_Toolkit_Services_StorageServiceHandler_FileExistsAsync.htm" />
   </HelpKINode>
+  <HelpKINode Title="FileName property" Url="html/P_Cimbalino_Toolkit_Services_FilePickerServiceFileResult_FileName.htm" />
+  <HelpKINode Title="FilePickerService class">
+    <HelpKINode Title="FilePickerService Class" Url="html/T_Cimbalino_Toolkit_Services_FilePickerService.htm" />
+    <HelpKINode Title="about FilePickerService class" Url="html/T_Cimbalino_Toolkit_Services_FilePickerService.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Cimbalino_Toolkit_Services_FilePickerService__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Cimbalino_Toolkit_Services_FilePickerService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FilePickerService.FilePickerService constructor" Url="html/M_Cimbalino_Toolkit_Services_FilePickerService__ctor.htm" />
+  <HelpKINode Title="FilePickerService.PickMultipleFilesAsync method" Url="html/M_Cimbalino_Toolkit_Services_FilePickerService_PickMultipleFilesAsync.htm" />
+  <HelpKINode Title="FilePickerService.PickSingleFileAsync method" Url="html/M_Cimbalino_Toolkit_Services_FilePickerService_PickSingleFileAsync.htm" />
+  <HelpKINode Title="FilePickerServiceFileResult class">
+    <HelpKINode Title="FilePickerServiceFileResult Class" Url="html/T_Cimbalino_Toolkit_Services_FilePickerServiceFileResult.htm" />
+    <HelpKINode Title="about FilePickerServiceFileResult class" Url="html/T_Cimbalino_Toolkit_Services_FilePickerServiceFileResult.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Cimbalino_Toolkit_Services_FilePickerServiceFileResult__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Cimbalino_Toolkit_Services_FilePickerServiceFileResult.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Cimbalino_Toolkit_Services_FilePickerServiceFileResult.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FilePickerServiceFileResult.FileName property" Url="html/P_Cimbalino_Toolkit_Services_FilePickerServiceFileResult_FileName.htm" />
+  <HelpKINode Title="FilePickerServiceFileResult.FilePickerServiceFileResult constructor" Url="html/Overload_Cimbalino_Toolkit_Services_FilePickerServiceFileResult__ctor.htm" />
+  <HelpKINode Title="FilePickerServiceFileResult.OpenStreamForReadAsync method" Url="html/M_Cimbalino_Toolkit_Services_FilePickerServiceFileResult_OpenStreamForReadAsync.htm" />
+  <HelpKINode Title="FilePickerServiceLocationId enumeration" Url="html/T_Cimbalino_Toolkit_Services_FilePickerServiceLocationId.htm" />
+  <HelpKINode Title="FilePickerServiceOptions class">
+    <HelpKINode Title="FilePickerServiceOptions Class" Url="html/T_Cimbalino_Toolkit_Services_FilePickerServiceOptions.htm" />
+    <HelpKINode Title="about FilePickerServiceOptions class" Url="html/T_Cimbalino_Toolkit_Services_FilePickerServiceOptions.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Cimbalino_Toolkit_Services_FilePickerServiceOptions__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Cimbalino_Toolkit_Services_FilePickerServiceOptions.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Cimbalino_Toolkit_Services_FilePickerServiceOptions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FilePickerServiceOptions.FilePickerServiceOptions constructor" Url="html/M_Cimbalino_Toolkit_Services_FilePickerServiceOptions__ctor.htm" />
+  <HelpKINode Title="FilePickerServiceOptions.FileTypeFilters property" Url="html/P_Cimbalino_Toolkit_Services_FilePickerServiceOptions_FileTypeFilters.htm" />
+  <HelpKINode Title="FilePickerServiceOptions.SuggestedStartLocation property" Url="html/P_Cimbalino_Toolkit_Services_FilePickerServiceOptions_SuggestedStartLocation.htm" />
+  <HelpKINode Title="FilePickerServiceOptions.ViewMode property" Url="html/P_Cimbalino_Toolkit_Services_FilePickerServiceOptions_ViewMode.htm" />
+  <HelpKINode Title="FilePickerServiceViewMode enumeration" Url="html/T_Cimbalino_Toolkit_Services_FilePickerServiceViewMode.htm" />
+  <HelpKINode Title="FileTypeFilters property" Url="html/P_Cimbalino_Toolkit_Services_FilePickerServiceOptions_FileTypeFilters.htm" />
   <HelpKINode Title="FindFileHandlersAsync method">
     <HelpKINode Title="ILauncherService.FindFileHandlersAsync Method " Url="html/M_Cimbalino_Toolkit_Services_ILauncherService_FindFileHandlersAsync.htm" />
     <HelpKINode Title="LauncherService.FindFileHandlersAsync Method " Url="html/M_Cimbalino_Toolkit_Services_LauncherService_FindFileHandlersAsync.htm" />
@@ -1303,7 +1385,10 @@
     <HelpKINode Title="LauncherService.FindUriSchemeHandlersAsync Method " Url="html/M_Cimbalino_Toolkit_Services_LauncherService_FindUriSchemeHandlersAsync.htm" />
   </HelpKINode>
   <HelpKINode Title="FiveStarRatings property" Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppRatingsDistributionsNode_FiveStarRatings.htm" />
-  <HelpKINode Title="Flush method" Url="html/M_Cimbalino_Toolkit_Helpers_ChunkedStream_Flush.htm" />
+  <HelpKINode Title="Flush method">
+    <HelpKINode Title="ChunkedStream.Flush Method " Url="html/M_Cimbalino_Toolkit_Helpers_ChunkedStream_Flush.htm" />
+    <HelpKINode Title="ZlibStream.Flush Method " Url="html/M_Cimbalino_Toolkit_Compression_ZlibStream_Flush.htm" />
+  </HelpKINode>
   <HelpKINode Title="ForegroundColor property">
     <HelpKINode Title="ApplicationBar.ForegroundColor Property " Url="html/P_Cimbalino_Toolkit_Behaviors_ApplicationBar_ForegroundColor.htm" />
     <HelpKINode Title="ApplicationBarBehavior.ForegroundColor Property " Url="html/P_Cimbalino_Toolkit_Behaviors_ApplicationBarBehavior_ForegroundColor.htm" />
@@ -1376,6 +1461,7 @@
     <HelpKINode Title="IStorageServiceHandler.GetFileNamesAsync Method " Url="html/Overload_Cimbalino_Toolkit_Services_IStorageServiceHandler_GetFileNamesAsync.htm" />
     <HelpKINode Title="StorageServiceHandler.GetFileNamesAsync Method " Url="html/Overload_Cimbalino_Toolkit_Services_StorageServiceHandler_GetFileNamesAsync.htm" />
   </HelpKINode>
+  <HelpKINode Title="GetFrame method" Url="html/M_Cimbalino_Toolkit_Services_NavigationService_GetFrame.htm" />
   <HelpKINode Title="GetHash method" Url="html/Overload_System_Security_Cryptography_MD5_GetHash.htm" />
   <HelpKINode Title="GetHashCode method" Url="html/M_Cimbalino_Toolkit_Services_LocationServicePosition_GetHashCode.htm" />
   <HelpKINode Title="GetHashString method" Url="html/Overload_System_Security_Cryptography_MD5_GetHashString.htm" />
@@ -1383,6 +1469,7 @@
     <HelpKINode Title="ClipboardService.GetHtmlAsync Method " Url="html/M_Cimbalino_Toolkit_Services_ClipboardService_GetHtmlAsync.htm" />
     <HelpKINode Title="IClipboardService.GetHtmlAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IClipboardService_GetHtmlAsync.htm" />
   </HelpKINode>
+  <HelpKINode Title="GetNavigationService method" Url="html/M_Cimbalino_Toolkit_Services_NavigationService_GetNavigationService.htm" />
   <HelpKINode Title="GetPositionAsync method">
     <HelpKINode Title="ILocationService.GetPositionAsync Method " Url="html/Overload_Cimbalino_Toolkit_Services_ILocationService_GetPositionAsync.htm" />
     <HelpKINode Title="LocationService.GetPositionAsync Method " Url="html/Overload_Cimbalino_Toolkit_Services_LocationService_GetPositionAsync.htm" />
@@ -1490,6 +1577,7 @@
     <HelpKINode Title="properties" Url="html/Properties_T_System_Security_Cryptography_HMACSHA256.htm" />
   </HelpKINode>
   <HelpKINode Title="HMACSHA256.HMACSHA256 constructor" Url="html/M_System_Security_Cryptography_HMACSHA256__ctor.htm" />
+  <HelpKINode Title="HomeGroup enumeration member" Url="html/T_Cimbalino_Toolkit_Services_FilePickerServiceLocationId.htm" />
   <HelpKINode Title="HubType property" Url="html/P_Cimbalino_Toolkit_Helpers_ApplicationManifestAppNode_HubType.htm" />
   <HelpKINode Title="IapCount property" Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppNode_IapCount.htm" />
   <HelpKINode Title="IApplicationManifestService interface">
@@ -1656,6 +1744,12 @@
   <HelpKINode Title="IDictionaryExtensions.SetValue(Of TKey, TValue) method" Url="html/M_Cimbalino_Toolkit_Extensions_IDictionaryExtensions_SetValue__2.htm" />
   <HelpKINode Title="IDictionaryExtensions.SetValue&lt;TKey, TValue&gt; method" Url="html/M_Cimbalino_Toolkit_Extensions_IDictionaryExtensions_SetValue__2.htm" />
   <HelpKINode Title="IDictionaryExtensions.ToQueryString method" Url="html/Overload_Cimbalino_Toolkit_Extensions_IDictionaryExtensions_ToQueryString.htm" />
+  <HelpKINode Title="IDispatcherService interface">
+    <HelpKINode Title="IDispatcherService Interface" Url="html/T_Cimbalino_Toolkit_Services_IDispatcherService.htm" />
+    <HelpKINode Title="about IDispatcherService interface" Url="html/T_Cimbalino_Toolkit_Services_IDispatcherService.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Cimbalino_Toolkit_Services_IDispatcherService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IDispatcherService.InvokeOnUiThreadAsync method" Url="html/Overload_Cimbalino_Toolkit_Services_IDispatcherService_InvokeOnUiThreadAsync.htm" />
   <HelpKINode Title="IDisplayPropertiesService interface">
     <HelpKINode Title="IDisplayPropertiesService Interface" Url="html/T_Cimbalino_Toolkit_Services_IDisplayPropertiesService.htm" />
     <HelpKINode Title="about IDisplayPropertiesService interface" Url="html/T_Cimbalino_Toolkit_Services_IDisplayPropertiesService.htm" />
@@ -1703,6 +1797,13 @@
   <HelpKINode Title="IEnumerableExtensions.ToQueue&lt;TResult&gt; method" Url="html/M_Cimbalino_Toolkit_Extensions_IEnumerableExtensions_ToQueue__1.htm" />
   <HelpKINode Title="IEnumerableExtensions.ToStack(Of TResult) method" Url="html/M_Cimbalino_Toolkit_Extensions_IEnumerableExtensions_ToStack__1.htm" />
   <HelpKINode Title="IEnumerableExtensions.ToStack&lt;TResult&gt; method" Url="html/M_Cimbalino_Toolkit_Extensions_IEnumerableExtensions_ToStack__1.htm" />
+  <HelpKINode Title="IFilePickerService interface">
+    <HelpKINode Title="IFilePickerService Interface" Url="html/T_Cimbalino_Toolkit_Services_IFilePickerService.htm" />
+    <HelpKINode Title="about IFilePickerService interface" Url="html/T_Cimbalino_Toolkit_Services_IFilePickerService.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Cimbalino_Toolkit_Services_IFilePickerService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IFilePickerService.PickMultipleFilesAsync method" Url="html/M_Cimbalino_Toolkit_Services_IFilePickerService_PickMultipleFilesAsync.htm" />
+  <HelpKINode Title="IFilePickerService.PickSingleFileAsync method" Url="html/M_Cimbalino_Toolkit_Services_IFilePickerService_PickSingleFileAsync.htm" />
   <HelpKINode Title="IFormattableExtensions class">
     <HelpKINode Title="IFormattableExtensions Class" Url="html/T_Cimbalino_Toolkit_Extensions_IFormattableExtensions.htm" />
     <HelpKINode Title="about IFormattableExtensions class" Url="html/T_Cimbalino_Toolkit_Extensions_IFormattableExtensions.htm" />
@@ -1774,6 +1875,7 @@
   <HelpKINode Title="INavigationService.Navigate method" Url="html/Overload_Cimbalino_Toolkit_Services_INavigationService_Navigate.htm" />
   <HelpKINode Title="INavigationService.Navigated event" Url="html/E_Cimbalino_Toolkit_Services_INavigationService_Navigated.htm" />
   <HelpKINode Title="INavigationService.QueryString property" Url="html/P_Cimbalino_Toolkit_Services_INavigationService_QueryString.htm" />
+  <HelpKINode Title="INavigationService.RegisterFrame method" Url="html/M_Cimbalino_Toolkit_Services_INavigationService_RegisterFrame.htm" />
   <HelpKINode Title="INavigationService.RemoveBackEntry method" Url="html/M_Cimbalino_Toolkit_Services_INavigationService_RemoveBackEntry.htm" />
   <HelpKINode Title="Inequality operator" Url="html/M_Cimbalino_Toolkit_Services_LocationServicePosition_op_Inequality.htm" />
   <HelpKINode Title="INetworkInformationService interface">
@@ -1807,6 +1909,10 @@
     <HelpKINode Title="StringToVisibilityConverter.InvertValueProperty Field" Url="html/F_Cimbalino_Toolkit_Converters_StringToVisibilityConverter_InvertValueProperty.htm" />
   </HelpKINode>
   <HelpKINode Title="InvokeMethod method" Url="html/Overload_Cimbalino_Toolkit_Extensions_ObjectExtensions_InvokeMethod.htm" />
+  <HelpKINode Title="InvokeOnUiThreadAsync method">
+    <HelpKINode Title="DispatcherService.InvokeOnUiThreadAsync Method " Url="html/Overload_Cimbalino_Toolkit_Services_DispatcherService_InvokeOnUiThreadAsync.htm" />
+    <HelpKINode Title="IDispatcherService.InvokeOnUiThreadAsync Method " Url="html/Overload_Cimbalino_Toolkit_Services_IDispatcherService_InvokeOnUiThreadAsync.htm" />
+  </HelpKINode>
   <HelpKINode Title="IPersonalizationService interface">
     <HelpKINode Title="IPersonalizationService Interface" Url="html/T_Cimbalino_Toolkit_Services_IPersonalizationService.htm" />
     <HelpKINode Title="about IPersonalizationService interface" Url="html/T_Cimbalino_Toolkit_Services_IPersonalizationService.htm" />
@@ -1833,6 +1939,7 @@
     <HelpKINode Title="WeakAction(T).IsAlive Property " Url="html/P_Cimbalino_Toolkit_Helpers_WeakAction_1_IsAlive.htm" />
     <HelpKINode Title="WeakAction.IsAlive Property " Url="html/P_Cimbalino_Toolkit_Helpers_WeakAction_IsAlive.htm" />
     <HelpKINode Title="WeakEventSubscription(T).IsAlive Property " Url="html/P_Cimbalino_Toolkit_Helpers_WeakEventSubscription_1_IsAlive.htm" />
+    <HelpKINode Title="WeakEventSubscription(T1, T2).IsAlive Property " Url="html/P_Cimbalino_Toolkit_Helpers_WeakEventSubscription_2_IsAlive.htm" />
     <HelpKINode Title="WeakEventSubscription.IsAlive Property " Url="html/P_Cimbalino_Toolkit_Helpers_WeakEventSubscription_IsAlive.htm" />
     <HelpKINode Title="WeakFunc(T, TResult).IsAlive Property " Url="html/P_Cimbalino_Toolkit_Helpers_WeakFunc_2_IsAlive.htm" />
     <HelpKINode Title="WeakFunc(TResult).IsAlive Property " Url="html/P_Cimbalino_Toolkit_Helpers_WeakFunc_1_IsAlive.htm" />
@@ -2067,8 +2174,12 @@
   <HelpKINode Title="LegacyApplicationSettingsServiceHandler.Remove method" Url="html/M_Cimbalino_Toolkit_Services_LegacyApplicationSettingsServiceHandler_Remove.htm" />
   <HelpKINode Title="LegacyApplicationSettingsServiceHandler.Set(Of T) method" Url="html/M_Cimbalino_Toolkit_Services_LegacyApplicationSettingsServiceHandler_Set__1.htm" />
   <HelpKINode Title="LegacyApplicationSettingsServiceHandler.Set&lt;T&gt; method" Url="html/M_Cimbalino_Toolkit_Services_LegacyApplicationSettingsServiceHandler_Set__1.htm" />
-  <HelpKINode Title="Length property" Url="html/P_Cimbalino_Toolkit_Helpers_ChunkedStream_Length.htm" />
+  <HelpKINode Title="Length property">
+    <HelpKINode Title="ChunkedStream.Length Property " Url="html/P_Cimbalino_Toolkit_Helpers_ChunkedStream_Length.htm" />
+    <HelpKINode Title="ZlibStream.Length Property " Url="html/P_Cimbalino_Toolkit_Compression_ZlibStream_Length.htm" />
+  </HelpKINode>
   <HelpKINode Title="LicenseRight property" Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppOfferNode_LicenseRight.htm" />
+  <HelpKINode Title="List enumeration member" Url="html/T_Cimbalino_Toolkit_Services_FilePickerServiceViewMode.htm" />
   <HelpKINode Title="Local enumeration member" Url="html/T_Cimbalino_Toolkit_Services_StorageServiceStorageType.htm" />
   <HelpKINode Title="Local property">
     <HelpKINode Title="ApplicationSettingsService.Local Property " Url="html/P_Cimbalino_Toolkit_Services_ApplicationSettingsService_Local.htm" />
@@ -2222,6 +2333,7 @@
   <HelpKINode Title="Method property">
     <HelpKINode Title="WeakAction.Method Property " Url="html/P_Cimbalino_Toolkit_Helpers_WeakAction_Method.htm" />
     <HelpKINode Title="WeakEventSubscription(T).Method Property " Url="html/P_Cimbalino_Toolkit_Helpers_WeakEventSubscription_1_Method.htm" />
+    <HelpKINode Title="WeakEventSubscription(T1, T2).Method Property " Url="html/P_Cimbalino_Toolkit_Helpers_WeakEventSubscription_2_Method.htm" />
     <HelpKINode Title="WeakEventSubscription.Method Property " Url="html/P_Cimbalino_Toolkit_Helpers_WeakEventSubscription_Method.htm" />
     <HelpKINode Title="WeakFunc(TResult).Method Property " Url="html/P_Cimbalino_Toolkit_Helpers_WeakFunc_1_Method.htm" />
   </HelpKINode>
@@ -2329,6 +2441,7 @@
   <HelpKINode Title="MultiValueConverterBase.Convert method" Url="html/M_Cimbalino_Toolkit_Converters_MultiValueConverterBase_Convert.htm" />
   <HelpKINode Title="MultiValueConverterBase.ConvertBack method" Url="html/M_Cimbalino_Toolkit_Converters_MultiValueConverterBase_ConvertBack.htm" />
   <HelpKINode Title="MultiValueConverterBase.MultiValueConverterBase constructor" Url="html/M_Cimbalino_Toolkit_Converters_MultiValueConverterBase__ctor.htm" />
+  <HelpKINode Title="MusicLibrary enumeration member" Url="html/T_Cimbalino_Toolkit_Services_FilePickerServiceLocationId.htm" />
   <HelpKINode Title="Name property">
     <HelpKINode Title="ApplicationManifestBackgroundServiceAgentNode.Name Property " Url="html/P_Cimbalino_Toolkit_Helpers_ApplicationManifestBackgroundServiceAgentNode_Name.htm" />
     <HelpKINode Title="ApplicationManifestNamedNode.Name Property " Url="html/P_Cimbalino_Toolkit_Helpers_ApplicationManifestNamedNode_Name.htm" />
@@ -2369,8 +2482,8 @@
   <HelpKINode Title="NavigationService.CanGoForward property" Url="html/P_Cimbalino_Toolkit_Services_NavigationService_CanGoForward.htm" />
   <HelpKINode Title="NavigationService.CurrentParameter property" Url="html/P_Cimbalino_Toolkit_Services_NavigationService_CurrentParameter.htm" />
   <HelpKINode Title="NavigationService.CurrentSource property" Url="html/P_Cimbalino_Toolkit_Services_NavigationService_CurrentSource.htm" />
-  <HelpKINode Title="NavigationService.EnsureMainFrame method" Url="html/M_Cimbalino_Toolkit_Services_NavigationService_EnsureMainFrame.htm" />
-  <HelpKINode Title="NavigationService.EnsureNavigationService method" Url="html/M_Cimbalino_Toolkit_Services_NavigationService_EnsureNavigationService.htm" />
+  <HelpKINode Title="NavigationService.GetFrame method" Url="html/M_Cimbalino_Toolkit_Services_NavigationService_GetFrame.htm" />
+  <HelpKINode Title="NavigationService.GetNavigationService method" Url="html/M_Cimbalino_Toolkit_Services_NavigationService_GetNavigationService.htm" />
   <HelpKINode Title="NavigationService.GoBack method" Url="html/M_Cimbalino_Toolkit_Services_NavigationService_GoBack.htm" />
   <HelpKINode Title="NavigationService.GoForward method" Url="html/M_Cimbalino_Toolkit_Services_NavigationService_GoForward.htm" />
   <HelpKINode Title="NavigationService.Navigate method" Url="html/Overload_Cimbalino_Toolkit_Services_NavigationService_Navigate.htm" />
@@ -2379,6 +2492,7 @@
   <HelpKINode Title="NavigationService.QueryString property" Url="html/P_Cimbalino_Toolkit_Services_NavigationService_QueryString.htm" />
   <HelpKINode Title="NavigationService.RaiseBackKeyPressed method" Url="html/M_Cimbalino_Toolkit_Services_NavigationService_RaiseBackKeyPressed.htm" />
   <HelpKINode Title="NavigationService.RaiseNavigated method" Url="html/M_Cimbalino_Toolkit_Services_NavigationService_RaiseNavigated.htm" />
+  <HelpKINode Title="NavigationService.RegisterFrame method" Url="html/Overload_Cimbalino_Toolkit_Services_NavigationService_RegisterFrame.htm" />
   <HelpKINode Title="NavigationService.RemoveBackEntry method" Url="html/M_Cimbalino_Toolkit_Services_NavigationService_RemoveBackEntry.htm" />
   <HelpKINode Title="NavigationServiceBackKeyPressedBehavior enumeration" Url="html/T_Cimbalino_Toolkit_Services_NavigationServiceBackKeyPressedBehavior.htm" />
   <HelpKINode Title="NavigationServiceBackKeyPressedEventArgs class">
@@ -2416,6 +2530,7 @@
     <HelpKINode Title="INetworkInformationService.NetworkStatusChanged Event" Url="html/E_Cimbalino_Toolkit_Services_INetworkInformationService_NetworkStatusChanged.htm" />
     <HelpKINode Title="NetworkInformationService.NetworkStatusChanged Event" Url="html/E_Cimbalino_Toolkit_Services_NetworkInformationService_NetworkStatusChanged.htm" />
   </HelpKINode>
+  <HelpKINode Title="NoCompression enumeration member" Url="html/T_Cimbalino_Toolkit_Compression_CompressionLevel.htm" />
   <HelpKINode Title="NoData enumeration member" Url="html/T_Cimbalino_Toolkit_Services_LocationServiceStatus.htm" />
   <HelpKINode Title="NotAvailable enumeration member" Url="html/T_Cimbalino_Toolkit_Services_LocationServiceStatus.htm" />
   <HelpKINode Title="NotInitialized enumeration member" Url="html/T_Cimbalino_Toolkit_Services_LocationServiceStatus.htm" />
@@ -2443,6 +2558,7 @@
   <HelpKINode Title="ObjectExtensions.RemoveEventHandler method" Url="html/M_Cimbalino_Toolkit_Extensions_ObjectExtensions_RemoveEventHandler.htm" />
   <HelpKINode Title="ObjectExtensions.SetPropertyValue(Of TObject) method" Url="html/M_Cimbalino_Toolkit_Extensions_ObjectExtensions_SetPropertyValue__1.htm" />
   <HelpKINode Title="ObjectExtensions.SetPropertyValue&lt;TObject&gt; method" Url="html/M_Cimbalino_Toolkit_Extensions_ObjectExtensions_SetPropertyValue__1.htm" />
+  <HelpKINode Title="Objects3D enumeration member" Url="html/T_Cimbalino_Toolkit_Services_FilePickerServiceLocationId.htm" />
   <HelpKINode Title="ObservableBase class">
     <HelpKINode Title="ObservableBase Class" Url="html/T_Cimbalino_Toolkit_Helpers_ObservableBase.htm" />
     <HelpKINode Title="about ObservableBase class" Url="html/T_Cimbalino_Toolkit_Helpers_ObservableBase.htm" />
@@ -2473,6 +2589,7 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Cimbalino_Toolkit_Helpers_ObservableTask_1.htm" />
   </HelpKINode>
   <HelpKINode Title="ObservableTask(Of T).ObservableTask constructor" Url="html/M_Cimbalino_Toolkit_Helpers_ObservableTask_1__ctor.htm" />
+  <HelpKINode Title="ObservableTask(Of T).Result property" Url="html/P_Cimbalino_Toolkit_Helpers_ObservableTask_1_Result.htm" />
   <HelpKINode Title="ObservableTask.ObservableTask constructor" Url="html/M_Cimbalino_Toolkit_Helpers_ObservableTask__ctor.htm" />
   <HelpKINode Title="ObservableTask&lt;T&gt; class">
     <HelpKINode Title="ObservableTask(T) Class" Url="html/T_Cimbalino_Toolkit_Helpers_ObservableTask_1.htm" />
@@ -2483,6 +2600,7 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Cimbalino_Toolkit_Helpers_ObservableTask_1.htm" />
   </HelpKINode>
   <HelpKINode Title="ObservableTask&lt;T&gt;.ObservableTask constructor" Url="html/M_Cimbalino_Toolkit_Helpers_ObservableTask_1__ctor.htm" />
+  <HelpKINode Title="ObservableTask&lt;T&gt;.Result property" Url="html/P_Cimbalino_Toolkit_Helpers_ObservableTask_1_Result.htm" />
   <HelpKINode Title="ObservableTaskBase(Of T) class">
     <HelpKINode Title="ObservableTaskBase(T) Class" Url="html/T_Cimbalino_Toolkit_Helpers_ObservableTaskBase_1.htm" />
     <HelpKINode Title="about ObservableTaskBase(Of T) class" Url="html/T_Cimbalino_Toolkit_Helpers_ObservableTaskBase_1.htm" />
@@ -2571,6 +2689,8 @@
     <HelpKINode Title="IStorageServiceHandler.OpenFileForReadAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IStorageServiceHandler_OpenFileForReadAsync.htm" />
     <HelpKINode Title="StorageServiceHandler.OpenFileForReadAsync Method " Url="html/M_Cimbalino_Toolkit_Services_StorageServiceHandler_OpenFileForReadAsync.htm" />
   </HelpKINode>
+  <HelpKINode Title="OpenStreamForReadAsync method" Url="html/M_Cimbalino_Toolkit_Services_FilePickerServiceFileResult_OpenStreamForReadAsync.htm" />
+  <HelpKINode Title="Optimal enumeration member" Url="html/T_Cimbalino_Toolkit_Compression_CompressionLevel.htm" />
   <HelpKINode Title="OptimizedObservableCollection(Of T) class">
     <HelpKINode Title="OptimizedObservableCollection(T) Class" Url="html/T_Cimbalino_Toolkit_Helpers_OptimizedObservableCollection_1.htm" />
     <HelpKINode Title="about OptimizedObservableCollection(Of T) class" Url="html/T_Cimbalino_Toolkit_Helpers_OptimizedObservableCollection_1.htm" />
@@ -2640,6 +2760,15 @@
     <HelpKINode Title="DisplayPropertiesService.PhysicalBounds Property " Url="html/P_Cimbalino_Toolkit_Services_DisplayPropertiesService_PhysicalBounds.htm" />
     <HelpKINode Title="IDisplayPropertiesService.PhysicalBounds Property " Url="html/P_Cimbalino_Toolkit_Services_IDisplayPropertiesService_PhysicalBounds.htm" />
   </HelpKINode>
+  <HelpKINode Title="PickMultipleFilesAsync method">
+    <HelpKINode Title="FilePickerService.PickMultipleFilesAsync Method " Url="html/M_Cimbalino_Toolkit_Services_FilePickerService_PickMultipleFilesAsync.htm" />
+    <HelpKINode Title="IFilePickerService.PickMultipleFilesAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IFilePickerService_PickMultipleFilesAsync.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PickSingleFileAsync method">
+    <HelpKINode Title="FilePickerService.PickSingleFileAsync Method " Url="html/M_Cimbalino_Toolkit_Services_FilePickerService_PickSingleFileAsync.htm" />
+    <HelpKINode Title="IFilePickerService.PickSingleFileAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IFilePickerService_PickSingleFileAsync.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PicturesLibrary enumeration member" Url="html/T_Cimbalino_Toolkit_Services_FilePickerServiceLocationId.htm" />
   <HelpKINode Title="Point structure">
     <HelpKINode Title="Point Structure" Url="html/T_Cimbalino_Toolkit_Foundation_Point.htm" />
     <HelpKINode Title="about Point structure" Url="html/T_Cimbalino_Toolkit_Foundation_Point.htm" />
@@ -2653,6 +2782,7 @@
   <HelpKINode Title="Position property">
     <HelpKINode Title="ChunkedStream.Position Property " Url="html/P_Cimbalino_Toolkit_Helpers_ChunkedStream_Position.htm" />
     <HelpKINode Title="LocationServicePositionChangedEventArgs.Position Property " Url="html/P_Cimbalino_Toolkit_Services_LocationServicePositionChangedEventArgs_Position.htm" />
+    <HelpKINode Title="ZlibStream.Position Property " Url="html/P_Cimbalino_Toolkit_Compression_ZlibStream_Position.htm" />
   </HelpKINode>
   <HelpKINode Title="PositionChanged event">
     <HelpKINode Title="ILocationService.PositionChanged Event" Url="html/E_Cimbalino_Toolkit_Services_ILocationService_PositionChanged.htm" />
@@ -2725,7 +2855,10 @@
     <HelpKINode Title="DisplayPropertiesService.RawPixelsPerViewPixel Property " Url="html/P_Cimbalino_Toolkit_Services_DisplayPropertiesService_RawPixelsPerViewPixel.htm" />
     <HelpKINode Title="IDisplayPropertiesService.RawPixelsPerViewPixel Property " Url="html/P_Cimbalino_Toolkit_Services_IDisplayPropertiesService_RawPixelsPerViewPixel.htm" />
   </HelpKINode>
-  <HelpKINode Title="Read method" Url="html/M_Cimbalino_Toolkit_Helpers_ChunkedStream_Read.htm" />
+  <HelpKINode Title="Read method">
+    <HelpKINode Title="ChunkedStream.Read Method " Url="html/M_Cimbalino_Toolkit_Helpers_ChunkedStream_Read.htm" />
+    <HelpKINode Title="ZlibStream.Read Method " Url="html/M_Cimbalino_Toolkit_Compression_ZlibStream_Read.htm" />
+  </HelpKINode>
   <HelpKINode Title="ReadAllBytesAsync method">
     <HelpKINode Title="IStorageServiceHandler.ReadAllBytesAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IStorageServiceHandler_ReadAllBytesAsync.htm" />
     <HelpKINode Title="StorageServiceHandler.ReadAllBytesAsync Method " Url="html/M_Cimbalino_Toolkit_Services_StorageServiceHandler_ReadAllBytesAsync.htm" />
@@ -2774,6 +2907,7 @@
   <HelpKINode Title="Reference property">
     <HelpKINode Title="WeakAction.Reference Property " Url="html/P_Cimbalino_Toolkit_Helpers_WeakAction_Reference.htm" />
     <HelpKINode Title="WeakEventSubscription(T).Reference Property " Url="html/P_Cimbalino_Toolkit_Helpers_WeakEventSubscription_1_Reference.htm" />
+    <HelpKINode Title="WeakEventSubscription(T1, T2).Reference Property " Url="html/P_Cimbalino_Toolkit_Helpers_WeakEventSubscription_2_Reference.htm" />
     <HelpKINode Title="WeakEventSubscription.Reference Property " Url="html/P_Cimbalino_Toolkit_Helpers_WeakEventSubscription_Reference.htm" />
     <HelpKINode Title="WeakFunc(TResult).Reference Property " Url="html/P_Cimbalino_Toolkit_Helpers_WeakFunc_1_Reference.htm" />
   </HelpKINode>
@@ -2781,6 +2915,10 @@
   <HelpKINode Title="RegexMatch method" Url="html/Overload_Cimbalino_Toolkit_Extensions_StringExtensions_RegexMatch.htm" />
   <HelpKINode Title="RegexMatches method" Url="html/Overload_Cimbalino_Toolkit_Extensions_StringExtensions_RegexMatches.htm" />
   <HelpKINode Title="RegexReplace method" Url="html/Overload_Cimbalino_Toolkit_Extensions_StringExtensions_RegexReplace.htm" />
+  <HelpKINode Title="RegisterFrame method">
+    <HelpKINode Title="INavigationService.RegisterFrame Method " Url="html/M_Cimbalino_Toolkit_Services_INavigationService_RegisterFrame.htm" />
+    <HelpKINode Title="NavigationService.RegisterFrame Method " Url="html/Overload_Cimbalino_Toolkit_Services_NavigationService_RegisterFrame.htm" />
+  </HelpKINode>
   <HelpKINode Title="ReleaseDate property" Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppNode_ReleaseDate.htm" />
   <HelpKINode Title="ReleaseId property" Url="html/P_Cimbalino_Toolkit_Services_WindowsStoreServiceAppPackageNode_ReleaseId.htm" />
   <HelpKINode Title="RemainingChargePercent property">
@@ -2822,6 +2960,7 @@
   <HelpKINode Title="Required property" Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppHwCapabilityNode_Required.htm" />
   <HelpKINode Title="Requirements property" Url="html/P_Cimbalino_Toolkit_Helpers_ApplicationManifestAppNode_Requirements.htm" />
   <HelpKINode Title="RequirementType property" Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppHwCapabilityNode_RequirementType.htm" />
+  <HelpKINode Title="Result property" Url="html/P_Cimbalino_Toolkit_Helpers_ObservableTask_1_Result.htm" />
   <HelpKINode Title="ReviewAsync method">
     <HelpKINode Title="IStoreService.ReviewAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IStoreService_ReviewAsync.htm" />
     <HelpKINode Title="StoreService.ReviewAsync Method " Url="html/M_Cimbalino_Toolkit_Services_StoreService_ReviewAsync.htm" />
@@ -2834,6 +2973,10 @@
     <HelpKINode Title="IApplicationSettingsService.Roaming Property " Url="html/P_Cimbalino_Toolkit_Services_IApplicationSettingsService_Roaming.htm" />
     <HelpKINode Title="IStorageService.Roaming Property " Url="html/P_Cimbalino_Toolkit_Services_IStorageService_Roaming.htm" />
     <HelpKINode Title="StorageService.Roaming Property " Url="html/P_Cimbalino_Toolkit_Services_StorageService_Roaming.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RunAndAwaitAsync method">
+    <HelpKINode Title="CoreDispatcherExtensions.RunAndAwaitAsync Method " Url="html/Overload_Cimbalino_Toolkit_Extensions_CoreDispatcherExtensions_RunAndAwaitAsync.htm" />
+    <HelpKINode Title="DispatcherExtensions.RunAndAwaitAsync Method " Url="html/Overload_Cimbalino_Toolkit_Extensions_DispatcherExtensions_RunAndAwaitAsync.htm" />
   </HelpKINode>
   <HelpKINode Title="RuntimeInformationService class">
     <HelpKINode Title="RuntimeInformationService Class" Url="html/T_Cimbalino_Toolkit_Services_RuntimeInformationService.htm" />
@@ -2880,7 +3023,10 @@
     <HelpKINode Title="IStoreService.SearchAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IStoreService_SearchAsync.htm" />
     <HelpKINode Title="StoreService.SearchAsync Method " Url="html/M_Cimbalino_Toolkit_Services_StoreService_SearchAsync.htm" />
   </HelpKINode>
-  <HelpKINode Title="Seek method" Url="html/M_Cimbalino_Toolkit_Helpers_ChunkedStream_Seek.htm" />
+  <HelpKINode Title="Seek method">
+    <HelpKINode Title="ChunkedStream.Seek Method " Url="html/M_Cimbalino_Toolkit_Helpers_ChunkedStream_Seek.htm" />
+    <HelpKINode Title="ZlibStream.Seek Method " Url="html/M_Cimbalino_Toolkit_Compression_ZlibStream_Seek.htm" />
+  </HelpKINode>
   <HelpKINode Title="SelectAllOnFocus property" Url="html/P_Cimbalino_Toolkit_Behaviors_AutoFocusBehavior_SelectAllOnFocus.htm" />
   <HelpKINode Title="SelectAllOnFocusProperty field" Url="html/F_Cimbalino_Toolkit_Behaviors_AutoFocusBehavior_SelectAllOnFocusProperty.htm" />
   <HelpKINode Title="SelectedIndex property" Url="html/P_Cimbalino_Toolkit_Behaviors_MultiApplicationBarBehavior_SelectedIndex.htm" />
@@ -2909,7 +3055,10 @@
     <HelpKINode Title="ClipboardService.SetHtml Method " Url="html/M_Cimbalino_Toolkit_Services_ClipboardService_SetHtml.htm" />
     <HelpKINode Title="IClipboardService.SetHtml Method " Url="html/M_Cimbalino_Toolkit_Services_IClipboardService_SetHtml.htm" />
   </HelpKINode>
-  <HelpKINode Title="SetLength method" Url="html/M_Cimbalino_Toolkit_Helpers_ChunkedStream_SetLength.htm" />
+  <HelpKINode Title="SetLength method">
+    <HelpKINode Title="ChunkedStream.SetLength Method " Url="html/M_Cimbalino_Toolkit_Helpers_ChunkedStream_SetLength.htm" />
+    <HelpKINode Title="ZlibStream.SetLength Method " Url="html/M_Cimbalino_Toolkit_Compression_ZlibStream_SetLength.htm" />
+  </HelpKINode>
   <HelpKINode Title="SetLockScreenAsync method">
     <HelpKINode Title="ILockScreenService.SetLockScreenAsync Method " Url="html/Overload_Cimbalino_Toolkit_Services_ILockScreenService_SetLockScreenAsync.htm" />
     <HelpKINode Title="LockScreenService.SetLockScreenAsync Method " Url="html/Overload_Cimbalino_Toolkit_Services_LockScreenService_SetLockScreenAsync.htm" />
@@ -3366,6 +3515,7 @@
   <HelpKINode Title="StringToVisibilityConverter.InvertValueProperty field" Url="html/F_Cimbalino_Toolkit_Converters_StringToVisibilityConverter_InvertValueProperty.htm" />
   <HelpKINode Title="StringToVisibilityConverter.StringToVisibilityConverter constructor" Url="html/M_Cimbalino_Toolkit_Converters_StringToVisibilityConverter__ctor.htm" />
   <HelpKINode Title="SubCategory property" Url="html/P_Cimbalino_Toolkit_Services_WindowsStoreServiceAppPackageNode_SubCategory.htm" />
+  <HelpKINode Title="SuggestedStartLocation property" Url="html/P_Cimbalino_Toolkit_Services_FilePickerServiceOptions_SuggestedStartLocation.htm" />
   <HelpKINode Title="SupportedArchitectures property" Url="html/P_Cimbalino_Toolkit_Services_WindowsStoreServiceAppNode_SupportedArchitectures.htm" />
   <HelpKINode Title="SupportedLanguages property">
     <HelpKINode Title="WindowsPhoneStoreServiceAppEntryNode.SupportedLanguages Property " Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppEntryNode_SupportedLanguages.htm" />
@@ -3401,6 +3551,7 @@
   <HelpKINode Title="TextProperty field" Url="html/F_Cimbalino_Toolkit_Behaviors_ApplicationBarItemBase_1_TextProperty.htm" />
   <HelpKINode Title="ThreeStarRatings property" Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppRatingsDistributionsNode_ThreeStarRatings.htm" />
   <HelpKINode Title="ThrowNotSupportedExceptions property" Url="html/P_Cimbalino_Toolkit_Helpers_DebugOptions_ThrowNotSupportedExceptions.htm" />
+  <HelpKINode Title="Thumbnail enumeration member" Url="html/T_Cimbalino_Toolkit_Services_FilePickerServiceViewMode.htm" />
   <HelpKINode Title="Times method">
     <HelpKINode Title="IntExtensions.Times Method " Url="html/Overload_Cimbalino_Toolkit_Extensions_IntExtensions_Times.htm" />
     <HelpKINode Title="StringExtensions.Times Method " Url="html/M_Cimbalino_Toolkit_Extensions_StringExtensions_Times.htm" />
@@ -3476,6 +3627,7 @@
   <HelpKINode Title="UniversalAppPlatform enumeration member" Url="html/T_Cimbalino_Toolkit_Services_RuntimeInformationServiceProfile.htm" />
   <HelpKINode Title="Unknown enumeration member" Url="html/T_Cimbalino_Toolkit_Services_ApplicationProfileServiceMode.htm" />
   <HelpKINode Title="Unknown field" Url="html/F_Cimbalino_Toolkit_Services_LocationServicePosition_Unknown.htm" />
+  <HelpKINode Title="Unspecified enumeration member" Url="html/T_Cimbalino_Toolkit_Services_FilePickerServiceLocationId.htm" />
   <HelpKINode Title="Update method">
     <HelpKINode Title="Adler32.Update Method " Url="html/M_Cimbalino_Toolkit_Compression_Adler32_Update.htm" />
     <HelpKINode Title="Crc32.Update Method " Url="html/M_Cimbalino_Toolkit_Compression_Crc32_Update.htm" />
@@ -3568,6 +3720,8 @@
   <HelpKINode Title="VibrationService.Cancel method" Url="html/M_Cimbalino_Toolkit_Services_VibrationService_Cancel.htm" />
   <HelpKINode Title="VibrationService.Vibrate method" Url="html/Overload_Cimbalino_Toolkit_Services_VibrationService_Vibrate.htm" />
   <HelpKINode Title="VibrationService.VibrationService constructor" Url="html/M_Cimbalino_Toolkit_Services_VibrationService__ctor.htm" />
+  <HelpKINode Title="VideosLibrary enumeration member" Url="html/T_Cimbalino_Toolkit_Services_FilePickerServiceLocationId.htm" />
+  <HelpKINode Title="ViewMode property" Url="html/P_Cimbalino_Toolkit_Services_FilePickerServiceOptions_ViewMode.htm" />
   <HelpKINode Title="VisibilityStatus property" Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppNode_VisibilityStatus.htm" />
   <HelpKINode Title="WeakAction class">
     <HelpKINode Title="WeakAction Class" Url="html/T_Cimbalino_Toolkit_Helpers_WeakAction.htm" />
@@ -3623,12 +3777,38 @@
   <HelpKINode Title="WeakEventSubscription(Of T).Method property" Url="html/P_Cimbalino_Toolkit_Helpers_WeakEventSubscription_1_Method.htm" />
   <HelpKINode Title="WeakEventSubscription(Of T).Reference property" Url="html/P_Cimbalino_Toolkit_Helpers_WeakEventSubscription_1_Reference.htm" />
   <HelpKINode Title="WeakEventSubscription(Of T).WeakEventSubscription constructor" Url="html/Overload_Cimbalino_Toolkit_Helpers_WeakEventSubscription_1__ctor.htm" />
+  <HelpKINode Title="WeakEventSubscription(Of T1, T2) class">
+    <HelpKINode Title="WeakEventSubscription(T1, T2) Class" Url="html/T_Cimbalino_Toolkit_Helpers_WeakEventSubscription_2.htm" />
+    <HelpKINode Title="about WeakEventSubscription(Of T1, T2) class" Url="html/T_Cimbalino_Toolkit_Helpers_WeakEventSubscription_2.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Cimbalino_Toolkit_Helpers_WeakEventSubscription_2__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Cimbalino_Toolkit_Helpers_WeakEventSubscription_2.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Cimbalino_Toolkit_Helpers_WeakEventSubscription_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WeakEventSubscription(Of T1, T2).Dispose method" Url="html/M_Cimbalino_Toolkit_Helpers_WeakEventSubscription_2_Dispose.htm" />
+  <HelpKINode Title="WeakEventSubscription(Of T1, T2).EventHandlerReference property" Url="html/P_Cimbalino_Toolkit_Helpers_WeakEventSubscription_2_EventHandlerReference.htm" />
+  <HelpKINode Title="WeakEventSubscription(Of T1, T2).IsAlive property" Url="html/P_Cimbalino_Toolkit_Helpers_WeakEventSubscription_2_IsAlive.htm" />
+  <HelpKINode Title="WeakEventSubscription(Of T1, T2).Method property" Url="html/P_Cimbalino_Toolkit_Helpers_WeakEventSubscription_2_Method.htm" />
+  <HelpKINode Title="WeakEventSubscription(Of T1, T2).Reference property" Url="html/P_Cimbalino_Toolkit_Helpers_WeakEventSubscription_2_Reference.htm" />
+  <HelpKINode Title="WeakEventSubscription(Of T1, T2).WeakEventSubscription constructor" Url="html/Overload_Cimbalino_Toolkit_Helpers_WeakEventSubscription_2__ctor.htm" />
   <HelpKINode Title="WeakEventSubscription.Dispose method" Url="html/M_Cimbalino_Toolkit_Helpers_WeakEventSubscription_Dispose.htm" />
   <HelpKINode Title="WeakEventSubscription.EventHandlerReference property" Url="html/P_Cimbalino_Toolkit_Helpers_WeakEventSubscription_EventHandlerReference.htm" />
   <HelpKINode Title="WeakEventSubscription.IsAlive property" Url="html/P_Cimbalino_Toolkit_Helpers_WeakEventSubscription_IsAlive.htm" />
   <HelpKINode Title="WeakEventSubscription.Method property" Url="html/P_Cimbalino_Toolkit_Helpers_WeakEventSubscription_Method.htm" />
   <HelpKINode Title="WeakEventSubscription.Reference property" Url="html/P_Cimbalino_Toolkit_Helpers_WeakEventSubscription_Reference.htm" />
   <HelpKINode Title="WeakEventSubscription.WeakEventSubscription constructor" Url="html/Overload_Cimbalino_Toolkit_Helpers_WeakEventSubscription__ctor.htm" />
+  <HelpKINode Title="WeakEventSubscription&lt;T1, T2&gt; class">
+    <HelpKINode Title="WeakEventSubscription(T1, T2) Class" Url="html/T_Cimbalino_Toolkit_Helpers_WeakEventSubscription_2.htm" />
+    <HelpKINode Title="about WeakEventSubscription&lt;T1, T2&gt; class" Url="html/T_Cimbalino_Toolkit_Helpers_WeakEventSubscription_2.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Cimbalino_Toolkit_Helpers_WeakEventSubscription_2__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Cimbalino_Toolkit_Helpers_WeakEventSubscription_2.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Cimbalino_Toolkit_Helpers_WeakEventSubscription_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WeakEventSubscription&lt;T1, T2&gt;.Dispose method" Url="html/M_Cimbalino_Toolkit_Helpers_WeakEventSubscription_2_Dispose.htm" />
+  <HelpKINode Title="WeakEventSubscription&lt;T1, T2&gt;.EventHandlerReference property" Url="html/P_Cimbalino_Toolkit_Helpers_WeakEventSubscription_2_EventHandlerReference.htm" />
+  <HelpKINode Title="WeakEventSubscription&lt;T1, T2&gt;.IsAlive property" Url="html/P_Cimbalino_Toolkit_Helpers_WeakEventSubscription_2_IsAlive.htm" />
+  <HelpKINode Title="WeakEventSubscription&lt;T1, T2&gt;.Method property" Url="html/P_Cimbalino_Toolkit_Helpers_WeakEventSubscription_2_Method.htm" />
+  <HelpKINode Title="WeakEventSubscription&lt;T1, T2&gt;.Reference property" Url="html/P_Cimbalino_Toolkit_Helpers_WeakEventSubscription_2_Reference.htm" />
+  <HelpKINode Title="WeakEventSubscription&lt;T1, T2&gt;.WeakEventSubscription constructor" Url="html/Overload_Cimbalino_Toolkit_Helpers_WeakEventSubscription_2__ctor.htm" />
   <HelpKINode Title="WeakEventSubscription&lt;T&gt; class">
     <HelpKINode Title="WeakEventSubscription(T) Class" Url="html/T_Cimbalino_Toolkit_Helpers_WeakEventSubscription_1.htm" />
     <HelpKINode Title="about WeakEventSubscription&lt;T&gt; class" Url="html/T_Cimbalino_Toolkit_Helpers_WeakEventSubscription_1.htm" />
@@ -4001,7 +4181,16 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Cimbalino_Toolkit_Compression_ZlibStream.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Cimbalino_Toolkit_Compression_ZlibStream.htm" />
   </HelpKINode>
+  <HelpKINode Title="ZlibStream.CanRead property" Url="html/P_Cimbalino_Toolkit_Compression_ZlibStream_CanRead.htm" />
+  <HelpKINode Title="ZlibStream.CanSeek property" Url="html/P_Cimbalino_Toolkit_Compression_ZlibStream_CanSeek.htm" />
+  <HelpKINode Title="ZlibStream.CanWrite property" Url="html/P_Cimbalino_Toolkit_Compression_ZlibStream_CanWrite.htm" />
   <HelpKINode Title="ZlibStream.Dispose method" Url="html/Overload_Cimbalino_Toolkit_Compression_ZlibStream_Dispose.htm" />
+  <HelpKINode Title="ZlibStream.Flush method" Url="html/M_Cimbalino_Toolkit_Compression_ZlibStream_Flush.htm" />
+  <HelpKINode Title="ZlibStream.Length property" Url="html/P_Cimbalino_Toolkit_Compression_ZlibStream_Length.htm" />
+  <HelpKINode Title="ZlibStream.Position property" Url="html/P_Cimbalino_Toolkit_Compression_ZlibStream_Position.htm" />
+  <HelpKINode Title="ZlibStream.Read method" Url="html/M_Cimbalino_Toolkit_Compression_ZlibStream_Read.htm" />
+  <HelpKINode Title="ZlibStream.Seek method" Url="html/M_Cimbalino_Toolkit_Compression_ZlibStream_Seek.htm" />
+  <HelpKINode Title="ZlibStream.SetLength method" Url="html/M_Cimbalino_Toolkit_Compression_ZlibStream_SetLength.htm" />
   <HelpKINode Title="ZlibStream.Write method" Url="html/M_Cimbalino_Toolkit_Compression_ZlibStream_Write.htm" />
   <HelpKINode Title="ZlibStream.ZlibStream constructor" Url="html/Overload_Cimbalino_Toolkit_Compression_ZlibStream__ctor.htm" />
 </HelpKI>

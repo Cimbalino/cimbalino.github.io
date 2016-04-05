@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2015.10.10.0" projectFile="D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\doc.shfbproj" started="07/11/2015 19:39:05">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2015.10.10.0" projectFile="C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\doc.shfbproj" started="05/04/2016 14:23:10">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
 Locating components in the following folder(s):
-    D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc
+    C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc
     C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins\
     C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\
 Framework reflection data location: C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETPortable
@@ -20,12 +20,12 @@ Clearing any prior web/markdown output...
 </buildStep>
 <buildStep step="ValidatingDocumentationSources">
 Validating and copying documentation source information
-Source: D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\bin\binaries\Cimbalino.Toolkit.Core\portable-net45+wp8+win8+wpa81\Cimbalino.Toolkit.Core.dll
-    Found assembly &#39;D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\bin\binaries\Cimbalino.Toolkit.Core\portable-net45+wp8+win8+wpa81\Cimbalino.Toolkit.Core.dll&#39;
-Source: D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\bin\binaries\Cimbalino.Toolkit.Core\portable-net45+wp8+win8+wpa81\Cimbalino.Toolkit.Core.xml
+Source: C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\bin\binaries\Cimbalino.Toolkit.Core\portable-net45+wp8+win8+wpa81\Cimbalino.Toolkit.Core.dll
+    Found assembly &#39;C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\bin\binaries\Cimbalino.Toolkit.Core\portable-net45+wp8+win8+wpa81\Cimbalino.Toolkit.Core.dll&#39;
+Source: C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\bin\binaries\Cimbalino.Toolkit.Core\portable-net45+wp8+win8+wpa81\Cimbalino.Toolkit.Core.xml
 
 Copying XML comments files
-    D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\bin\binaries\Cimbalino.Toolkit.Core\portable-net45+wp8+win8+wpa81\Cimbalino.Toolkit.Core.xml -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Cimbalino.Toolkit.Core.xml
+    C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\bin\binaries\Cimbalino.Toolkit.Core\portable-net45+wp8+win8+wpa81\Cimbalino.Toolkit.Core.xml -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Cimbalino.Toolkit.Core.xml
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
@@ -33,17 +33,17 @@ Generating shared content files (en-US, English (United States))...
 Removing standard version information items from shared content file
 Adding version information items from plug-in settings
 </plugIn><plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00,0640
+</plugIn>    Last step completed in 00:00:00,0530
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00,0160
+    Last step completed in 00:00:00,0155
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - GenerateRefInfo.proj]
-Build started 07/11/2015 19:39:07.
-Project &quot;D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
+Build started 05/04/2016 14:23:12.
+Project &quot;C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
 GenerateRefInfo:
@@ -51,19 +51,19 @@ GenerateRefInfo:
   Copyright &#184; 2006-2015, Microsoft Corporation, All Rights Reserved.
   Portions Copyright &#184; 2006-2015, Eric Woodruff, All Rights Reserved.
   Loaded 1 assemblies for reflection and 0 dependency assemblies.
-  Wrote information on 5 namespaces, 105 types, and 658 members
+  Wrote information on 5 namespaces, 112 types, and 699 members
   Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
   XslTransform (v2015.10.10.0)
   Copyright &#184; 2006-2015, Microsoft Corporation, All Rights Reserved.
   Portions Copyright &#184; 2006-2015, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddXamlSyntaxData.xsl&#39;.
-Done Building Project &quot;D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\GenerateRefInfo.proj&quot; (default targets).
+Done Building Project &quot;C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\GenerateRefInfo.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.43
-    Last step completed in 00:00:01,6620
+Time Elapsed 00:00:02.87
+    Last step completed in 00:00:03,4436
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
@@ -71,7 +71,7 @@ Transforming reflection output...
 
 Performing partial builds on prior version projects
 
-Building D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\doc-win81.shfbproj
+Building C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\doc-win81.shfbproj
 Initializing
 ValidatingDocumentationSources
 GenerateSharedContent
@@ -79,7 +79,7 @@ GenerateApiFilter
 GenerateReflectionInfo
 Completed
 
-Building D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\doc-uap10.0.shfbproj
+Building C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\doc-uap10.0.shfbproj
 Initializing
 ValidatingDocumentationSources
 GenerateSharedContent
@@ -87,7 +87,7 @@ GenerateApiFilter
 GenerateReflectionInfo
 Completed
 
-Building D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\doc-wpa81.shfbproj
+Building C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\doc-wpa81.shfbproj
 Initializing
 ValidatingDocumentationSources
 GenerateSharedContent
@@ -95,7 +95,15 @@ GenerateApiFilter
 GenerateReflectionInfo
 Completed
 
-Building D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\doc-wp8.shfbproj
+Building C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\doc-wp81.shfbproj
+Initializing
+ValidatingDocumentationSources
+GenerateSharedContent
+GenerateApiFilter
+GenerateReflectionInfo
+Completed
+
+Building C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\doc-wp8.shfbproj
 Initializing
 ValidatingDocumentationSources
 GenerateSharedContent
@@ -105,8 +113,8 @@ Completed
 Creating Version Builder configuration file
 Adding Version Builder parameters to TransformManifest.proj
 </plugIn>[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - TransformManifest.proj]
-Build started 07/11/2015 19:39:18.
-Project &quot;D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
+Build started 05/04/2016 14:23:37.
+Project &quot;C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   VersionBuilder (v2015.10.10.0)
   Copyright &#184; 2006-2015, Microsoft Corporation, All Rights Reserved.
@@ -115,8 +123,9 @@ TransformManifest:
   Indexing version &#39;SHFB_VBPI_9C8469DE&#39; using file &#39;B4C4A8BC.ver&#39;.
   Indexing version &#39;SHFB_VBPI_30FB07FC&#39; using file &#39;15EBC1D6.ver&#39;.
   Indexing version &#39;SHFB_VBPI_5CEEC5E6&#39; using file &#39;7D8CD304.ver&#39;.
+  Indexing version &#39;SHFB_VBPI_23B692DD&#39; using file &#39;1648387D.ver&#39;.
   Indexing version &#39;SHFB_VBPI_23B692DE&#39; using file &#39;73A0C3E2.ver&#39;.
-  Indexed 1374 entities in 5 versions.
+  Indexed 1465 entities in 6 versions.
   XslTransform (v2015.10.10.0)
   Copyright &#184; 2006-2015, Microsoft Corporation, All Rights Reserved.
   Portions Copyright &#184; 2006-2015, Eric Woodruff, All Rights Reserved.
@@ -126,9 +135,7 @@ TransformManifest:
   Copyright &#184; 2006-2015, Microsoft Corporation, All Rights Reserved.
   Portions Copyright &#184; 2006-2015, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddFilenames.xsl&#39;.
-    Unique name M_Cimbalino_Toolkit_Compression_ZlibStream__ctor_1 generated for M:Cimbalino.Toolkit.Compression.ZlibStream.#ctor(System.IO.Stream,System.IO.Compression.CompressionLevel,System.Boolean)
-    Unique name M_Cimbalino_Toolkit_Compression_ZlibStream__ctor_2 generated for M:Cimbalino.Toolkit.Compression.ZlibStream.#ctor(System.IO.Stream,System.IO.Compression.CompressionMode)
-    Unique name M_Cimbalino_Toolkit_Compression_ZlibStream__ctor_3 generated for M:Cimbalino.Toolkit.Compression.ZlibStream.#ctor(System.IO.Stream,System.IO.Compression.CompressionMode,System.Boolean)
+    Unique name M_Cimbalino_Toolkit_Compression_ZlibStream__ctor_1 generated for M:Cimbalino.Toolkit.Compression.ZlibStream.#ctor(System.IO.Stream,Cimbalino.Toolkit.Compression.CompressionLevel,System.Boolean)
     Unique name M_Cimbalino_Toolkit_Extensions_ByteArrayExtensions_ComputeHMACMD5Hash_1 generated for M:Cimbalino.Toolkit.Extensions.ByteArrayExtensions.ComputeHMACMD5Hash(System.Byte[],System.Byte[],System.Int32,System.Int32)
     Unique name M_Cimbalino_Toolkit_Extensions_ByteArrayExtensions_ComputeHMACSHA1Hash_1 generated for M:Cimbalino.Toolkit.Extensions.ByteArrayExtensions.ComputeHMACSHA1Hash(System.Byte[],System.Byte[],System.Int32,System.Int32)
     Unique name M_Cimbalino_Toolkit_Extensions_ByteArrayExtensions_ComputeHMACSHA256Hash_1 generated for M:Cimbalino.Toolkit.Extensions.ByteArrayExtensions.ComputeHMACSHA256Hash(System.Byte[],System.Byte[],System.Int32,System.Int32)
@@ -168,6 +175,12 @@ TransformManifest:
     Unique name M_Cimbalino_Toolkit_Helpers_WeakFunc_2__ctor_1 generated for M:Cimbalino.Toolkit.Helpers.WeakFunc`2.#ctor(System.Object,System.Func{`0,`1})
     Unique name M_Cimbalino_Toolkit_Helpers_WeakFunc_2_Execute_1 generated for M:Cimbalino.Toolkit.Helpers.WeakFunc`2.Execute(`0)
     Unique name M_Cimbalino_Toolkit_Services_IApplicationSettingsServiceHandler_Get__1_1 generated for M:Cimbalino.Toolkit.Services.IApplicationSettingsServiceHandler.Get``1(System.String,``0)
+    Unique name M_Cimbalino_Toolkit_Services_IDispatcherService_InvokeOnUiThreadAsync_1 generated for M:Cimbalino.Toolkit.Services.IDispatcherService.InvokeOnUiThreadAsync(System.Action,System.Boolean)
+    Unique name M_Cimbalino_Toolkit_Services_IDispatcherService_InvokeOnUiThreadAsync__1_1 generated for M:Cimbalino.Toolkit.Services.IDispatcherService.InvokeOnUiThreadAsync``1(System.Func{System.Threading.Tasks.Task{``0}},System.Boolean)
+    Unique name M_Cimbalino_Toolkit_Services_IDispatcherService_InvokeOnUiThreadAsync_2 generated for M:Cimbalino.Toolkit.Services.IDispatcherService.InvokeOnUiThreadAsync(System.Func{System.Threading.Tasks.Task})
+    Unique name M_Cimbalino_Toolkit_Services_IDispatcherService_InvokeOnUiThreadAsync_3 generated for M:Cimbalino.Toolkit.Services.IDispatcherService.InvokeOnUiThreadAsync(System.Func{System.Threading.Tasks.Task},System.Boolean)
+    Unique name M_Cimbalino_Toolkit_Services_IDispatcherService_InvokeOnUiThreadAsync__1_2 generated for M:Cimbalino.Toolkit.Services.IDispatcherService.InvokeOnUiThreadAsync``1(System.Func{``0})
+    Unique name M_Cimbalino_Toolkit_Services_IDispatcherService_InvokeOnUiThreadAsync__1_3 generated for M:Cimbalino.Toolkit.Services.IDispatcherService.InvokeOnUiThreadAsync``1(System.Func{``0},System.Boolean)
     Unique name M_Cimbalino_Toolkit_Services_IEmailComposeService_ShowAsync_1 generated for M:Cimbalino.Toolkit.Services.IEmailComposeService.ShowAsync(System.String,System.String,System.String)
     Unique name M_Cimbalino_Toolkit_Services_IEmailComposeService_ShowAsync_2 generated for M:Cimbalino.Toolkit.Services.IEmailComposeService.ShowAsync(System.String,System.String,System.String,System.String,System.String)
     Unique name M_Cimbalino_Toolkit_Services_ILauncherService_LaunchUriAsync_1 generated for M:Cimbalino.Toolkit.Services.ILauncherService.LaunchUriAsync(System.Uri)
@@ -204,9 +217,27 @@ TransformManifest:
     Unique name M_Cimbalino_Toolkit_Services_LauncherServiceAppInfo__ctor_1 generated for M:Cimbalino.Toolkit.Services.LauncherServiceAppInfo.#ctor(System.String,System.String,System.String,System.String,System.String)
     Unique name M_Cimbalino_Toolkit_Services_LocationServicePosition__ctor_1 generated for M:Cimbalino.Toolkit.Services.LocationServicePosition.#ctor(System.DateTimeOffset,System.Double,System.Double,System.Double,System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double})
     Unique name M_Cimbalino_Toolkit_Services_LocationServicePosition_Equals_1 generated for M:Cimbalino.Toolkit.Services.LocationServicePosition.Equals(System.Object)
+    Unique name M_Cimbalino_Toolkit_Extensions_CoreDispatcherExtensions_RunAndAwaitAsync_1 generated for M:Cimbalino.Toolkit.Extensions.CoreDispatcherExtensions.RunAndAwaitAsync(Windows.UI.Core.CoreDispatcher,System.Func{System.Threading.Tasks.Task})
+    Unique name M_Cimbalino_Toolkit_Extensions_CoreDispatcherExtensions_RunAndAwaitAsync__1_1 generated for M:Cimbalino.Toolkit.Extensions.CoreDispatcherExtensions.RunAndAwaitAsync``1(Windows.UI.Core.CoreDispatcher,System.Func{``0})
+    Unique name M_Cimbalino_Toolkit_Extensions_CoreDispatcherExtensions_RunAndAwaitAsync_2 generated for M:Cimbalino.Toolkit.Extensions.CoreDispatcherExtensions.RunAndAwaitAsync(Windows.UI.Core.CoreDispatcher,System.Func{Windows.Foundation.IAsyncAction})
+    Unique name M_Cimbalino_Toolkit_Extensions_CoreDispatcherExtensions_RunAndAwaitAsync__1_2 generated for M:Cimbalino.Toolkit.Extensions.CoreDispatcherExtensions.RunAndAwaitAsync``1(Windows.UI.Core.CoreDispatcher,System.Func{Windows.Foundation.IAsyncOperation{``0}})
+    Unique name M_Cimbalino_Toolkit_Extensions_CoreDispatcherExtensions_RunAndAwaitAsync_3 generated for M:Cimbalino.Toolkit.Extensions.CoreDispatcherExtensions.RunAndAwaitAsync(Windows.UI.Core.CoreDispatcher,Windows.UI.Core.CoreDispatcherPriority,System.Action)
+    Unique name M_Cimbalino_Toolkit_Extensions_CoreDispatcherExtensions_RunAndAwaitAsync__1_3 generated for M:Cimbalino.Toolkit.Extensions.CoreDispatcherExtensions.RunAndAwaitAsync``1(Windows.UI.Core.CoreDispatcher,Windows.UI.Core.CoreDispatcherPriority,System.Func{System.Threading.Tasks.Task{``0}})
+    Unique name M_Cimbalino_Toolkit_Extensions_CoreDispatcherExtensions_RunAndAwaitAsync_4 generated for M:Cimbalino.Toolkit.Extensions.CoreDispatcherExtensions.RunAndAwaitAsync(Windows.UI.Core.CoreDispatcher,Windows.UI.Core.CoreDispatcherPriority,System.Func{System.Threading.Tasks.Task})
+    Unique name M_Cimbalino_Toolkit_Extensions_CoreDispatcherExtensions_RunAndAwaitAsync__1_4 generated for M:Cimbalino.Toolkit.Extensions.CoreDispatcherExtensions.RunAndAwaitAsync``1(Windows.UI.Core.CoreDispatcher,Windows.UI.Core.CoreDispatcherPriority,System.Func{``0})
+    Unique name M_Cimbalino_Toolkit_Extensions_CoreDispatcherExtensions_RunAndAwaitAsync_5 generated for M:Cimbalino.Toolkit.Extensions.CoreDispatcherExtensions.RunAndAwaitAsync(Windows.UI.Core.CoreDispatcher,Windows.UI.Core.CoreDispatcherPriority,System.Func{Windows.Foundation.IAsyncAction})
+    Unique name M_Cimbalino_Toolkit_Extensions_CoreDispatcherExtensions_RunAndAwaitAsync__1_5 generated for M:Cimbalino.Toolkit.Extensions.CoreDispatcherExtensions.RunAndAwaitAsync``1(Windows.UI.Core.CoreDispatcher,Windows.UI.Core.CoreDispatcherPriority,System.Func{Windows.Foundation.IAsyncOperation{``0}})
+    Unique name M_Cimbalino_Toolkit_Helpers_WeakEventSubscription_2__ctor_1 generated for M:Cimbalino.Toolkit.Helpers.WeakEventSubscription`2.#ctor(Windows.Foundation.TypedEventHandler{`0,`1},System.Action{Windows.Foundation.TypedEventHandler{`0,`1}},System.Action{Windows.Foundation.TypedEventHandler{`0,`1}})
     Unique name M_Cimbalino_Toolkit_Services_ApplicationSettingsServiceHandler_Get__1_1 generated for M:Cimbalino.Toolkit.Services.ApplicationSettingsServiceHandler.Get``1(System.String,``0)
+    Unique name M_Cimbalino_Toolkit_Services_DispatcherService_InvokeOnUiThreadAsync_1 generated for M:Cimbalino.Toolkit.Services.DispatcherService.InvokeOnUiThreadAsync(System.Action,System.Boolean)
+    Unique name M_Cimbalino_Toolkit_Services_DispatcherService_InvokeOnUiThreadAsync__1_1 generated for M:Cimbalino.Toolkit.Services.DispatcherService.InvokeOnUiThreadAsync``1(System.Func{System.Threading.Tasks.Task{``0}},System.Boolean)
+    Unique name M_Cimbalino_Toolkit_Services_DispatcherService_InvokeOnUiThreadAsync_2 generated for M:Cimbalino.Toolkit.Services.DispatcherService.InvokeOnUiThreadAsync(System.Func{System.Threading.Tasks.Task})
+    Unique name M_Cimbalino_Toolkit_Services_DispatcherService_InvokeOnUiThreadAsync_3 generated for M:Cimbalino.Toolkit.Services.DispatcherService.InvokeOnUiThreadAsync(System.Func{System.Threading.Tasks.Task},System.Boolean)
+    Unique name M_Cimbalino_Toolkit_Services_DispatcherService_InvokeOnUiThreadAsync__1_2 generated for M:Cimbalino.Toolkit.Services.DispatcherService.InvokeOnUiThreadAsync``1(System.Func{``0})
+    Unique name M_Cimbalino_Toolkit_Services_DispatcherService_InvokeOnUiThreadAsync__1_3 generated for M:Cimbalino.Toolkit.Services.DispatcherService.InvokeOnUiThreadAsync``1(System.Func{``0},System.Boolean)
     Unique name M_Cimbalino_Toolkit_Services_EmailComposeService_ShowAsync_1 generated for M:Cimbalino.Toolkit.Services.EmailComposeService.ShowAsync(System.String,System.String,System.String)
     Unique name M_Cimbalino_Toolkit_Services_EmailComposeService_ShowAsync_2 generated for M:Cimbalino.Toolkit.Services.EmailComposeService.ShowAsync(System.String,System.String,System.String,System.String,System.String)
+    Unique name M_Cimbalino_Toolkit_Services_FilePickerServiceFileResult__ctor_1 generated for M:Cimbalino.Toolkit.Services.FilePickerServiceFileResult.#ctor(Windows.Storage.StorageFile)
     Unique name M_Cimbalino_Toolkit_Services_LauncherService_LaunchUriAsync_1 generated for M:Cimbalino.Toolkit.Services.LauncherService.LaunchUriAsync(System.Uri)
     Unique name M_Cimbalino_Toolkit_Services_LocationService_GetPositionAsync_1 generated for M:Cimbalino.Toolkit.Services.LocationService.GetPositionAsync(Cimbalino.Toolkit.Services.LocationServiceAccuracy)
     Unique name M_Cimbalino_Toolkit_Services_LocationService_GetPositionAsync_2 generated for M:Cimbalino.Toolkit.Services.LocationService.GetPositionAsync(Cimbalino.Toolkit.Services.LocationServiceAccuracy,System.TimeSpan,System.TimeSpan)
@@ -249,10 +280,13 @@ TransformManifest:
     Unique name M_Cimbalino_Toolkit_Extensions_DependencyObjectExtensions_GetVisualDescendents_1 generated for M:Cimbalino.Toolkit.Extensions.DependencyObjectExtensions.GetVisualDescendents(System.Windows.DependencyObject)
     Unique name M_Cimbalino_Toolkit_Extensions_DependencyObjectExtensions_GetVisualDescendents__1_1 generated for M:Cimbalino.Toolkit.Extensions.DependencyObjectExtensions.GetVisualDescendents``1(System.Windows.DependencyObject)
     Unique name M_Cimbalino_Toolkit_Extensions_DependencyObjectExtensions_GetVisualParent_1 generated for M:Cimbalino.Toolkit.Extensions.DependencyObjectExtensions.GetVisualParent(System.Windows.DependencyObject)
+    Unique name M_Cimbalino_Toolkit_Extensions_DispatcherExtensions_RunAndAwaitAsync_1 generated for M:Cimbalino.Toolkit.Extensions.DispatcherExtensions.RunAndAwaitAsync(System.Windows.Threading.Dispatcher,System.Func{System.Threading.Tasks.Task})
+    Unique name M_Cimbalino_Toolkit_Extensions_DispatcherExtensions_RunAndAwaitAsync__1_1 generated for M:Cimbalino.Toolkit.Extensions.DispatcherExtensions.RunAndAwaitAsync``1(System.Windows.Threading.Dispatcher,System.Func{``0})
     Unique name M_Cimbalino_Toolkit_Extensions_FrameworkElementExtensions_GetBehavior__1_1 generated for M:Cimbalino.Toolkit.Extensions.FrameworkElementExtensions.GetBehavior``1(System.Windows.FrameworkElement)
     Unique name M_Cimbalino_Toolkit_Extensions_FrameworkElementExtensions_GetBehaviors_1 generated for M:Cimbalino.Toolkit.Extensions.FrameworkElementExtensions.GetBehaviors(System.Windows.FrameworkElement)
     Unique name M_Cimbalino_Toolkit_Extensions_WriteableBitmapExtensions_SaveJpegAsync_1 generated for M:Cimbalino.Toolkit.Extensions.WriteableBitmapExtensions.SaveJpegAsync(System.Windows.Media.Imaging.WriteableBitmap,System.IO.Stream,System.Int32)
     Unique name M_Cimbalino_Toolkit_Extensions_WriteableBitmapExtensions_SavePngAsync_1 generated for M:Cimbalino.Toolkit.Extensions.WriteableBitmapExtensions.SavePngAsync(System.Windows.Media.Imaging.WriteableBitmap,System.IO.Stream)
+    Unique name M_Cimbalino_Toolkit_Services_NavigationService_RegisterFrame_1 generated for M:Cimbalino.Toolkit.Services.NavigationService.RegisterFrame(Microsoft.Phone.Controls.PhoneApplicationFrame)
     Unique name M_System_Security_Cryptography_HMACMD5_ComputeHash_1 generated for M:System.Security.Cryptography.HMACMD5.ComputeHash(System.Byte[],System.Int32,System.Int32)
     Unique name M_System_Security_Cryptography_HMACMD5_ComputeHash_2 generated for M:System.Security.Cryptography.HMACMD5.ComputeHash(System.String)
     Unique name M_System_Security_Cryptography_HMACMD5_ComputeHash_3 generated for M:System.Security.Cryptography.HMACMD5.ComputeHash(System.String,System.Text.Encoding)
@@ -265,16 +299,16 @@ TransformManifest:
   Copyright &#184; 2006-2015, Microsoft Corporation, All Rights Reserved.
   Portions Copyright &#184; 2006-2015, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
-Done Building Project &quot;D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\TransformManifest.proj&quot; (default targets).
+Done Building Project &quot;C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\TransformManifest.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:00:03.84
-    Last step completed in 00:00:13,9460
+Time Elapsed 00:00:05.30
+    Last step completed in 00:00:27,1930
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00,2070
+    Last step completed in 00:00:00,2540
 </buildStep>
 <buildStep step="CopyConceptualContent">
 Copying conceptual content...
@@ -283,63 +317,63 @@ Checking for other token files...
 Checking for code snippets files...
 Copying images and creating the media map file...
 Generating conceptual topic files
-    Parsing topic file &#39;D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Introduction.aml&#39;
-    D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Introduction.aml -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\ddueXml\Introduction.xml
-    Last step completed in 00:00:00,0740
+    Parsing topic file &#39;C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Introduction.aml&#39;
+    C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Introduction.aml -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\ddueXml\Introduction.xml
+    Last step completed in 00:00:00,0570
 </buildStep>
 <buildStep step="CreateConceptualTopicConfigs">
 Creating conceptual topic configuration files...
     Companion files
     _ContentMetadata_.xml
     ConceptualManifest.xml
-    Last step completed in 00:00:00,0340
+    Last step completed in 00:00:00,0240
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
-D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\LICENSE.txt -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\LICENSE.txt
-D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\Cimbalino.Toolkit.png -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\Cimbalino.Toolkit.png
-    Last step completed in 00:00:00,0260
+C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\LICENSE.txt -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\LICENSE.txt
+C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\Cimbalino.Toolkit.png -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\Cimbalino.Toolkit.png
+    Last step completed in 00:00:00,0120
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00,0100
+    Last step completed in 00:00:00,0065
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 07/11/2015 19:39:23.
-Project &quot;D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
+Build started 05/04/2016 14:23:43.
+Project &quot;C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2015.10.10.0)
   Copyright &#184; 2006-2015, Microsoft Corporation, All Rights Reserved.
   Portions Copyright &#184; 2006-2015, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
-Done Building Project &quot;D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\GenerateIntermediateTOC.proj&quot; (default targets).
+Done Building Project &quot;C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\GenerateIntermediateTOC.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.35
+Time Elapsed 00:00:01.72
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00,5430
+    Last step completed in 00:00:02,1336
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
     conceptual.config
-    Last step completed in 00:00:00,5030
+    Last step completed in 00:00:00,2550
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
-D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\sandcastle.config
-D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\conceptual.config
+C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\sandcastle.config
+C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\conceptual.config
     Removing unused ExampleComponent.
-    Last step completed in 00:00:00,0330
+    Last step completed in 00:00:00,0175
 </buildStep>
 <buildStep step="BuildConceptualTopics">
 Building conceptual help topics...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - BuildConceptualTopics.proj]
-Build started 07/11/2015 19:39:24.
-Project &quot;D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildConceptualTopics.proj&quot; on node 1 (default targets).
+Build started 05/04/2016 14:23:45.
+Project &quot;C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildConceptualTopics.proj&quot; on node 1 (default targets).
 BuildConceptualTopics:
   BuildAssembler (v2015.10.10.0)
   Copyright &#184; 2006-2015, Microsoft Corporation, All Rights Reserved.
@@ -348,40 +382,40 @@ BuildConceptualTopics:
   Processing topics...
   Processed 1 topic(s)
   CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 1 of 15.
-Done Building Project &quot;D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildConceptualTopics.proj&quot; (default targets).
+Done Building Project &quot;C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildConceptualTopics.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:00:03.18
-    Last step completed in 00:00:03,3360
+Time Elapsed 00:00:03.60
+    Last step completed in 00:00:04,0176
 </buildStep>
 <buildStep step="BuildReferenceTopics">
 Building reference help topics...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - BuildReferenceTopics.proj]
-Build started 07/11/2015 19:39:27.
-Project &quot;D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildReferenceTopics.proj&quot; on node 1 (default targets).
+Build started 05/04/2016 14:23:49.
+Project &quot;C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildReferenceTopics.proj&quot; on node 1 (default targets).
 BuildReferenceTopics:
   BuildAssembler (v2015.10.10.0)
   Copyright &#184; 2006-2015, Microsoft Corporation, All Rights Reserved.
   Portions Copyright &#184; 2006-2015, Eric Woodruff, All Rights Reserved.
   Loading configuration...
   Processing topics...
-BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Cimbalino.Toolkit.Behaviors.MultiBindingBehavior.Converter] Unknown reference link target &#39;M:Windows.UI.Xaml.Data.IValueConverter.Convert(System.Object,System.Type,System.Object,System.String)&#39;. [D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Cimbalino.Toolkit.Behaviors.MultiBindingBehavior.Converter] Unknown reference link target &#39;M:Windows.UI.Xaml.Data.IValueConverter.ConvertBack(System.Object,System.Type,System.Object,System.String)&#39;. [D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildReferenceTopics.proj]
-  Processed 1794 topic(s)
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Cimbalino.Toolkit.Behaviors.MultiBindingBehavior.Converter] Unknown reference link target &#39;M:Windows.UI.Xaml.Data.IValueConverter.Convert(System.Object,System.Type,System.Object,System.String)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Cimbalino.Toolkit.Behaviors.MultiBindingBehavior.Converter] Unknown reference link target &#39;M:Windows.UI.Xaml.Data.IValueConverter.ConvertBack(System.Object,System.Type,System.Object,System.String)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildReferenceTopics.proj]
+  Processed 1889 topic(s)
   2 warning(s)
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 15 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 11 of 30.
-Done Building Project &quot;D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildReferenceTopics.proj&quot; (default targets).
+Done Building Project &quot;C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildReferenceTopics.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:00:45.51
-    Last step completed in 00:00:45,7012
+Time Elapsed 00:00:50.46
+    Last step completed in 00:00:50,8457
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00,0450
+    Last step completed in 00:00:00,0465
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -392,102 +426,102 @@ E-Mail: Eric@EWoodruff.us
 
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
-Processing website files in D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website
-Processed 1795 HTML files
+Processing website files in C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website
+Processed 1890 HTML files
 Sorting keywords and generating See Also indices
-Saving website keyword index to D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\WebKI.xml
-Saving website table of contents to D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\WebTOC.xml
-    Last step completed in 00:00:17,9250
+Saving website keyword index to C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\WebKI.xml
+Saving website table of contents to C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\WebTOC.xml
+    Last step completed in 00:00:09,3146
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\AlertCaution.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\AlertNote.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\AlertSecurity.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\CFW.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\CodeExample.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\favicon.ico
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\privclass.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\privdelegate.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\privenumeration.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\privevent.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\privextension.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\privfield.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\privinterface.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\privmethod.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\privproperty.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\privstructure.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\protclass.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\protdelegate.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\protenumeration.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\protevent.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\protextension.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\protfield.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\protinterface.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\protmethod.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\protoperator.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\protproperty.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\protstructure.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\pubclass.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\pubdelegate.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\pubenumeration.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\pubevent.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\pubextension.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\pubfield.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\pubinterface.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\pubmethod.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\puboperator.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\pubproperty.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\pubstructure.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\SectionCollapsed.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\SectionExpanded.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\slMobile.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\static.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\xna.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\scripts\branding.js
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-cs-CZ.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-de-DE.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-en-US.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-es-ES.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-fr-FR.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-Help1.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-HelpViewer.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-it-IT.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-ja-JP.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-ko-KR.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-pl-PL.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-pt-BR.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-ru-RU.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-tr-TR.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-Website.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-zh-CN.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-zh-TW.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\index.html -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\index.html
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\search.html -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\search.html
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.aspx -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\SearchHelp.aspx
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.inc.php -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\SearchHelp.inc.php
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.php -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\SearchHelp.php
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\Web.Config -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\Web.Config
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\Search.png -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\Search.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocClose.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\TocClose.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocCollapsed.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\TocCollapsed.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocExpanded.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\TocExpanded.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\TocOpen.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\scripts\branding-Website.js
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:00,4740
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\SectionCollapsed.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\SectionExpanded.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-Help1.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-HelpViewer.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-Website.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\index.html -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\index.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\search.html -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\search.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.aspx -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\SearchHelp.aspx
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.inc.php -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\SearchHelp.inc.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.php -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\SearchHelp.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\Web.Config -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\Web.Config
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\Search.png -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\Search.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocClose.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\TocClose.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocCollapsed.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\TocCollapsed.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocExpanded.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\TocExpanded.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\TocOpen.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\scripts\branding-Website.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\scripts\jquery-1.11.0.min.js
+    Last step completed in 00:00:00,1415
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00,0010
+    Last step completed in 00:00:00,0005
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:33,0425
+</plugIn>    Last step completed in 00:00:34,8475
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -496,16 +530,17 @@ Copied 500 files
 Copied 1000 files
 Copied 1500 files
 Copied 2000 files
-Copied 2434 files for the website content
-    Last step completed in 00:00:02,5870
+Copied 2500 files
+Copied 2558 files for the website content
+    Last step completed in 00:00:03,6070
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00,4140
+    Last step completed in 00:00:01,0990
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 07/11/2015 19:41:07.  Total time: 00:02:02,1957
+Build completed successfully at 05/04/2016 14:25:29.  Total time: 00:02:19,0147
 
 </buildStep>
 </shfbBuild>
