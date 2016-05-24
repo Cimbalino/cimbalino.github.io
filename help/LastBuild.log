@@ -1,31 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2015.10.10.0" projectFile="D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\doc.shfbproj" started="09/04/2016 18:46:59">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.4.9.0" projectFile="C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\doc.shfbproj" started="24/05/2016 16:22:52">
 <buildStep step="Initializing">
 Finding tools...
-The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
+The Sandcastle tools are located in &#39;C:\Projects\SHFB\SHFB\Deploy\&#39;
 Locating components in the following folder(s):
-    D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc
+    C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc
     C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins\
-    C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\
-Framework reflection data location: C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETPortable
-Using presentation style &#39;VS2013&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013&#39;
+    C:\Projects\SHFB\SHFB\Deploy\
+Using framework reflection data for &#39;.NET Portable Library 4.5&#39; located in &#39;C:\Projects\SHFB\SHFB\Deploy\Data\.NETPortable&#39;
+Using presentation style &#39;VS2013&#39; located in &#39;C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013&#39;
 Loading and initializing plug-ins...
-Version Builder Version 2015.10.10.0
-Copyright &#169; 2006-2015, Eric Woodruff, All Rights Reserved
-Lightweight Website Style Version 2015.10.10.0
-Copyright &#169; 2006-2015, Eric Woodruff, All Rights Reserved
+Version Builder Version 2016.4.9.0
+Copyright &#169; 2006-2016, Eric Woodruff, All Rights Reserved
+Lightweight Website Style Version 2016.4.9.0
+Copyright &#169; 2006-2016, Eric Woodruff, All Rights Reserved
 Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
+</buildStep>
+<buildStep step="ClearWorkFolder">
+Clearing working folder...
 -------------------------------
 Clearing any prior web/markdown output...
 </buildStep>
 <buildStep step="ValidatingDocumentationSources">
 Validating and copying documentation source information
-Source: D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\bin\binaries\Cimbalino.Toolkit.Core\portable-net45+wp8+win8+wpa81\Cimbalino.Toolkit.Core.dll
-    Found assembly &#39;D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\bin\binaries\Cimbalino.Toolkit.Core\portable-net45+wp8+win8+wpa81\Cimbalino.Toolkit.Core.dll&#39;
-Source: D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\bin\binaries\Cimbalino.Toolkit.Core\portable-net45+wp8+win8+wpa81\Cimbalino.Toolkit.Core.xml
+Source: C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\bin\binaries\Cimbalino.Toolkit.Core\portable-net45+wp8+win8+wpa81\Cimbalino.Toolkit.Core.dll
+    Found assembly &#39;C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\bin\binaries\Cimbalino.Toolkit.Core\portable-net45+wp8+win8+wpa81\Cimbalino.Toolkit.Core.dll&#39;
+Source: C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\bin\binaries\Cimbalino.Toolkit.Core\portable-net45+wp8+win8+wpa81\Cimbalino.Toolkit.Core.xml
 
 Copying XML comments files
-    D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\bin\binaries\Cimbalino.Toolkit.Core\portable-net45+wp8+win8+wpa81\Cimbalino.Toolkit.Core.xml -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Cimbalino.Toolkit.Core.xml
+    C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\bin\binaries\Cimbalino.Toolkit.Core\portable-net45+wp8+win8+wpa81\Cimbalino.Toolkit.Core.xml -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Cimbalino.Toolkit.Core.xml
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
@@ -33,37 +36,41 @@ Generating shared content files (en-US, English (United States))...
 Removing standard version information items from shared content file
 Adding version information items from plug-in settings
 </plugIn><plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00,0430
+</plugIn>    Last step completed in 00:00:00,0285
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00,0185
+    Last step completed in 00:00:00,0100
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - GenerateRefInfo.proj]
-Build started 09/04/2016 18:47:01.
-Project &quot;D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
+Build started 24/05/2016 16:22:53.
+The target &quot;_ConvertPdbFiles&quot; listed in a BeforeTargets attribute at &quot;C:\Program Files (x86)\MSBuild\4.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)&quot; does not exist in the project, and will be ignored.
+The target &quot;_CollectPdbFiles&quot; listed in an AfterTargets attribute at &quot;C:\Program Files (x86)\MSBuild\4.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)&quot; does not exist in the project, and will be ignored.
+The target &quot;_CollectMdbFiles&quot; listed in a BeforeTargets attribute at &quot;C:\Program Files (x86)\MSBuild\4.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (40,38)&quot; does not exist in the project, and will be ignored.
+The target &quot;_CopyMdbFiles&quot; listed in an AfterTargets attribute at &quot;C:\Program Files (x86)\MSBuild\4.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (40,71)&quot; does not exist in the project, and will be ignored.
+Project &quot;C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
 GenerateRefInfo:
-  MRefBuilder (v2015.10.10.0)
-  Copyright &#184; 2006-2015, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright &#184; 2006-2015, Eric Woodruff, All Rights Reserved.
+  MRefBuilder (v2016.4.9.0)
+  Copyright &#184; 2006-2016, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
   Loaded 1 assemblies for reflection and 0 dependency assemblies.
   Wrote information on 5 namespaces, 112 types, and 699 members
   Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
-  XslTransform (v2015.10.10.0)
-  Copyright &#184; 2006-2015, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright &#184; 2006-2015, Eric Woodruff, All Rights Reserved.
-  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
-  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddXamlSyntaxData.xsl&#39;.
-Done Building Project &quot;D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\GenerateRefInfo.proj&quot; (default targets).
+  XslTransform (v2016.4.9.0)
+  Copyright &#184; 2006-2016, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Projects\SHFB\SHFB\Deploy\ProductionTransforms\MergeDuplicates.xsl&#39;.
+  Applying XSL transformation &#39;C:\Projects\SHFB\SHFB\Deploy\ProductionTransforms\AddXamlSyntaxData.xsl&#39;.
+Done Building Project &quot;C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\GenerateRefInfo.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.70
-    Last step completed in 00:00:02,2575
+Time Elapsed 00:00:00.81
+    Last step completed in 00:00:00,9385
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
@@ -71,7 +78,7 @@ Transforming reflection output...
 
 Performing partial builds on prior version projects
 
-Building D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\doc-win81.shfbproj
+Building C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\doc-uap10.0.shfbproj
 Initializing
 ValidatingDocumentationSources
 GenerateSharedContent
@@ -79,7 +86,7 @@ GenerateApiFilter
 GenerateReflectionInfo
 Completed
 
-Building D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\doc-uap10.0.shfbproj
+Building C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\doc-win81.shfbproj
 Initializing
 ValidatingDocumentationSources
 GenerateSharedContent
@@ -87,7 +94,7 @@ GenerateApiFilter
 GenerateReflectionInfo
 Completed
 
-Building D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\doc-wpa81.shfbproj
+Building C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\doc-wpa81.shfbproj
 Initializing
 ValidatingDocumentationSources
 GenerateSharedContent
@@ -95,7 +102,7 @@ GenerateApiFilter
 GenerateReflectionInfo
 Completed
 
-Building D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\doc-wp81.shfbproj
+Building C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\doc-wp81.shfbproj
 Initializing
 ValidatingDocumentationSources
 GenerateSharedContent
@@ -103,7 +110,7 @@ GenerateApiFilter
 GenerateReflectionInfo
 Completed
 
-Building D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\doc-wp8.shfbproj
+Building C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\doc-wp8.shfbproj
 Initializing
 ValidatingDocumentationSources
 GenerateSharedContent
@@ -113,28 +120,28 @@ Completed
 Creating Version Builder configuration file
 Adding Version Builder parameters to TransformManifest.proj
 </plugIn>[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - TransformManifest.proj]
-Build started 09/04/2016 18:47:17.
-Project &quot;D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
+Build started 24/05/2016 16:23:02.
+Project &quot;C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
-  VersionBuilder (v2015.10.10.0)
-  Copyright &#184; 2006-2015, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright &#184; 2006-2015, Eric Woodruff, All Rights Reserved.
+  VersionBuilder (v2016.4.9.0)
+  Copyright &#184; 2006-2016, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
   Indexing version &#39;SHFB_VBPI_3B75201C&#39; using file &#39;4518FA7E.ver&#39;.
+  Indexing version &#39;SHFB_VBPI_7AD3511A&#39; using file &#39;639DC9C0.ver&#39;.
   Indexing version &#39;SHFB_VBPI_9C8469DE&#39; using file &#39;B4C4A8BC.ver&#39;.
-  Indexing version &#39;SHFB_VBPI_30FB07FC&#39; using file &#39;15EBC1D6.ver&#39;.
   Indexing version &#39;SHFB_VBPI_5CEEC5E6&#39; using file &#39;7D8CD304.ver&#39;.
   Indexing version &#39;SHFB_VBPI_23B692DD&#39; using file &#39;1648387D.ver&#39;.
   Indexing version &#39;SHFB_VBPI_23B692DE&#39; using file &#39;73A0C3E2.ver&#39;.
-  Indexed 1465 entities in 6 versions.
-  XslTransform (v2015.10.10.0)
-  Copyright &#184; 2006-2015, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright &#184; 2006-2015, Eric Woodruff, All Rights Reserved.
-  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Indexed 1540 entities in 6 versions.
+  XslTransform (v2016.4.9.0)
+  Copyright &#184; 2006-2016, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
   Copying file from &quot;reflection.xml&quot; to &quot;reflection.nofilenames&quot;.
-  XslTransform (v2015.10.10.0)
-  Copyright &#184; 2006-2015, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright &#184; 2006-2015, Eric Woodruff, All Rights Reserved.
-  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddFilenames.xsl&#39;.
+  XslTransform (v2016.4.9.0)
+  Copyright &#184; 2006-2016, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Projects\SHFB\SHFB\Deploy\ProductionTransforms\AddFilenames.xsl&#39;.
     Unique name M_Cimbalino_Toolkit_Compression_ZlibStream__ctor_1 generated for M:Cimbalino.Toolkit.Compression.ZlibStream.#ctor(System.IO.Stream,Cimbalino.Toolkit.Compression.CompressionLevel,System.Boolean)
     Unique name M_Cimbalino_Toolkit_Extensions_ByteArrayExtensions_ComputeHMACMD5Hash_1 generated for M:Cimbalino.Toolkit.Extensions.ByteArrayExtensions.ComputeHMACMD5Hash(System.Byte[],System.Byte[],System.Int32,System.Int32)
     Unique name M_Cimbalino_Toolkit_Extensions_ByteArrayExtensions_ComputeHMACSHA1Hash_1 generated for M:Cimbalino.Toolkit.Extensions.ByteArrayExtensions.ComputeHMACSHA1Hash(System.Byte[],System.Byte[],System.Int32,System.Int32)
@@ -239,6 +246,7 @@ TransformManifest:
     Unique name M_Cimbalino_Toolkit_Services_EmailComposeService_ShowAsync_2 generated for M:Cimbalino.Toolkit.Services.EmailComposeService.ShowAsync(System.String,System.String,System.String,System.String,System.String)
     Unique name M_Cimbalino_Toolkit_Services_FilePickerServiceFileResult__ctor_1 generated for M:Cimbalino.Toolkit.Services.FilePickerServiceFileResult.#ctor(Windows.Storage.StorageFile)
     Unique name M_Cimbalino_Toolkit_Services_LauncherService_LaunchUriAsync_1 generated for M:Cimbalino.Toolkit.Services.LauncherService.LaunchUriAsync(System.Uri)
+    Unique name M_Cimbalino_Toolkit_Services_LegacyApplicationSettingsServiceHandler_Get__1_1 generated for M:Cimbalino.Toolkit.Services.LegacyApplicationSettingsServiceHandler.Get``1(System.String,``0)
     Unique name M_Cimbalino_Toolkit_Services_LocationService_GetPositionAsync_1 generated for M:Cimbalino.Toolkit.Services.LocationService.GetPositionAsync(Cimbalino.Toolkit.Services.LocationServiceAccuracy)
     Unique name M_Cimbalino_Toolkit_Services_LocationService_GetPositionAsync_2 generated for M:Cimbalino.Toolkit.Services.LocationService.GetPositionAsync(Cimbalino.Toolkit.Services.LocationServiceAccuracy,System.TimeSpan,System.TimeSpan)
     Unique name M_Cimbalino_Toolkit_Services_LocationService_GetPositionAsync_3 generated for M:Cimbalino.Toolkit.Services.LocationService.GetPositionAsync(System.TimeSpan,System.TimeSpan)
@@ -247,6 +255,7 @@ TransformManifest:
     Unique name M_Cimbalino_Toolkit_Services_LockScreenService_SetLockScreenAsync_1 generated for M:Cimbalino.Toolkit.Services.LockScreenService.SetLockScreenAsync(System.Uri)
     Unique name M_Cimbalino_Toolkit_Services_MessageBoxService_ShowAsync_1 generated for M:Cimbalino.Toolkit.Services.MessageBoxService.ShowAsync(System.String,System.String)
     Unique name M_Cimbalino_Toolkit_Services_MessageBoxService_ShowAsync_2 generated for M:Cimbalino.Toolkit.Services.MessageBoxService.ShowAsync(System.String,System.String,System.Collections.Generic.IEnumerable{System.String})
+    Unique name M_Cimbalino_Toolkit_Services_NavigationService__ctor_1 generated for M:Cimbalino.Toolkit.Services.NavigationService.#ctor(System.Boolean)
     Unique name M_Cimbalino_Toolkit_Services_NavigationService_Navigate__1_1 generated for M:Cimbalino.Toolkit.Services.NavigationService.Navigate``1(System.Object)
     Unique name M_Cimbalino_Toolkit_Services_NavigationService_Navigate_1 generated for M:Cimbalino.Toolkit.Services.NavigationService.Navigate(System.Type)
     Unique name M_Cimbalino_Toolkit_Services_NavigationService_Navigate_2 generated for M:Cimbalino.Toolkit.Services.NavigationService.Navigate(System.Type,System.Object)
@@ -271,7 +280,6 @@ TransformManifest:
     Unique name M_Cimbalino_Toolkit_Services_WindowsStoreService_GetAppInformationAsync_1 generated for M:Cimbalino.Toolkit.Services.WindowsStoreService.GetAppInformationAsync(System.String)
     Unique name M_System_Security_Cryptography_HashAlgorithmBase_ComputeHash_1 generated for M:System.Security.Cryptography.HashAlgorithmBase.ComputeHash(System.Byte[],System.Int32,System.Int32)
     Unique name M_System_Security_Cryptography_HashAlgorithmBase_ComputeHash_2 generated for M:System.Security.Cryptography.HashAlgorithmBase.ComputeHash(System.IO.Stream)
-    Unique name M_Cimbalino_Toolkit_Services_LegacyApplicationSettingsServiceHandler_Get__1_1 generated for M:Cimbalino.Toolkit.Services.LegacyApplicationSettingsServiceHandler.Get``1(System.String,``0)
     Unique name M_Cimbalino_Toolkit_Behaviors_AfterAutoFocusEventArgs__ctor_1 generated for M:Cimbalino.Toolkit.Behaviors.AfterAutoFocusEventArgs.#ctor(System.Windows.Controls.Control,System.Windows.Controls.Control)
     Unique name M_Cimbalino_Toolkit_Behaviors_MonitoredInteraction_GetBehaviors_1 generated for M:Cimbalino.Toolkit.Behaviors.MonitoredInteraction.GetBehaviors(System.Windows.DependencyObject)
     Unique name M_Cimbalino_Toolkit_Extensions_DependencyObjectExtensions_GetVisualAncestor__1_1 generated for M:Cimbalino.Toolkit.Extensions.DependencyObjectExtensions.GetVisualAncestor``1(System.Windows.DependencyObject)
@@ -295,20 +303,20 @@ TransformManifest:
     Unique name M_System_Security_Cryptography_MD5_GetHash_2 generated for M:System.Security.Cryptography.MD5.GetHash(System.String,System.Text.Encoding)
     Unique name M_System_Security_Cryptography_MD5_GetHashString_1 generated for M:System.Security.Cryptography.MD5.GetHashString(System.String)
     Unique name M_System_Security_Cryptography_MD5_GetHashString_2 generated for M:System.Security.Cryptography.MD5.GetHashString(System.String,System.Text.Encoding)
-  XslTransform (v2015.10.10.0)
-  Copyright &#184; 2006-2015, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright &#184; 2006-2015, Eric Woodruff, All Rights Reserved.
-  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
-Done Building Project &quot;D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\TransformManifest.proj&quot; (default targets).
+  XslTransform (v2016.4.9.0)
+  Copyright &#184; 2006-2016, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Projects\SHFB\SHFB\Deploy\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+Done Building Project &quot;C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\TransformManifest.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:00:03.75
-    Last step completed in 00:00:18,0701
+Time Elapsed 00:00:02.89
+    Last step completed in 00:00:10,6577
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00,2355
+    Last step completed in 00:00:00,1855
 </buildStep>
 <buildStep step="CopyConceptualContent">
 Copying conceptual content...
@@ -317,214 +325,505 @@ Checking for other token files...
 Checking for code snippets files...
 Copying images and creating the media map file...
 Generating conceptual topic files
-    Parsing topic file &#39;D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Introduction.aml&#39;
-    D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Introduction.aml -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\ddueXml\Introduction.xml
-    Last step completed in 00:00:00,0495
+    Parsing topic file &#39;C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Introduction.aml&#39;
+    C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Introduction.aml -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\ddueXml\Introduction.xml
+    Last step completed in 00:00:00,0320
 </buildStep>
 <buildStep step="CreateConceptualTopicConfigs">
 Creating conceptual topic configuration files...
     Companion files
     _ContentMetadata_.xml
-    ConceptualManifest.xml
-    Last step completed in 00:00:00,0280
+    Merging topic IDs into manifest.xml
+    Last step completed in 00:00:00,0255
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
-D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\LICENSE.txt -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\LICENSE.txt
-D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\Cimbalino.Toolkit.png -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\Cimbalino.Toolkit.png
-    Last step completed in 00:00:00,0160
+C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\LICENSE.txt -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\LICENSE.txt
+C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\Cimbalino.Toolkit.png -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\Cimbalino.Toolkit.png
+    Last step completed in 00:00:00,0095
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00,0075
+    Last step completed in 00:00:00,0045
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 09/04/2016 18:47:22.
-Project &quot;D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
+Build started 24/05/2016 16:23:05.
+Project &quot;C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
-  XslTransform (v2015.10.10.0)
-  Copyright &#184; 2006-2015, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright &#184; 2006-2015, Eric Woodruff, All Rights Reserved.
-  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\CreateVSToc.xsl&#39;.
-Done Building Project &quot;D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\GenerateIntermediateTOC.proj&quot; (default targets).
+  XslTransform (v2016.4.9.0)
+  Copyright &#184; 2006-2016, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
+Done Building Project &quot;C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\GenerateIntermediateTOC.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.00
+Time Elapsed 00:00:00.27
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:01,4495
+    Last step completed in 00:00:00,3995
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    conceptual.config
-    Last step completed in 00:00:00,4675
+    Last step completed in 00:00:00,2515
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
-D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\sandcastle.config
-D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\conceptual.config
+C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\sandcastle.config
+  Updating reference topic configurations.
+  Updating conceptual topic configurations.
     Removing unused ExampleComponent.
-    Last step completed in 00:00:00,0285
+    Last step completed in 00:00:00,0160
 </buildStep>
-<buildStep step="BuildConceptualTopics">
-Building conceptual help topics...
-[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - BuildConceptualTopics.proj]
-Build started 09/04/2016 18:47:24.
-Project &quot;D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildConceptualTopics.proj&quot; on node 1 (default targets).
-BuildConceptualTopics:
-  BuildAssembler (v2015.10.10.0)
-  Copyright &#184; 2006-2015, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright &#184; 2006-2015, Eric Woodruff, All Rights Reserved.
+<buildStep step="BuildTopics">
+Building help topics...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - BuildTopics.proj]
+Build started 24/05/2016 16:23:06.
+Project &quot;C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
+BuildTopics:
+  BuildAssembler (v2016.4.9.0)
+  Copyright &#184; 2006-2016, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
   Loading configuration...
-  ResolveReferenceLinksComponent: The MSDN content ID cache &#39;C:\Users\pedro\AppData\Local\EWSoftware\Sandcastle Help File Builder\Cache\MsdnContentId.cache&#39; does not exist yet.  All IDs will be looked up in this build which will slow it down.
   Processing topics...
-  Processed 1 topic(s)
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.AutoFocusBehavior] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.AutoFocusBehavior] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior`1&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.AutoFocusBehavior] MSDN URL not found for target &#39;P:Microsoft.Xaml.Interactivity.Behavior`1.AssociatedObject&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.AutoFocusBehavior] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior`1&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.AutoFocusBehavior] MSDN URL not found for target &#39;M:Microsoft.Xaml.Interactivity.Behavior.Attach(Windows.UI.Xaml.DependencyObject)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.AutoFocusBehavior] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.AutoFocusBehavior] MSDN URL not found for target &#39;M:Microsoft.Xaml.Interactivity.Behavior.Detach&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.AutoFocusBehavior] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.AutoFocusBehavior] MSDN URL not found for target &#39;M:Microsoft.Xaml.Interactivity.Behavior`1.OnAttached&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.AutoFocusBehavior] MSDN URL not found for target &#39;M:Microsoft.Xaml.Interactivity.Behavior.OnDetaching&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.AutoFocusBehavior] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.AutoFocusBehavior] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.AutoFocusBehavior] MSDN URL not found for target &#39;M:Microsoft.Xaml.Interactivity.Behavior.Attach(Windows.UI.Xaml.DependencyObject)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.AutoFocusBehavior] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.AutoFocusBehavior] MSDN URL not found for target &#39;M:Microsoft.Xaml.Interactivity.Behavior.Detach&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.AutoFocusBehavior] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.AutoFocusBehavior] MSDN URL not found for target &#39;M:Microsoft.Xaml.Interactivity.Behavior`1.OnAttached&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.AutoFocusBehavior] MSDN URL not found for target &#39;M:Microsoft.Xaml.Interactivity.Behavior.OnDetaching&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.AutoFocusBehavior] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.AutoFocusBehavior] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Cimbalino.Toolkit.Behaviors.AutoFocusBehavior] MSDN URL not found for target &#39;P:Microsoft.Xaml.Interactivity.Behavior`1.AssociatedObject&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Cimbalino.Toolkit.Behaviors.AutoFocusBehavior] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior`1&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.EnterKeyBehavior] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.EnterKeyBehavior] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior`1&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.EnterKeyBehavior] MSDN URL not found for target &#39;P:Microsoft.Xaml.Interactivity.Behavior`1.AssociatedObject&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.EnterKeyBehavior] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior`1&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.EnterKeyBehavior] MSDN URL not found for target &#39;M:Microsoft.Xaml.Interactivity.Behavior.Attach(Windows.UI.Xaml.DependencyObject)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.EnterKeyBehavior] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.EnterKeyBehavior] MSDN URL not found for target &#39;M:Microsoft.Xaml.Interactivity.Behavior.Detach&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.EnterKeyBehavior] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.EnterKeyBehavior] MSDN URL not found for target &#39;M:Microsoft.Xaml.Interactivity.Behavior`1.OnAttached&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.EnterKeyBehavior] MSDN URL not found for target &#39;M:Microsoft.Xaml.Interactivity.Behavior.OnDetaching&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.EnterKeyBehavior] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.EnterKeyBehavior] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.EnterKeyBehavior] MSDN URL not found for target &#39;M:Microsoft.Xaml.Interactivity.Behavior.Attach(Windows.UI.Xaml.DependencyObject)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.EnterKeyBehavior] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.EnterKeyBehavior] MSDN URL not found for target &#39;M:Microsoft.Xaml.Interactivity.Behavior.Detach&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.EnterKeyBehavior] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.EnterKeyBehavior] MSDN URL not found for target &#39;M:Microsoft.Xaml.Interactivity.Behavior`1.OnAttached&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.EnterKeyBehavior] MSDN URL not found for target &#39;M:Microsoft.Xaml.Interactivity.Behavior.OnDetaching&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.EnterKeyBehavior] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.EnterKeyBehavior] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Cimbalino.Toolkit.Behaviors.EnterKeyBehavior] MSDN URL not found for target &#39;P:Microsoft.Xaml.Interactivity.Behavior`1.AssociatedObject&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Cimbalino.Toolkit.Behaviors.EnterKeyBehavior] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior`1&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.MultiBindingBehavior] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.MultiBindingBehavior] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior`1&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.MultiBindingBehavior] MSDN URL not found for target &#39;P:Microsoft.Xaml.Interactivity.Behavior`1.AssociatedObject&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.MultiBindingBehavior] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior`1&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.MultiBindingBehavior] MSDN URL not found for target &#39;M:Microsoft.Xaml.Interactivity.Behavior.Attach(Windows.UI.Xaml.DependencyObject)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.MultiBindingBehavior] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.MultiBindingBehavior] MSDN URL not found for target &#39;M:Microsoft.Xaml.Interactivity.Behavior.Detach&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.MultiBindingBehavior] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.MultiBindingBehavior] MSDN URL not found for target &#39;M:Microsoft.Xaml.Interactivity.Behavior`1.OnAttached&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.MultiBindingBehavior] MSDN URL not found for target &#39;M:Microsoft.Xaml.Interactivity.Behavior.OnDetaching&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.MultiBindingBehavior] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.MultiBindingBehavior] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.MultiBindingBehavior] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.MultiBindingBehavior] MSDN URL not found for target &#39;M:Microsoft.Xaml.Interactivity.Behavior.Attach(Windows.UI.Xaml.DependencyObject)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.MultiBindingBehavior] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.MultiBindingBehavior] MSDN URL not found for target &#39;M:Microsoft.Xaml.Interactivity.Behavior.Detach&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.MultiBindingBehavior] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.MultiBindingBehavior] MSDN URL not found for target &#39;M:Microsoft.Xaml.Interactivity.Behavior`1.OnAttached&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.MultiBindingBehavior] MSDN URL not found for target &#39;M:Microsoft.Xaml.Interactivity.Behavior.OnDetaching&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.MultiBindingBehavior] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.MultiBindingBehavior] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.MultiBindingBehavior] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Cimbalino.Toolkit.Behaviors.MultiBindingBehavior] MSDN URL not found for target &#39;P:Microsoft.Xaml.Interactivity.Behavior`1.AssociatedObject&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Cimbalino.Toolkit.Behaviors.MultiBindingBehavior] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior`1&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Cimbalino.Toolkit.Behaviors.MultiBindingBehavior.Converter] Unknown reference link target &#39;M:Windows.UI.Xaml.Data.IValueConverter.Convert(System.Object,System.Type,System.Object,System.String)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Cimbalino.Toolkit.Behaviors.MultiBindingBehavior.Converter] Unknown reference link target &#39;M:Windows.UI.Xaml.Data.IValueConverter.ConvertBack(System.Object,System.Type,System.Object,System.String)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.MultiBindingItem] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.MultiBindingItem] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.MultiBindingItem] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.MultiBindingItem] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.MultiBindingItemCollection] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.MultiBindingItemCollection] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.MultiBindingItemCollection] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.MultiBindingItemCollection] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.ScreenCaptureBehavior] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.ScreenCaptureBehavior] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior`1&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.ScreenCaptureBehavior] MSDN URL not found for target &#39;P:Microsoft.Xaml.Interactivity.Behavior`1.AssociatedObject&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.ScreenCaptureBehavior] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior`1&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.ScreenCaptureBehavior] MSDN URL not found for target &#39;M:Microsoft.Xaml.Interactivity.Behavior.Attach(Windows.UI.Xaml.DependencyObject)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.ScreenCaptureBehavior] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.ScreenCaptureBehavior] MSDN URL not found for target &#39;M:Microsoft.Xaml.Interactivity.Behavior.Detach&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.ScreenCaptureBehavior] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.ScreenCaptureBehavior] MSDN URL not found for target &#39;M:Microsoft.Xaml.Interactivity.Behavior`1.OnAttached&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.ScreenCaptureBehavior] MSDN URL not found for target &#39;M:Microsoft.Xaml.Interactivity.Behavior.OnDetaching&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.ScreenCaptureBehavior] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.ScreenCaptureBehavior] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.ScreenCaptureBehavior] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.ScreenCaptureBehavior] MSDN URL not found for target &#39;M:Microsoft.Xaml.Interactivity.Behavior.Attach(Windows.UI.Xaml.DependencyObject)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.ScreenCaptureBehavior] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.ScreenCaptureBehavior] MSDN URL not found for target &#39;M:Microsoft.Xaml.Interactivity.Behavior.Detach&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.ScreenCaptureBehavior] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.ScreenCaptureBehavior] MSDN URL not found for target &#39;M:Microsoft.Xaml.Interactivity.Behavior`1.OnAttached&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.ScreenCaptureBehavior] MSDN URL not found for target &#39;M:Microsoft.Xaml.Interactivity.Behavior.OnDetaching&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.ScreenCaptureBehavior] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.ScreenCaptureBehavior] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.ScreenCaptureBehavior] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Cimbalino.Toolkit.Behaviors.ScreenCaptureBehavior] MSDN URL not found for target &#39;P:Microsoft.Xaml.Interactivity.Behavior`1.AssociatedObject&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Cimbalino.Toolkit.Behaviors.ScreenCaptureBehavior] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior`1&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.UpdateTextBindingOnPropertyChanged] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.UpdateTextBindingOnPropertyChanged] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior`1&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.UpdateTextBindingOnPropertyChanged] MSDN URL not found for target &#39;P:Microsoft.Xaml.Interactivity.Behavior`1.AssociatedObject&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.UpdateTextBindingOnPropertyChanged] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior`1&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.UpdateTextBindingOnPropertyChanged] MSDN URL not found for target &#39;M:Microsoft.Xaml.Interactivity.Behavior.Attach(Windows.UI.Xaml.DependencyObject)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.UpdateTextBindingOnPropertyChanged] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.UpdateTextBindingOnPropertyChanged] MSDN URL not found for target &#39;M:Microsoft.Xaml.Interactivity.Behavior.Detach&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.UpdateTextBindingOnPropertyChanged] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.UpdateTextBindingOnPropertyChanged] MSDN URL not found for target &#39;M:Microsoft.Xaml.Interactivity.Behavior`1.OnAttached&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.UpdateTextBindingOnPropertyChanged] MSDN URL not found for target &#39;M:Microsoft.Xaml.Interactivity.Behavior.OnDetaching&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.UpdateTextBindingOnPropertyChanged] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Behaviors.UpdateTextBindingOnPropertyChanged] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.UpdateTextBindingOnPropertyChanged] MSDN URL not found for target &#39;M:Microsoft.Xaml.Interactivity.Behavior.Attach(Windows.UI.Xaml.DependencyObject)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.UpdateTextBindingOnPropertyChanged] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.UpdateTextBindingOnPropertyChanged] MSDN URL not found for target &#39;M:Microsoft.Xaml.Interactivity.Behavior.Detach&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.UpdateTextBindingOnPropertyChanged] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.UpdateTextBindingOnPropertyChanged] MSDN URL not found for target &#39;M:Microsoft.Xaml.Interactivity.Behavior`1.OnAttached&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.UpdateTextBindingOnPropertyChanged] MSDN URL not found for target &#39;M:Microsoft.Xaml.Interactivity.Behavior.OnDetaching&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.UpdateTextBindingOnPropertyChanged] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Behaviors.UpdateTextBindingOnPropertyChanged] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Cimbalino.Toolkit.Behaviors.UpdateTextBindingOnPropertyChanged] MSDN URL not found for target &#39;P:Microsoft.Xaml.Interactivity.Behavior`1.AssociatedObject&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Cimbalino.Toolkit.Behaviors.UpdateTextBindingOnPropertyChanged] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior`1&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerFrame] Unknown reference link target &#39;P:Windows.UI.Xaml.UIElement.CanDrag&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerFrame] Unknown reference link target &#39;T:Windows.UI.Xaml.Controls.SplitView&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerFrame] Unknown reference link target &#39;T:Windows.UI.Xaml.Controls.SplitView&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerFrame] Unknown reference link target &#39;T:Windows.UI.Xaml.Controls.SplitView&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerFrame] Unknown reference link target &#39;P:Windows.UI.Xaml.Controls.Control.IsTextScaleFactorEnabled&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerFrame] Unknown reference link target &#39;T:Windows.UI.Xaml.Controls.SplitView&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerFrame] Unknown reference link target &#39;T:Windows.UI.Xaml.Controls.SplitView&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerFrame] Unknown reference link target &#39;T:Windows.UI.Xaml.Controls.SplitView&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerFrame] Unknown reference link target &#39;P:Windows.UI.Xaml.UIElement.Transform3D&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerFrame] Unknown reference link target &#39;P:Windows.UI.Xaml.Controls.Control.UseSystemFocusVisuals&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerFrame] Unknown reference link target &#39;M:Windows.UI.Xaml.UIElement.FindSubElementsForTouchTargeting(System.Void,Windows.Foundation.Collections.IIterable`1)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerFrame] Invalid reference link target &#39;M:Windows.UI.Xaml.UIElement.FindSubElementsForTouchTargeting(System.Void,Windows.Foundation.Collections.IIterable`1)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerFrame] Unknown reference link target &#39;M:Windows.UI.Xaml.Controls.Frame.GoBack(Windows.UI.Xaml.Media.Animation.NavigationTransitionInfo)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerFrame] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerFrame] Unknown reference link target &#39;M:Windows.UI.Xaml.UIElement.StartDragAsync(System.Void)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerFrame] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerFrame] Unknown reference link target &#39;E:Windows.UI.Xaml.UIElement.DragStarting&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerFrame] Unknown reference link target &#39;E:Windows.UI.Xaml.UIElement.DropCompleted&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerFrame] Unknown reference link target &#39;E:Windows.UI.Xaml.FrameworkElement.Loading&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerFrame] Unknown reference link target &#39;T:Windows.UI.Xaml.Controls.SplitView&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerFrame] Unknown reference link target &#39;T:Windows.UI.Xaml.Controls.SplitView&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerFrame] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Controls.HamburgerFrame] Unknown reference link target &#39;M:Windows.UI.Xaml.UIElement.FindSubElementsForTouchTargeting(System.Void,Windows.Foundation.Collections.IIterable`1)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Controls.HamburgerFrame] Invalid reference link target &#39;M:Windows.UI.Xaml.UIElement.FindSubElementsForTouchTargeting(System.Void,Windows.Foundation.Collections.IIterable`1)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Controls.HamburgerFrame] Unknown reference link target &#39;M:Windows.UI.Xaml.Controls.Frame.GoBack(Windows.UI.Xaml.Media.Animation.NavigationTransitionInfo)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Controls.HamburgerFrame] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Controls.HamburgerFrame] Unknown reference link target &#39;M:Windows.UI.Xaml.UIElement.StartDragAsync(System.Void)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Controls.HamburgerFrame] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Controls.HamburgerFrame] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Cimbalino.Toolkit.Controls.HamburgerFrame] Unknown reference link target &#39;P:Windows.UI.Xaml.UIElement.CanDrag&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Cimbalino.Toolkit.Controls.HamburgerFrame] Unknown reference link target &#39;T:Windows.UI.Xaml.Controls.SplitView&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Cimbalino.Toolkit.Controls.HamburgerFrame] Unknown reference link target &#39;T:Windows.UI.Xaml.Controls.SplitView&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Cimbalino.Toolkit.Controls.HamburgerFrame] Unknown reference link target &#39;T:Windows.UI.Xaml.Controls.SplitView&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Cimbalino.Toolkit.Controls.HamburgerFrame] Unknown reference link target &#39;P:Windows.UI.Xaml.Controls.Control.IsTextScaleFactorEnabled&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Cimbalino.Toolkit.Controls.HamburgerFrame] Unknown reference link target &#39;T:Windows.UI.Xaml.Controls.SplitView&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Cimbalino.Toolkit.Controls.HamburgerFrame] Unknown reference link target &#39;T:Windows.UI.Xaml.Controls.SplitView&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Cimbalino.Toolkit.Controls.HamburgerFrame] Unknown reference link target &#39;T:Windows.UI.Xaml.Controls.SplitView&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Cimbalino.Toolkit.Controls.HamburgerFrame] Unknown reference link target &#39;P:Windows.UI.Xaml.UIElement.Transform3D&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Cimbalino.Toolkit.Controls.HamburgerFrame] Unknown reference link target &#39;P:Windows.UI.Xaml.Controls.Control.UseSystemFocusVisuals&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:Cimbalino.Toolkit.Controls.HamburgerFrame] Unknown reference link target &#39;E:Windows.UI.Xaml.UIElement.DragStarting&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:Cimbalino.Toolkit.Controls.HamburgerFrame] Unknown reference link target &#39;E:Windows.UI.Xaml.UIElement.DropCompleted&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:Cimbalino.Toolkit.Controls.HamburgerFrame] Unknown reference link target &#39;E:Windows.UI.Xaml.FrameworkElement.Loading&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:Cimbalino.Toolkit.Controls.HamburgerFrame] Unknown reference link target &#39;T:Windows.UI.Xaml.Controls.SplitView&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:Cimbalino.Toolkit.Controls.HamburgerFrame] Unknown reference link target &#39;T:Windows.UI.Xaml.Controls.SplitView&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Cimbalino.Toolkit.Controls.HamburgerFrame.CompactPaneLength] Unknown reference link target &#39;T:Windows.UI.Xaml.Controls.SplitView&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Cimbalino.Toolkit.Controls.HamburgerFrame.CompactPaneLength] Unknown reference link target &#39;T:Windows.UI.Xaml.Controls.SplitView&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Cimbalino.Toolkit.Controls.HamburgerFrame.DisplayMode] Unknown reference link target &#39;T:Windows.UI.Xaml.Controls.SplitView&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Cimbalino.Toolkit.Controls.HamburgerFrame.DisplayMode] Unknown reference link target &#39;T:Windows.UI.Xaml.Controls.SplitViewDisplayMode&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Cimbalino.Toolkit.Controls.HamburgerFrame.DisplayMode] Unknown reference link target &#39;T:Windows.UI.Xaml.Controls.SplitView&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Cimbalino.Toolkit.Controls.HamburgerFrame.IsPaneOpen] Unknown reference link target &#39;T:Windows.UI.Xaml.Controls.SplitView&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Cimbalino.Toolkit.Controls.HamburgerFrame.IsPaneOpen] Unknown reference link target &#39;T:Windows.UI.Xaml.Controls.SplitView&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Cimbalino.Toolkit.Controls.HamburgerFrame.OpenPaneLength] Unknown reference link target &#39;T:Windows.UI.Xaml.Controls.SplitView&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Cimbalino.Toolkit.Controls.HamburgerFrame.OpenPaneLength] Unknown reference link target &#39;T:Windows.UI.Xaml.Controls.SplitView&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Cimbalino.Toolkit.Controls.HamburgerFrame.Pane] Unknown reference link target &#39;T:Windows.UI.Xaml.Controls.SplitView&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Cimbalino.Toolkit.Controls.HamburgerFrame.Pane] Unknown reference link target &#39;T:Windows.UI.Xaml.Controls.SplitView&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Cimbalino.Toolkit.Controls.HamburgerFrame.PaneBackground] Unknown reference link target &#39;T:Windows.UI.Xaml.Controls.SplitView&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Cimbalino.Toolkit.Controls.HamburgerFrame.PaneBackground] Unknown reference link target &#39;T:Windows.UI.Xaml.Controls.SplitView&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [E:Cimbalino.Toolkit.Controls.HamburgerFrame.PaneClosed] Unknown reference link target &#39;T:Windows.UI.Xaml.Controls.SplitView&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [E:Cimbalino.Toolkit.Controls.HamburgerFrame.PaneClosing] Unknown reference link target &#39;T:Windows.UI.Xaml.Controls.SplitView&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [E:Cimbalino.Toolkit.Controls.HamburgerFrame.PaneClosing] Unknown reference link target &#39;T:Windows.UI.Xaml.Controls.SplitViewPaneClosingEventArgs&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerMenuButton] Unknown reference link target &#39;P:Windows.UI.Xaml.UIElement.CanDrag&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerMenuButton] Unknown reference link target &#39;P:Windows.UI.Xaml.Controls.Control.IsTextScaleFactorEnabled&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerMenuButton] Unknown reference link target &#39;P:Windows.UI.Xaml.UIElement.Transform3D&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerMenuButton] Unknown reference link target &#39;P:Windows.UI.Xaml.Controls.Control.UseSystemFocusVisuals&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerMenuButton] Unknown reference link target &#39;M:Windows.UI.Xaml.UIElement.FindSubElementsForTouchTargeting(System.Void,Windows.Foundation.Collections.IIterable`1)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerMenuButton] Invalid reference link target &#39;M:Windows.UI.Xaml.UIElement.FindSubElementsForTouchTargeting(System.Void,Windows.Foundation.Collections.IIterable`1)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerMenuButton] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerMenuButton] Unknown reference link target &#39;M:Windows.UI.Xaml.UIElement.StartDragAsync(System.Void)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerMenuButton] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerMenuButton] Unknown reference link target &#39;E:Windows.UI.Xaml.UIElement.DragStarting&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerMenuButton] Unknown reference link target &#39;E:Windows.UI.Xaml.UIElement.DropCompleted&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerMenuButton] Unknown reference link target &#39;E:Windows.UI.Xaml.FrameworkElement.Loading&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerMenuButton] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Controls.HamburgerMenuButton] Unknown reference link target &#39;M:Windows.UI.Xaml.UIElement.FindSubElementsForTouchTargeting(System.Void,Windows.Foundation.Collections.IIterable`1)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Controls.HamburgerMenuButton] Invalid reference link target &#39;M:Windows.UI.Xaml.UIElement.FindSubElementsForTouchTargeting(System.Void,Windows.Foundation.Collections.IIterable`1)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Controls.HamburgerMenuButton] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Controls.HamburgerMenuButton] Unknown reference link target &#39;M:Windows.UI.Xaml.UIElement.StartDragAsync(System.Void)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Controls.HamburgerMenuButton] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Controls.HamburgerMenuButton] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Cimbalino.Toolkit.Controls.HamburgerMenuButton] Unknown reference link target &#39;P:Windows.UI.Xaml.UIElement.CanDrag&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Cimbalino.Toolkit.Controls.HamburgerMenuButton] Unknown reference link target &#39;P:Windows.UI.Xaml.Controls.Control.IsTextScaleFactorEnabled&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Cimbalino.Toolkit.Controls.HamburgerMenuButton] Unknown reference link target &#39;P:Windows.UI.Xaml.UIElement.Transform3D&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Cimbalino.Toolkit.Controls.HamburgerMenuButton] Unknown reference link target &#39;P:Windows.UI.Xaml.Controls.Control.UseSystemFocusVisuals&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:Cimbalino.Toolkit.Controls.HamburgerMenuButton] Unknown reference link target &#39;E:Windows.UI.Xaml.UIElement.DragStarting&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:Cimbalino.Toolkit.Controls.HamburgerMenuButton] Unknown reference link target &#39;E:Windows.UI.Xaml.UIElement.DropCompleted&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:Cimbalino.Toolkit.Controls.HamburgerMenuButton] Unknown reference link target &#39;E:Windows.UI.Xaml.FrameworkElement.Loading&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerTitleBar] Unknown reference link target &#39;P:Windows.UI.Xaml.UIElement.CanDrag&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerTitleBar] Unknown reference link target &#39;P:Windows.UI.Xaml.Controls.Control.IsTextScaleFactorEnabled&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerTitleBar] Unknown reference link target &#39;P:Windows.UI.Xaml.UIElement.Transform3D&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerTitleBar] Unknown reference link target &#39;P:Windows.UI.Xaml.Controls.Control.UseSystemFocusVisuals&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerTitleBar] Unknown reference link target &#39;M:Windows.UI.Xaml.UIElement.FindSubElementsForTouchTargeting(System.Void,Windows.Foundation.Collections.IIterable`1)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerTitleBar] Invalid reference link target &#39;M:Windows.UI.Xaml.UIElement.FindSubElementsForTouchTargeting(System.Void,Windows.Foundation.Collections.IIterable`1)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerTitleBar] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerTitleBar] Unknown reference link target &#39;M:Windows.UI.Xaml.UIElement.StartDragAsync(System.Void)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerTitleBar] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerTitleBar] Unknown reference link target &#39;E:Windows.UI.Xaml.UIElement.DragStarting&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerTitleBar] Unknown reference link target &#39;E:Windows.UI.Xaml.UIElement.DropCompleted&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerTitleBar] Unknown reference link target &#39;E:Windows.UI.Xaml.FrameworkElement.Loading&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Controls.HamburgerTitleBar] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Controls.HamburgerTitleBar] Unknown reference link target &#39;M:Windows.UI.Xaml.UIElement.FindSubElementsForTouchTargeting(System.Void,Windows.Foundation.Collections.IIterable`1)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Controls.HamburgerTitleBar] Invalid reference link target &#39;M:Windows.UI.Xaml.UIElement.FindSubElementsForTouchTargeting(System.Void,Windows.Foundation.Collections.IIterable`1)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Controls.HamburgerTitleBar] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Controls.HamburgerTitleBar] Unknown reference link target &#39;M:Windows.UI.Xaml.UIElement.StartDragAsync(System.Void)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Controls.HamburgerTitleBar] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Controls.HamburgerTitleBar] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Cimbalino.Toolkit.Controls.HamburgerTitleBar] Unknown reference link target &#39;P:Windows.UI.Xaml.UIElement.CanDrag&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Cimbalino.Toolkit.Controls.HamburgerTitleBar] Unknown reference link target &#39;P:Windows.UI.Xaml.Controls.Control.IsTextScaleFactorEnabled&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Cimbalino.Toolkit.Controls.HamburgerTitleBar] Unknown reference link target &#39;P:Windows.UI.Xaml.UIElement.Transform3D&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Cimbalino.Toolkit.Controls.HamburgerTitleBar] Unknown reference link target &#39;P:Windows.UI.Xaml.Controls.Control.UseSystemFocusVisuals&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:Cimbalino.Toolkit.Controls.HamburgerTitleBar] Unknown reference link target &#39;E:Windows.UI.Xaml.UIElement.DragStarting&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:Cimbalino.Toolkit.Controls.HamburgerTitleBar] Unknown reference link target &#39;E:Windows.UI.Xaml.UIElement.DropCompleted&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:Cimbalino.Toolkit.Controls.HamburgerTitleBar] Unknown reference link target &#39;E:Windows.UI.Xaml.FrameworkElement.Loading&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Converters.BooleanToBrushConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Converters.BooleanToBrushConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Converters.BooleanToBrushConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Converters.BooleanToBrushConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Converters.BooleanToIntConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Converters.BooleanToIntConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Converters.BooleanToIntConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Converters.BooleanToIntConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Converters.BooleanToStringConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Converters.BooleanToStringConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Converters.BooleanToStringConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Converters.BooleanToStringConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Converters.BooleanToValueConverterBase`1] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Converters.BooleanToValueConverterBase`1] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Converters.BooleanToValueConverterBase`1] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Converters.BooleanToValueConverterBase`1] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Converters.BooleanToVisibilityConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Converters.BooleanToVisibilityConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Converters.BooleanToVisibilityConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Converters.BooleanToVisibilityConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Converters.ColorToBrushConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Converters.ColorToBrushConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Converters.ColorToBrushConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Converters.ColorToBrushConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Converters.MultiValueConverterBase] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Converters.MultiValueConverterBase] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Converters.MultiValueConverterBase] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Converters.MultiValueConverterBase] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Converters.NegativeBooleanConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Converters.NegativeBooleanConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Converters.NegativeBooleanConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Converters.NegativeBooleanConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Converters.NullToVisibilityConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Converters.NullToVisibilityConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Converters.NullToVisibilityConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Converters.NullToVisibilityConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Converters.StringFormatConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Converters.StringFormatConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Converters.StringFormatConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Converters.StringFormatConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Converters.StringRegexConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Converters.StringRegexConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Converters.StringRegexConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Converters.StringRegexConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Converters.StringToLowercaseConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Converters.StringToLowercaseConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Converters.StringToLowercaseConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Converters.StringToLowercaseConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Converters.StringToUppercaseConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Converters.StringToUppercaseConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Converters.StringToUppercaseConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Converters.StringToUppercaseConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Converters.StringToVisibilityConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Converters.StringToVisibilityConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Converters.StringToVisibilityConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Converters.StringToVisibilityConverter] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Converters.ValueConverterBase] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Converters.ValueConverterBase] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Converters.ValueConverterBase] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Converters.ValueConverterBase] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Extensions.FrameworkElementExtensions] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Extensions.FrameworkElementExtensions] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Overload:Cimbalino.Toolkit.Extensions.FrameworkElementExtensions.GetBehavior] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Cimbalino.Toolkit.Extensions.FrameworkElementExtensions.GetBehavior``1(Windows.UI.Xaml.FrameworkElement)] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Cimbalino.Toolkit.Extensions.FrameworkElementExtensions.GetBehavior``1(Windows.UI.Xaml.FrameworkElement)] MSDN URL not found for target &#39;T:Microsoft.Xaml.Interactivity.Behavior&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Helpers.DependencyObjectCollection`1] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Helpers.DependencyObjectCollection`1] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Helpers.DependencyObjectCollection`1] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Helpers.DependencyObjectCollection`1] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Helpers.Hamburger] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Helpers.Hamburger] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Helpers.Hamburger] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Helpers.Hamburger] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Helpers.NamescopeBinding] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Cimbalino.Toolkit.Helpers.NamescopeBinding] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Helpers.NamescopeBinding] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,Windows.UI.Xaml.DependencyPropertyChangedCallback)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Cimbalino.Toolkit.Helpers.NamescopeBinding] Unknown reference link target &#39;M:Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty,System.Int64)&#39;. [C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj]
+  Processed 1978 topic(s)
+  313 warning(s)
   CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 1 of 15.
-Done Building Project &quot;D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildConceptualTopics.proj&quot; (default targets).
-
-Build succeeded.
-
-Time Elapsed 00:00:02.64
-    Last step completed in 00:00:03,0700
-</buildStep>
-<buildStep step="BuildReferenceTopics">
-Building reference help topics...
-[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - BuildReferenceTopics.proj]
-Build started 09/04/2016 18:47:27.
-Project &quot;D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildReferenceTopics.proj&quot; on node 1 (default targets).
-BuildReferenceTopics:
-  BuildAssembler (v2015.10.10.0)
-  Copyright &#184; 2006-2015, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright &#184; 2006-2015, Eric Woodruff, All Rights Reserved.
-  Loading configuration...
-  ResolveReferenceLinksComponent: The MSDN content ID cache &#39;C:\Users\pedro\AppData\Local\EWSoftware\Sandcastle Help File Builder\Cache\MsdnContentId.cache&#39; does not exist yet.  All IDs will be looked up in this build which will slow it down.
-  Processing topics...
-BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Cimbalino.Toolkit.Behaviors.MultiBindingBehavior.Converter] Unknown reference link target &#39;M:Windows.UI.Xaml.Data.IValueConverter.Convert(System.Object,System.Type,System.Object,System.String)&#39;. [D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Cimbalino.Toolkit.Behaviors.MultiBindingBehavior.Converter] Unknown reference link target &#39;M:Windows.UI.Xaml.Data.IValueConverter.ConvertBack(System.Object,System.Type,System.Object,System.String)&#39;. [D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildReferenceTopics.proj]
-  Processed 1889 topic(s)
-  2 warning(s)
+  ResolveArtLinksComponent: Copying media files...
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 15 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 11 of 30.
-  ResolveReferenceLinksComponent: New MSDN content ID cache size: 271 entries
-Done Building Project &quot;D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildReferenceTopics.proj&quot; (default targets).
+  SaveComponent: Waiting for the document writer task to finish (100 Website API file(s) remaining)...
+Done Building Project &quot;C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\BuildTopics.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:04:25.01
-    Last step completed in 00:04:25,4492
+Time Elapsed 00:00:27.09
+    Last step completed in 00:00:27,2151
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00,0290
+    Last step completed in 00:00:00,0205
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - ExtractHtmlInfo.proj]
-Sandcastle Help File Builder and Tools, version 2015.10.10.0
-Copyright &#184; 2006-2015, Eric Woodruff, All Rights Reserved
+Sandcastle Help File Builder and Tools, version 2016.4.9.0
+Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved
 E-Mail: Eric@EWoodruff.us
 
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
-Processing website files in D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website
-Processed 1890 HTML files
+Processing website files in C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website
+Processed 1978 HTML files
 Sorting keywords and generating See Also indices
-Saving website keyword index to D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\WebKI.xml
-Saving website table of contents to D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\WebTOC.xml
-    Last step completed in 00:00:06,9209
+Saving website keyword index to C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\WebKI.xml
+Saving website table of contents to C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\WebTOC.xml
+    Last step completed in 00:00:06,6805
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\AlertCaution.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\AlertNote.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\AlertSecurity.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\CFW.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\CodeExample.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\favicon.ico
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\privclass.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\privdelegate.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\privenumeration.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\privevent.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\privextension.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\privfield.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\privinterface.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\privmethod.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\privproperty.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\privstructure.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\protclass.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\protdelegate.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\protenumeration.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\protevent.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\protextension.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\protfield.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\protinterface.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\protmethod.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\protoperator.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\protproperty.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\protstructure.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\pubclass.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\pubdelegate.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\pubenumeration.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\pubevent.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\pubextension.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\pubfield.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\pubinterface.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\pubmethod.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\puboperator.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\pubproperty.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\pubstructure.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\SectionCollapsed.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\SectionExpanded.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\slMobile.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\static.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\xna.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\scripts\branding.js
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-cs-CZ.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-de-DE.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-en-US.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-es-ES.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-fr-FR.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-Help1.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-HelpViewer.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-it-IT.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-ja-JP.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-ko-KR.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-pl-PL.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-pt-BR.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-ru-RU.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-tr-TR.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-Website.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-zh-CN.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-zh-TW.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\index.html -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\index.html
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\search.html -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\search.html
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.aspx -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\SearchHelp.aspx
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.inc.php -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\SearchHelp.inc.php
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.php -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\SearchHelp.php
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\Web.Config -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\Web.Config
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\Search.png -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\Search.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocClose.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\TocClose.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocCollapsed.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\TocCollapsed.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocExpanded.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\TocExpanded.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\TocOpen.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\scripts\branding-Website.js
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; D:\Users\Pedro\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:00,1141
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\AlertCaution.png
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\icons\AlertNote.png -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\AlertNote.png
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\AlertSecurity.png
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\icons\CFW.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\CFW.gif
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\icons\CodeExample.png -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\CodeExample.png
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\icons\favicon.ico -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\favicon.ico
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\icons\privclass.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\privclass.gif
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\privdelegate.gif
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\privenumeration.gif
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\icons\privevent.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\privevent.gif
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\icons\privextension.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\privextension.gif
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\icons\privfield.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\privfield.gif
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\icons\privinterface.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\privinterface.gif
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\icons\privmethod.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\privmethod.gif
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\icons\privproperty.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\privproperty.gif
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\icons\privstructure.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\privstructure.gif
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\icons\protclass.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\protclass.gif
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\protdelegate.gif
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\protenumeration.gif
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\icons\protevent.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\protevent.gif
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\icons\protextension.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\protextension.gif
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\icons\protfield.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\protfield.gif
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\icons\protinterface.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\protinterface.gif
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\icons\protmethod.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\protmethod.gif
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\icons\protoperator.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\protoperator.gif
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\icons\protproperty.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\protproperty.gif
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\icons\protstructure.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\protstructure.gif
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\icons\pubclass.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\pubclass.gif
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\pubdelegate.gif
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\pubenumeration.gif
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\icons\pubevent.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\pubevent.gif
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\icons\pubextension.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\pubextension.gif
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\icons\pubfield.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\pubfield.gif
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\pubinterface.gif
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\pubmethod.gif
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\icons\puboperator.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\puboperator.gif
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\pubproperty.gif
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\pubstructure.gif
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\SectionCollapsed.png
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\SectionExpanded.png
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\icons\slMobile.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\slMobile.gif
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\icons\static.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\static.gif
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\icons\xna.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\xna.gif
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\scripts\branding.js -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\scripts\branding.js
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-cs-CZ.css
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-de-DE.css
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-en-US.css
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-es-ES.css
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-fr-FR.css
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-Help1.css
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-HelpViewer.css
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-it-IT.css
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-ja-JP.css
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-ko-KR.css
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-pl-PL.css
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-pt-BR.css
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-ru-RU.css
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-tr-TR.css
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\styles\branding-Website.css -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-Website.css
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-zh-CN.css
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding-zh-TW.css
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\styles\branding.css -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\styles\branding.css
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\Web\index.html -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\index.html
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\Web\search.html -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\search.html
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\Web\SearchHelp.aspx -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\SearchHelp.aspx
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\Web\SearchHelp.inc.php -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\SearchHelp.inc.php
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\Web\SearchHelp.php -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\SearchHelp.php
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\Web\Web.Config -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\Web.Config
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\Web\icons\Search.png -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\Search.png
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\Web\icons\TocClose.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\TocClose.gif
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\Web\icons\TocCollapsed.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\TocCollapsed.gif
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\Web\icons\TocExpanded.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\TocExpanded.gif
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\icons\TocOpen.gif
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\scripts\branding-Website.js
+C:\Projects\SHFB\SHFB\Deploy\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; C:\Users\a-pelama\Dropbox\Projects\Cimbalino.Toolkit\doc\Help\Working\Output\Website\scripts\jquery-1.11.0.min.js
+    Last step completed in 00:00:00,1025
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00,0005
+    Last step completed in 00:00:00,0010
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:33,7884
+</plugIn>    Last step completed in 00:00:06,9045
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -534,16 +833,16 @@ Copied 1000 files
 Copied 1500 files
 Copied 2000 files
 Copied 2500 files
-Copied 2558 files for the website content
-    Last step completed in 00:00:02,1358
+Copied 2667 files for the website content
+    Last step completed in 00:00:02,7183
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00,3553
+    Last step completed in 00:00:00,7507
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 09/04/2016 18:52:35.  Total time: 00:05:35,7653
+Build completed successfully at 24/05/2016 16:23:50.  Total time: 00:00:58,0854
 
 </buildStep>
 </shfbBuild>

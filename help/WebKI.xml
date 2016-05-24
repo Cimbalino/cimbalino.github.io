@@ -667,6 +667,10 @@
   <HelpKINode Title="Cimbalino.Toolkit.Compression.CompressionLevel enumeration" Url="html/T_Cimbalino_Toolkit_Compression_CompressionLevel.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Compression.Crc32 class" Url="html/T_Cimbalino_Toolkit_Compression_Crc32.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Compression.ZlibStream class" Url="html/T_Cimbalino_Toolkit_Compression_ZlibStream.htm" />
+  <HelpKINode Title="Cimbalino.Toolkit.Controls namespace" Url="html/N_Cimbalino_Toolkit_Controls.htm" />
+  <HelpKINode Title="Cimbalino.Toolkit.Controls.HamburgerFrame class" Url="html/T_Cimbalino_Toolkit_Controls_HamburgerFrame.htm" />
+  <HelpKINode Title="Cimbalino.Toolkit.Controls.HamburgerMenuButton class" Url="html/T_Cimbalino_Toolkit_Controls_HamburgerMenuButton.htm" />
+  <HelpKINode Title="Cimbalino.Toolkit.Controls.HamburgerTitleBar class" Url="html/T_Cimbalino_Toolkit_Controls_HamburgerTitleBar.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Converters namespace" Url="html/N_Cimbalino_Toolkit_Converters.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Converters.BooleanToBrushConverter class" Url="html/T_Cimbalino_Toolkit_Converters_BooleanToBrushConverter.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Converters.BooleanToIntConverter class" Url="html/T_Cimbalino_Toolkit_Converters_BooleanToIntConverter.htm" />
@@ -729,6 +733,7 @@
   <HelpKINode Title="Cimbalino.Toolkit.Helpers.DebugOptions class" Url="html/T_Cimbalino_Toolkit_Helpers_DebugOptions.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Helpers.DependencyObjectCollection(Of T) class" Url="html/T_Cimbalino_Toolkit_Helpers_DependencyObjectCollection_1.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Helpers.DependencyObjectCollection&lt;T&gt; class" Url="html/T_Cimbalino_Toolkit_Helpers_DependencyObjectCollection_1.htm" />
+  <HelpKINode Title="Cimbalino.Toolkit.Helpers.Hamburger class" Url="html/T_Cimbalino_Toolkit_Helpers_Hamburger.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Helpers.NamescopeBinding class" Url="html/T_Cimbalino_Toolkit_Helpers_NamescopeBinding.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Helpers.ObservableBase class" Url="html/T_Cimbalino_Toolkit_Helpers_ObservableBase.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Helpers.ObservableTask class" Url="html/T_Cimbalino_Toolkit_Helpers_ObservableTask.htm" />
@@ -826,7 +831,7 @@
   <HelpKINode Title="Cimbalino.Toolkit.Services.StatusBarService class" Url="html/T_Cimbalino_Toolkit_Services_StatusBarService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.StorageService class" Url="html/T_Cimbalino_Toolkit_Services_StorageService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.StorageServiceHandler class" Url="html/T_Cimbalino_Toolkit_Services_StorageServiceHandler.htm" />
-  <HelpKINode Title="Cimbalino.Toolkit.Services.StorageServiceStorageType enumeration" Url="html/T_Cimbalino_Toolkit_Services_StorageServiceStorageType.htm" />
+  <HelpKINode Title="Cimbalino.Toolkit.Services.StorageServiceStorageType class" Url="html/T_Cimbalino_Toolkit_Services_StorageServiceStorageType.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.StoreService class" Url="html/T_Cimbalino_Toolkit_Services_StoreService.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.TitleBarIsVisibleChangedArgs class" Url="html/T_Cimbalino_Toolkit_Services_TitleBarIsVisibleChangedArgs.htm" />
   <HelpKINode Title="Cimbalino.Toolkit.Services.TitleBarService class" Url="html/T_Cimbalino_Toolkit_Services_TitleBarService.htm" />
@@ -911,6 +916,20 @@
   <HelpKINode Title="CommandProperty field">
     <HelpKINode Title="ApplicationBarItemBase(T).CommandProperty Field" Url="html/F_Cimbalino_Toolkit_Behaviors_ApplicationBarItemBase_1_CommandProperty.htm" />
     <HelpKINode Title="EnterKeyBehavior.CommandProperty Field" Url="html/F_Cimbalino_Toolkit_Behaviors_EnterKeyBehavior_CommandProperty.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CompactPaneLength property" Url="html/P_Cimbalino_Toolkit_Controls_HamburgerFrame_CompactPaneLength.htm" />
+  <HelpKINode Title="CompactPaneLengthProperty field" Url="html/F_Cimbalino_Toolkit_Controls_HamburgerFrame_CompactPaneLengthProperty.htm" />
+  <HelpKINode Title="CompareTo enumeration member">
+    <HelpKINode Title="ApplicationProfileServiceMode Enumeration" Url="html/T_Cimbalino_Toolkit_Services_ApplicationProfileServiceMode.htm" />
+    <HelpKINode Title="CompressionLevel Enumeration" Url="html/T_Cimbalino_Toolkit_Compression_CompressionLevel.htm" />
+    <HelpKINode Title="DeviceStatusServicePowerSource Enumeration" Url="html/T_Cimbalino_Toolkit_Services_DeviceStatusServicePowerSource.htm" />
+    <HelpKINode Title="FilePickerServiceLocationId Enumeration" Url="html/T_Cimbalino_Toolkit_Services_FilePickerServiceLocationId.htm" />
+    <HelpKINode Title="FilePickerServiceViewMode Enumeration" Url="html/T_Cimbalino_Toolkit_Services_FilePickerServiceViewMode.htm" />
+    <HelpKINode Title="LocationServiceAccuracy Enumeration" Url="html/T_Cimbalino_Toolkit_Services_LocationServiceAccuracy.htm" />
+    <HelpKINode Title="LocationServiceStatus Enumeration" Url="html/T_Cimbalino_Toolkit_Services_LocationServiceStatus.htm" />
+    <HelpKINode Title="LockScreenServiceRequestResult Enumeration" Url="html/T_Cimbalino_Toolkit_Services_LockScreenServiceRequestResult.htm" />
+    <HelpKINode Title="NavigationServiceBackKeyPressedBehavior Enumeration" Url="html/T_Cimbalino_Toolkit_Services_NavigationServiceBackKeyPressedBehavior.htm" />
+    <HelpKINode Title="RuntimeInformationServiceProfile Enumeration" Url="html/T_Cimbalino_Toolkit_Services_RuntimeInformationServiceProfile.htm" />
   </HelpKINode>
   <HelpKINode Title="CompressionLevel enumeration" Url="html/T_Cimbalino_Toolkit_Compression_CompressionLevel.htm" />
   <HelpKINode Title="ComputeHash method">
@@ -1247,6 +1266,8 @@
   </HelpKINode>
   <HelpKINode Title="DispatcherService.DispatcherService constructor" Url="html/M_Cimbalino_Toolkit_Services_DispatcherService__ctor.htm" />
   <HelpKINode Title="DispatcherService.InvokeOnUiThreadAsync method" Url="html/Overload_Cimbalino_Toolkit_Services_DispatcherService_InvokeOnUiThreadAsync.htm" />
+  <HelpKINode Title="DisplayMode property" Url="html/P_Cimbalino_Toolkit_Controls_HamburgerFrame_DisplayMode.htm" />
+  <HelpKINode Title="DisplayModeProperty field" Url="html/F_Cimbalino_Toolkit_Controls_HamburgerFrame_DisplayModeProperty.htm" />
   <HelpKINode Title="DisplayName property" Url="html/P_Cimbalino_Toolkit_Services_LauncherServiceAppInfo_DisplayName.htm" />
   <HelpKINode Title="DisplayPrice property" Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppOfferNode_DisplayPrice.htm" />
   <HelpKINode Title="DisplayPropertiesService class">
@@ -1307,6 +1328,18 @@
   <HelpKINode Title="EnterKeyBehavior.OnDetaching method" Url="html/M_Cimbalino_Toolkit_Behaviors_EnterKeyBehavior_OnDetaching.htm" />
   <HelpKINode Title="Entry property" Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppNode_Entry.htm" />
   <HelpKINode Title="Equality operator" Url="html/M_Cimbalino_Toolkit_Services_LocationServicePosition_op_Equality.htm" />
+  <HelpKINode Title="Equals enumeration member">
+    <HelpKINode Title="ApplicationProfileServiceMode Enumeration" Url="html/T_Cimbalino_Toolkit_Services_ApplicationProfileServiceMode.htm" />
+    <HelpKINode Title="CompressionLevel Enumeration" Url="html/T_Cimbalino_Toolkit_Compression_CompressionLevel.htm" />
+    <HelpKINode Title="DeviceStatusServicePowerSource Enumeration" Url="html/T_Cimbalino_Toolkit_Services_DeviceStatusServicePowerSource.htm" />
+    <HelpKINode Title="FilePickerServiceLocationId Enumeration" Url="html/T_Cimbalino_Toolkit_Services_FilePickerServiceLocationId.htm" />
+    <HelpKINode Title="FilePickerServiceViewMode Enumeration" Url="html/T_Cimbalino_Toolkit_Services_FilePickerServiceViewMode.htm" />
+    <HelpKINode Title="LocationServiceAccuracy Enumeration" Url="html/T_Cimbalino_Toolkit_Services_LocationServiceAccuracy.htm" />
+    <HelpKINode Title="LocationServiceStatus Enumeration" Url="html/T_Cimbalino_Toolkit_Services_LocationServiceStatus.htm" />
+    <HelpKINode Title="LockScreenServiceRequestResult Enumeration" Url="html/T_Cimbalino_Toolkit_Services_LockScreenServiceRequestResult.htm" />
+    <HelpKINode Title="NavigationServiceBackKeyPressedBehavior Enumeration" Url="html/T_Cimbalino_Toolkit_Services_NavigationServiceBackKeyPressedBehavior.htm" />
+    <HelpKINode Title="RuntimeInformationServiceProfile Enumeration" Url="html/T_Cimbalino_Toolkit_Services_RuntimeInformationServiceProfile.htm" />
+  </HelpKINode>
   <HelpKINode Title="Equals method" Url="html/Overload_Cimbalino_Toolkit_Services_LocationServicePosition_Equals.htm" />
   <HelpKINode Title="EventHandlerExtensions class">
     <HelpKINode Title="EventHandlerExtensions Class" Url="html/T_Cimbalino_Toolkit_Extensions_EventHandlerExtensions.htm" />
@@ -1463,13 +1496,28 @@
   </HelpKINode>
   <HelpKINode Title="GetFrame method" Url="html/M_Cimbalino_Toolkit_Services_NavigationService_GetFrame.htm" />
   <HelpKINode Title="GetHash method" Url="html/Overload_System_Security_Cryptography_MD5_GetHash.htm" />
+  <HelpKINode Title="GetHashCode enumeration member">
+    <HelpKINode Title="ApplicationProfileServiceMode Enumeration" Url="html/T_Cimbalino_Toolkit_Services_ApplicationProfileServiceMode.htm" />
+    <HelpKINode Title="CompressionLevel Enumeration" Url="html/T_Cimbalino_Toolkit_Compression_CompressionLevel.htm" />
+    <HelpKINode Title="DeviceStatusServicePowerSource Enumeration" Url="html/T_Cimbalino_Toolkit_Services_DeviceStatusServicePowerSource.htm" />
+    <HelpKINode Title="FilePickerServiceLocationId Enumeration" Url="html/T_Cimbalino_Toolkit_Services_FilePickerServiceLocationId.htm" />
+    <HelpKINode Title="FilePickerServiceViewMode Enumeration" Url="html/T_Cimbalino_Toolkit_Services_FilePickerServiceViewMode.htm" />
+    <HelpKINode Title="LocationServiceAccuracy Enumeration" Url="html/T_Cimbalino_Toolkit_Services_LocationServiceAccuracy.htm" />
+    <HelpKINode Title="LocationServiceStatus Enumeration" Url="html/T_Cimbalino_Toolkit_Services_LocationServiceStatus.htm" />
+    <HelpKINode Title="LockScreenServiceRequestResult Enumeration" Url="html/T_Cimbalino_Toolkit_Services_LockScreenServiceRequestResult.htm" />
+    <HelpKINode Title="NavigationServiceBackKeyPressedBehavior Enumeration" Url="html/T_Cimbalino_Toolkit_Services_NavigationServiceBackKeyPressedBehavior.htm" />
+    <HelpKINode Title="RuntimeInformationServiceProfile Enumeration" Url="html/T_Cimbalino_Toolkit_Services_RuntimeInformationServiceProfile.htm" />
+  </HelpKINode>
   <HelpKINode Title="GetHashCode method" Url="html/M_Cimbalino_Toolkit_Services_LocationServicePosition_GetHashCode.htm" />
   <HelpKINode Title="GetHashString method" Url="html/Overload_System_Security_Cryptography_MD5_GetHashString.htm" />
+  <HelpKINode Title="GetHeader method" Url="html/M_Cimbalino_Toolkit_Helpers_Hamburger_GetHeader.htm" />
   <HelpKINode Title="GetHtmlAsync method">
     <HelpKINode Title="ClipboardService.GetHtmlAsync Method " Url="html/M_Cimbalino_Toolkit_Services_ClipboardService_GetHtmlAsync.htm" />
     <HelpKINode Title="IClipboardService.GetHtmlAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IClipboardService_GetHtmlAsync.htm" />
   </HelpKINode>
+  <HelpKINode Title="GetIsPaneOpen method" Url="html/M_Cimbalino_Toolkit_Helpers_Hamburger_GetIsPaneOpen.htm" />
   <HelpKINode Title="GetNavigationService method" Url="html/M_Cimbalino_Toolkit_Services_NavigationService_GetNavigationService.htm" />
+  <HelpKINode Title="GetPane method" Url="html/M_Cimbalino_Toolkit_Helpers_Hamburger_GetPane.htm" />
   <HelpKINode Title="GetPositionAsync method">
     <HelpKINode Title="ILocationService.GetPositionAsync Method " Url="html/Overload_Cimbalino_Toolkit_Services_ILocationService_GetPositionAsync.htm" />
     <HelpKINode Title="LocationService.GetPositionAsync Method " Url="html/Overload_Cimbalino_Toolkit_Services_LocationService_GetPositionAsync.htm" />
@@ -1481,6 +1529,7 @@
     <HelpKINode Title="ClipboardService.GetRtfAsync Method " Url="html/M_Cimbalino_Toolkit_Services_ClipboardService_GetRtfAsync.htm" />
     <HelpKINode Title="IClipboardService.GetRtfAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IClipboardService_GetRtfAsync.htm" />
   </HelpKINode>
+  <HelpKINode Title="GetSubHeader method" Url="html/M_Cimbalino_Toolkit_Helpers_Hamburger_GetSubHeader.htm" />
   <HelpKINode Title="GetTextAsync method">
     <HelpKINode Title="ClipboardService.GetTextAsync Method " Url="html/M_Cimbalino_Toolkit_Services_ClipboardService_GetTextAsync.htm" />
     <HelpKINode Title="IClipboardService.GetTextAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IClipboardService_GetTextAsync.htm" />
@@ -1488,6 +1537,18 @@
   <HelpKINode Title="GetTrigger(Of T) method" Url="html/M_Cimbalino_Toolkit_Extensions_FrameworkElementExtensions_GetTrigger__1.htm" />
   <HelpKINode Title="GetTrigger&lt;T&gt; method" Url="html/M_Cimbalino_Toolkit_Extensions_FrameworkElementExtensions_GetTrigger__1.htm" />
   <HelpKINode Title="GetTriggers method" Url="html/M_Cimbalino_Toolkit_Extensions_FrameworkElementExtensions_GetTriggers.htm" />
+  <HelpKINode Title="GetType enumeration member">
+    <HelpKINode Title="ApplicationProfileServiceMode Enumeration" Url="html/T_Cimbalino_Toolkit_Services_ApplicationProfileServiceMode.htm" />
+    <HelpKINode Title="CompressionLevel Enumeration" Url="html/T_Cimbalino_Toolkit_Compression_CompressionLevel.htm" />
+    <HelpKINode Title="DeviceStatusServicePowerSource Enumeration" Url="html/T_Cimbalino_Toolkit_Services_DeviceStatusServicePowerSource.htm" />
+    <HelpKINode Title="FilePickerServiceLocationId Enumeration" Url="html/T_Cimbalino_Toolkit_Services_FilePickerServiceLocationId.htm" />
+    <HelpKINode Title="FilePickerServiceViewMode Enumeration" Url="html/T_Cimbalino_Toolkit_Services_FilePickerServiceViewMode.htm" />
+    <HelpKINode Title="LocationServiceAccuracy Enumeration" Url="html/T_Cimbalino_Toolkit_Services_LocationServiceAccuracy.htm" />
+    <HelpKINode Title="LocationServiceStatus Enumeration" Url="html/T_Cimbalino_Toolkit_Services_LocationServiceStatus.htm" />
+    <HelpKINode Title="LockScreenServiceRequestResult Enumeration" Url="html/T_Cimbalino_Toolkit_Services_LockScreenServiceRequestResult.htm" />
+    <HelpKINode Title="NavigationServiceBackKeyPressedBehavior Enumeration" Url="html/T_Cimbalino_Toolkit_Services_NavigationServiceBackKeyPressedBehavior.htm" />
+    <HelpKINode Title="RuntimeInformationServiceProfile Enumeration" Url="html/T_Cimbalino_Toolkit_Services_RuntimeInformationServiceProfile.htm" />
+  </HelpKINode>
   <HelpKINode Title="GetValue method" Url="html/Overload_Cimbalino_Toolkit_Extensions_IDictionaryExtensions_GetValue.htm" />
   <HelpKINode Title="GetValuesAsync method">
     <HelpKINode Title="ApplicationSettingsServiceHandler.GetValuesAsync Method " Url="html/M_Cimbalino_Toolkit_Services_ApplicationSettingsServiceHandler_GetValuesAsync.htm" />
@@ -1512,7 +1573,112 @@
     <HelpKINode Title="NavigationService.GoForward Method " Url="html/M_Cimbalino_Toolkit_Services_NavigationService_GoForward.htm" />
   </HelpKINode>
   <HelpKINode Title="Granted enumeration member" Url="html/T_Cimbalino_Toolkit_Services_LockScreenServiceRequestResult.htm" />
+  <HelpKINode Title="Hamburger class">
+    <HelpKINode Title="Hamburger Class" Url="html/T_Cimbalino_Toolkit_Helpers_Hamburger.htm" />
+    <HelpKINode Title="about Hamburger class" Url="html/T_Cimbalino_Toolkit_Helpers_Hamburger.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Cimbalino_Toolkit_Helpers_Hamburger__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Cimbalino_Toolkit_Helpers_Hamburger.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Cimbalino_Toolkit_Helpers_Hamburger.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Cimbalino_Toolkit_Helpers_Hamburger.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Hamburger.GetHeader method" Url="html/M_Cimbalino_Toolkit_Helpers_Hamburger_GetHeader.htm" />
+  <HelpKINode Title="Hamburger.GetIsPaneOpen method" Url="html/M_Cimbalino_Toolkit_Helpers_Hamburger_GetIsPaneOpen.htm" />
+  <HelpKINode Title="Hamburger.GetPane method" Url="html/M_Cimbalino_Toolkit_Helpers_Hamburger_GetPane.htm" />
+  <HelpKINode Title="Hamburger.GetSubHeader method" Url="html/M_Cimbalino_Toolkit_Helpers_Hamburger_GetSubHeader.htm" />
+  <HelpKINode Title="Hamburger.Hamburger constructor" Url="html/M_Cimbalino_Toolkit_Helpers_Hamburger__ctor.htm" />
+  <HelpKINode Title="Hamburger.HeaderProperty field" Url="html/F_Cimbalino_Toolkit_Helpers_Hamburger_HeaderProperty.htm" />
+  <HelpKINode Title="Hamburger.IsPaneOpenProperty field" Url="html/F_Cimbalino_Toolkit_Helpers_Hamburger_IsPaneOpenProperty.htm" />
+  <HelpKINode Title="Hamburger.PaneProperty field" Url="html/F_Cimbalino_Toolkit_Helpers_Hamburger_PaneProperty.htm" />
+  <HelpKINode Title="Hamburger.SetHeader method" Url="html/M_Cimbalino_Toolkit_Helpers_Hamburger_SetHeader.htm" />
+  <HelpKINode Title="Hamburger.SetIsPaneOpen method" Url="html/M_Cimbalino_Toolkit_Helpers_Hamburger_SetIsPaneOpen.htm" />
+  <HelpKINode Title="Hamburger.SetPane method" Url="html/M_Cimbalino_Toolkit_Helpers_Hamburger_SetPane.htm" />
+  <HelpKINode Title="Hamburger.SetSubHeader method" Url="html/M_Cimbalino_Toolkit_Helpers_Hamburger_SetSubHeader.htm" />
+  <HelpKINode Title="Hamburger.SubHeaderProperty field" Url="html/F_Cimbalino_Toolkit_Helpers_Hamburger_SubHeaderProperty.htm" />
+  <HelpKINode Title="HamburgerFrame class">
+    <HelpKINode Title="HamburgerFrame Class" Url="html/T_Cimbalino_Toolkit_Controls_HamburgerFrame.htm" />
+    <HelpKINode Title="about HamburgerFrame class" Url="html/T_Cimbalino_Toolkit_Controls_HamburgerFrame.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Cimbalino_Toolkit_Controls_HamburgerFrame__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_Cimbalino_Toolkit_Controls_HamburgerFrame.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Cimbalino_Toolkit_Controls_HamburgerFrame.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Cimbalino_Toolkit_Controls_HamburgerFrame.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Cimbalino_Toolkit_Controls_HamburgerFrame.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HamburgerFrame.CompactPaneLength property" Url="html/P_Cimbalino_Toolkit_Controls_HamburgerFrame_CompactPaneLength.htm" />
+  <HelpKINode Title="HamburgerFrame.CompactPaneLengthProperty field" Url="html/F_Cimbalino_Toolkit_Controls_HamburgerFrame_CompactPaneLengthProperty.htm" />
+  <HelpKINode Title="HamburgerFrame.DisplayMode property" Url="html/P_Cimbalino_Toolkit_Controls_HamburgerFrame_DisplayMode.htm" />
+  <HelpKINode Title="HamburgerFrame.DisplayModeProperty field" Url="html/F_Cimbalino_Toolkit_Controls_HamburgerFrame_DisplayModeProperty.htm" />
+  <HelpKINode Title="HamburgerFrame.HamburgerFrame constructor" Url="html/M_Cimbalino_Toolkit_Controls_HamburgerFrame__ctor.htm" />
+  <HelpKINode Title="HamburgerFrame.Header property" Url="html/P_Cimbalino_Toolkit_Controls_HamburgerFrame_Header.htm" />
+  <HelpKINode Title="HamburgerFrame.HeaderBackground property" Url="html/P_Cimbalino_Toolkit_Controls_HamburgerFrame_HeaderBackground.htm" />
+  <HelpKINode Title="HamburgerFrame.HeaderBackgroundProperty field" Url="html/F_Cimbalino_Toolkit_Controls_HamburgerFrame_HeaderBackgroundProperty.htm" />
+  <HelpKINode Title="HamburgerFrame.HeaderProperty field" Url="html/F_Cimbalino_Toolkit_Controls_HamburgerFrame_HeaderProperty.htm" />
+  <HelpKINode Title="HamburgerFrame.IsPaneOpen property" Url="html/P_Cimbalino_Toolkit_Controls_HamburgerFrame_IsPaneOpen.htm" />
+  <HelpKINode Title="HamburgerFrame.IsPaneOpenProperty field" Url="html/F_Cimbalino_Toolkit_Controls_HamburgerFrame_IsPaneOpenProperty.htm" />
+  <HelpKINode Title="HamburgerFrame.OnApplyTemplate method" Url="html/M_Cimbalino_Toolkit_Controls_HamburgerFrame_OnApplyTemplate.htm" />
+  <HelpKINode Title="HamburgerFrame.OpenPaneLength property" Url="html/P_Cimbalino_Toolkit_Controls_HamburgerFrame_OpenPaneLength.htm" />
+  <HelpKINode Title="HamburgerFrame.OpenPaneLengthProperty field" Url="html/F_Cimbalino_Toolkit_Controls_HamburgerFrame_OpenPaneLengthProperty.htm" />
+  <HelpKINode Title="HamburgerFrame.Pane property" Url="html/P_Cimbalino_Toolkit_Controls_HamburgerFrame_Pane.htm" />
+  <HelpKINode Title="HamburgerFrame.PaneBackground property" Url="html/P_Cimbalino_Toolkit_Controls_HamburgerFrame_PaneBackground.htm" />
+  <HelpKINode Title="HamburgerFrame.PaneBackgroundProperty field" Url="html/F_Cimbalino_Toolkit_Controls_HamburgerFrame_PaneBackgroundProperty.htm" />
+  <HelpKINode Title="HamburgerFrame.PaneClosed event" Url="html/E_Cimbalino_Toolkit_Controls_HamburgerFrame_PaneClosed.htm" />
+  <HelpKINode Title="HamburgerFrame.PaneClosing event" Url="html/E_Cimbalino_Toolkit_Controls_HamburgerFrame_PaneClosing.htm" />
+  <HelpKINode Title="HamburgerFrame.PaneProperty field" Url="html/F_Cimbalino_Toolkit_Controls_HamburgerFrame_PaneProperty.htm" />
+  <HelpKINode Title="HamburgerFrame.SubHeader property" Url="html/P_Cimbalino_Toolkit_Controls_HamburgerFrame_SubHeader.htm" />
+  <HelpKINode Title="HamburgerFrame.SubHeaderBackground property" Url="html/P_Cimbalino_Toolkit_Controls_HamburgerFrame_SubHeaderBackground.htm" />
+  <HelpKINode Title="HamburgerFrame.SubHeaderBackgroundProperty field" Url="html/F_Cimbalino_Toolkit_Controls_HamburgerFrame_SubHeaderBackgroundProperty.htm" />
+  <HelpKINode Title="HamburgerFrame.SubHeaderProperty field" Url="html/F_Cimbalino_Toolkit_Controls_HamburgerFrame_SubHeaderProperty.htm" />
+  <HelpKINode Title="HamburgerFrame.VisualStateNarrowMinWidth property" Url="html/P_Cimbalino_Toolkit_Controls_HamburgerFrame_VisualStateNarrowMinWidth.htm" />
+  <HelpKINode Title="HamburgerFrame.VisualStateNarrowMinWidthProperty field" Url="html/F_Cimbalino_Toolkit_Controls_HamburgerFrame_VisualStateNarrowMinWidthProperty.htm" />
+  <HelpKINode Title="HamburgerFrame.VisualStateNormalMinWidth property" Url="html/P_Cimbalino_Toolkit_Controls_HamburgerFrame_VisualStateNormalMinWidth.htm" />
+  <HelpKINode Title="HamburgerFrame.VisualStateNormalMinWidthProperty field" Url="html/F_Cimbalino_Toolkit_Controls_HamburgerFrame_VisualStateNormalMinWidthProperty.htm" />
+  <HelpKINode Title="HamburgerFrame.VisualStateWideMinWidth property" Url="html/P_Cimbalino_Toolkit_Controls_HamburgerFrame_VisualStateWideMinWidth.htm" />
+  <HelpKINode Title="HamburgerFrame.VisualStateWideMinWidthProperty field" Url="html/F_Cimbalino_Toolkit_Controls_HamburgerFrame_VisualStateWideMinWidthProperty.htm" />
+  <HelpKINode Title="HamburgerMenuButton class">
+    <HelpKINode Title="HamburgerMenuButton Class" Url="html/T_Cimbalino_Toolkit_Controls_HamburgerMenuButton.htm" />
+    <HelpKINode Title="about HamburgerMenuButton class" Url="html/T_Cimbalino_Toolkit_Controls_HamburgerMenuButton.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Cimbalino_Toolkit_Controls_HamburgerMenuButton__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_Cimbalino_Toolkit_Controls_HamburgerMenuButton.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Cimbalino_Toolkit_Controls_HamburgerMenuButton.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Cimbalino_Toolkit_Controls_HamburgerMenuButton.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Cimbalino_Toolkit_Controls_HamburgerMenuButton.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HamburgerMenuButton.HamburgerMenuButton constructor" Url="html/M_Cimbalino_Toolkit_Controls_HamburgerMenuButton__ctor.htm" />
+  <HelpKINode Title="HamburgerMenuButton.Icon property" Url="html/P_Cimbalino_Toolkit_Controls_HamburgerMenuButton_Icon.htm" />
+  <HelpKINode Title="HamburgerMenuButton.IconProperty field" Url="html/F_Cimbalino_Toolkit_Controls_HamburgerMenuButton_IconProperty.htm" />
+  <HelpKINode Title="HamburgerMenuButton.LabelVisibility property" Url="html/P_Cimbalino_Toolkit_Controls_HamburgerMenuButton_LabelVisibility.htm" />
+  <HelpKINode Title="HamburgerMenuButton.LabelVisibilityProperty field" Url="html/F_Cimbalino_Toolkit_Controls_HamburgerMenuButton_LabelVisibilityProperty.htm" />
+  <HelpKINode Title="HamburgerMenuButton.NavigationSourcePageType property" Url="html/P_Cimbalino_Toolkit_Controls_HamburgerMenuButton_NavigationSourcePageType.htm" />
+  <HelpKINode Title="HamburgerMenuButton.NavigationSourcePageTypeProperty field" Url="html/F_Cimbalino_Toolkit_Controls_HamburgerMenuButton_NavigationSourcePageTypeProperty.htm" />
+  <HelpKINode Title="HamburgerMenuButton.OnToggle method" Url="html/M_Cimbalino_Toolkit_Controls_HamburgerMenuButton_OnToggle.htm" />
+  <HelpKINode Title="HamburgerTitleBar class">
+    <HelpKINode Title="HamburgerTitleBar Class" Url="html/T_Cimbalino_Toolkit_Controls_HamburgerTitleBar.htm" />
+    <HelpKINode Title="about HamburgerTitleBar class" Url="html/T_Cimbalino_Toolkit_Controls_HamburgerTitleBar.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Cimbalino_Toolkit_Controls_HamburgerTitleBar__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_Cimbalino_Toolkit_Controls_HamburgerTitleBar.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Cimbalino_Toolkit_Controls_HamburgerTitleBar.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Cimbalino_Toolkit_Controls_HamburgerTitleBar.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Cimbalino_Toolkit_Controls_HamburgerTitleBar.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HamburgerTitleBar.HamburgerTitleBar constructor" Url="html/M_Cimbalino_Toolkit_Controls_HamburgerTitleBar__ctor.htm" />
+  <HelpKINode Title="HamburgerTitleBar.MenuButtonClick event" Url="html/E_Cimbalino_Toolkit_Controls_HamburgerTitleBar_MenuButtonClick.htm" />
+  <HelpKINode Title="HamburgerTitleBar.MenuButtonVisibility property" Url="html/P_Cimbalino_Toolkit_Controls_HamburgerTitleBar_MenuButtonVisibility.htm" />
+  <HelpKINode Title="HamburgerTitleBar.MenuButtonVisibilityProperty field" Url="html/F_Cimbalino_Toolkit_Controls_HamburgerTitleBar_MenuButtonVisibilityProperty.htm" />
+  <HelpKINode Title="HamburgerTitleBar.OnApplyTemplate method" Url="html/M_Cimbalino_Toolkit_Controls_HamburgerTitleBar_OnApplyTemplate.htm" />
+  <HelpKINode Title="HamburgerTitleBar.Title property" Url="html/P_Cimbalino_Toolkit_Controls_HamburgerTitleBar_Title.htm" />
+  <HelpKINode Title="HamburgerTitleBar.TitleProperty field" Url="html/F_Cimbalino_Toolkit_Controls_HamburgerTitleBar_TitleProperty.htm" />
   <HelpKINode Title="HardwareCapabilities property" Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppCapabilitiesNode_HardwareCapabilities.htm" />
+  <HelpKINode Title="HasFlag enumeration member">
+    <HelpKINode Title="ApplicationProfileServiceMode Enumeration" Url="html/T_Cimbalino_Toolkit_Services_ApplicationProfileServiceMode.htm" />
+    <HelpKINode Title="CompressionLevel Enumeration" Url="html/T_Cimbalino_Toolkit_Compression_CompressionLevel.htm" />
+    <HelpKINode Title="DeviceStatusServicePowerSource Enumeration" Url="html/T_Cimbalino_Toolkit_Services_DeviceStatusServicePowerSource.htm" />
+    <HelpKINode Title="FilePickerServiceLocationId Enumeration" Url="html/T_Cimbalino_Toolkit_Services_FilePickerServiceLocationId.htm" />
+    <HelpKINode Title="FilePickerServiceViewMode Enumeration" Url="html/T_Cimbalino_Toolkit_Services_FilePickerServiceViewMode.htm" />
+    <HelpKINode Title="LocationServiceAccuracy Enumeration" Url="html/T_Cimbalino_Toolkit_Services_LocationServiceAccuracy.htm" />
+    <HelpKINode Title="LocationServiceStatus Enumeration" Url="html/T_Cimbalino_Toolkit_Services_LocationServiceStatus.htm" />
+    <HelpKINode Title="LockScreenServiceRequestResult Enumeration" Url="html/T_Cimbalino_Toolkit_Services_LockScreenServiceRequestResult.htm" />
+    <HelpKINode Title="NavigationServiceBackKeyPressedBehavior Enumeration" Url="html/T_Cimbalino_Toolkit_Services_NavigationServiceBackKeyPressedBehavior.htm" />
+    <HelpKINode Title="RuntimeInformationServiceProfile Enumeration" Url="html/T_Cimbalino_Toolkit_Services_RuntimeInformationServiceProfile.htm" />
+  </HelpKINode>
   <HelpKINode Title="HashAlgorithmBase class">
     <HelpKINode Title="HashAlgorithmBase Class" Url="html/T_System_Security_Cryptography_HashAlgorithmBase.htm" />
     <HelpKINode Title="about HashAlgorithmBase class" Url="html/T_System_Security_Cryptography_HashAlgorithmBase.htm" />
@@ -1527,6 +1693,13 @@
   <HelpKINode Title="HashCore method" Url="html/M_System_Security_Cryptography_MD5Managed_HashCore.htm" />
   <HelpKINode Title="HashFinal method" Url="html/M_System_Security_Cryptography_MD5Managed_HashFinal.htm" />
   <HelpKINode Title="HasSettings property" Url="html/P_Cimbalino_Toolkit_Helpers_ApplicationManifestAppNode_HasSettings.htm" />
+  <HelpKINode Title="Header property" Url="html/P_Cimbalino_Toolkit_Controls_HamburgerFrame_Header.htm" />
+  <HelpKINode Title="HeaderBackground property" Url="html/P_Cimbalino_Toolkit_Controls_HamburgerFrame_HeaderBackground.htm" />
+  <HelpKINode Title="HeaderBackgroundProperty field" Url="html/F_Cimbalino_Toolkit_Controls_HamburgerFrame_HeaderBackgroundProperty.htm" />
+  <HelpKINode Title="HeaderProperty field">
+    <HelpKINode Title="Hamburger.HeaderProperty Field" Url="html/F_Cimbalino_Toolkit_Helpers_Hamburger_HeaderProperty.htm" />
+    <HelpKINode Title="HamburgerFrame.HeaderProperty Field" Url="html/F_Cimbalino_Toolkit_Controls_HamburgerFrame_HeaderProperty.htm" />
+  </HelpKINode>
   <HelpKINode Title="Heading property" Url="html/P_Cimbalino_Toolkit_Services_LocationServicePosition_Heading.htm" />
   <HelpKINode Title="Height property">
     <HelpKINode Title="ITitleBarService.Height Property " Url="html/P_Cimbalino_Toolkit_Services_ITitleBarService_Height.htm" />
@@ -1657,8 +1830,12 @@
   <HelpKINode Title="IComparableExtensions.Max&lt;T&gt; method" Url="html/M_Cimbalino_Toolkit_Extensions_IComparableExtensions_Max__1.htm" />
   <HelpKINode Title="IComparableExtensions.Min(Of T) method" Url="html/M_Cimbalino_Toolkit_Extensions_IComparableExtensions_Min__1.htm" />
   <HelpKINode Title="IComparableExtensions.Min&lt;T&gt; method" Url="html/M_Cimbalino_Toolkit_Extensions_IComparableExtensions_Min__1.htm" />
-  <HelpKINode Title="Icon property" Url="html/P_Cimbalino_Toolkit_Services_WindowsStoreServiceAppPackageNode_Icon.htm" />
+  <HelpKINode Title="Icon property">
+    <HelpKINode Title="HamburgerMenuButton.Icon Property " Url="html/P_Cimbalino_Toolkit_Controls_HamburgerMenuButton_Icon.htm" />
+    <HelpKINode Title="WindowsStoreServiceAppPackageNode.Icon Property " Url="html/P_Cimbalino_Toolkit_Services_WindowsStoreServiceAppPackageNode_Icon.htm" />
+  </HelpKINode>
   <HelpKINode Title="IconPath property" Url="html/P_Cimbalino_Toolkit_Helpers_ApplicationManifestAppNode_IconPath.htm" />
+  <HelpKINode Title="IconProperty field" Url="html/F_Cimbalino_Toolkit_Controls_HamburgerMenuButton_IconProperty.htm" />
   <HelpKINode Title="IconUri property" Url="html/P_Cimbalino_Toolkit_Behaviors_ApplicationBarIconButton_IconUri.htm" />
   <HelpKINode Title="IconUriProperty field" Url="html/F_Cimbalino_Toolkit_Behaviors_ApplicationBarIconButton_IconUriProperty.htm" />
   <HelpKINode Title="Id property">
@@ -2004,6 +2181,11 @@
     <HelpKINode Title="INetworkInformationService.IsNetworkAvailable Property " Url="html/P_Cimbalino_Toolkit_Services_INetworkInformationService_IsNetworkAvailable.htm" />
     <HelpKINode Title="NetworkInformationService.IsNetworkAvailable Property " Url="html/P_Cimbalino_Toolkit_Services_NetworkInformationService_IsNetworkAvailable.htm" />
   </HelpKINode>
+  <HelpKINode Title="IsPaneOpen property" Url="html/P_Cimbalino_Toolkit_Controls_HamburgerFrame_IsPaneOpen.htm" />
+  <HelpKINode Title="IsPaneOpenProperty field">
+    <HelpKINode Title="Hamburger.IsPaneOpenProperty Field" Url="html/F_Cimbalino_Toolkit_Helpers_Hamburger_IsPaneOpenProperty.htm" />
+    <HelpKINode Title="HamburgerFrame.IsPaneOpenProperty Field" Url="html/F_Cimbalino_Toolkit_Controls_HamburgerFrame_IsPaneOpenProperty.htm" />
+  </HelpKINode>
   <HelpKINode Title="IsPrime method" Url="html/M_Cimbalino_Toolkit_Extensions_IntExtensions_IsPrime.htm" />
   <HelpKINode Title="IsRelative property" Url="html/P_Cimbalino_Toolkit_Helpers_ApplicationManifestIconPathNode_IsRelative.htm" />
   <HelpKINode Title="IsResource property" Url="html/P_Cimbalino_Toolkit_Helpers_ApplicationManifestIconPathNode_IsResource.htm" />
@@ -2117,6 +2299,8 @@
     <HelpKINode Title="HMACMD5.Key Property " Url="html/P_System_Security_Cryptography_HMACMD5_Key.htm" />
   </HelpKINode>
   <HelpKINode Title="KidsCorner enumeration member" Url="html/T_Cimbalino_Toolkit_Services_ApplicationProfileServiceMode.htm" />
+  <HelpKINode Title="LabelVisibility property" Url="html/P_Cimbalino_Toolkit_Controls_HamburgerMenuButton_LabelVisibility.htm" />
+  <HelpKINode Title="LabelVisibilityProperty field" Url="html/F_Cimbalino_Toolkit_Controls_HamburgerMenuButton_LabelVisibilityProperty.htm" />
   <HelpKINode Title="Language property" Url="html/P_Cimbalino_Toolkit_Services_WindowsStoreServiceAppPackageNode_Language.htm" />
   <HelpKINode Title="Languages property" Url="html/P_Cimbalino_Toolkit_Helpers_ApplicationManifest_Languages.htm" />
   <HelpKINode Title="LastUpdate property" Url="html/P_Cimbalino_Toolkit_Services_WindowsStoreServiceAppPackageNode_LastUpdate.htm" />
@@ -2180,14 +2364,14 @@
   </HelpKINode>
   <HelpKINode Title="LicenseRight property" Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppOfferNode_LicenseRight.htm" />
   <HelpKINode Title="List enumeration member" Url="html/T_Cimbalino_Toolkit_Services_FilePickerServiceViewMode.htm" />
-  <HelpKINode Title="Local enumeration member" Url="html/T_Cimbalino_Toolkit_Services_StorageServiceStorageType.htm" />
+  <HelpKINode Title="Local field" Url="html/F_Cimbalino_Toolkit_Services_StorageServiceStorageType_Local.htm" />
   <HelpKINode Title="Local property">
     <HelpKINode Title="ApplicationSettingsService.Local Property " Url="html/P_Cimbalino_Toolkit_Services_ApplicationSettingsService_Local.htm" />
     <HelpKINode Title="IApplicationSettingsService.Local Property " Url="html/P_Cimbalino_Toolkit_Services_IApplicationSettingsService_Local.htm" />
     <HelpKINode Title="IStorageService.Local Property " Url="html/P_Cimbalino_Toolkit_Services_IStorageService_Local.htm" />
     <HelpKINode Title="StorageService.Local Property " Url="html/P_Cimbalino_Toolkit_Services_StorageService_Local.htm" />
   </HelpKINode>
-  <HelpKINode Title="LocalCache enumeration member" Url="html/T_Cimbalino_Toolkit_Services_StorageServiceStorageType.htm" />
+  <HelpKINode Title="LocalCache field" Url="html/F_Cimbalino_Toolkit_Services_StorageServiceStorageType_LocalCache.htm" />
   <HelpKINode Title="LocalCache property">
     <HelpKINode Title="IStorageService.LocalCache Property " Url="html/P_Cimbalino_Toolkit_Services_IStorageService_LocalCache.htm" />
     <HelpKINode Title="StorageService.LocalCache Property " Url="html/P_Cimbalino_Toolkit_Services_StorageService_LocalCache.htm" />
@@ -2314,6 +2498,9 @@
   <HelpKINode Title="MD5Managed.Initialize method" Url="html/M_System_Security_Cryptography_MD5Managed_Initialize.htm" />
   <HelpKINode Title="MD5Managed.MD5Managed constructor" Url="html/M_System_Security_Cryptography_MD5Managed__ctor.htm" />
   <HelpKINode Title="MediaInstanceId property" Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppOfferNode_MediaInstanceId.htm" />
+  <HelpKINode Title="MenuButtonClick event" Url="html/E_Cimbalino_Toolkit_Controls_HamburgerTitleBar_MenuButtonClick.htm" />
+  <HelpKINode Title="MenuButtonVisibility property" Url="html/P_Cimbalino_Toolkit_Controls_HamburgerTitleBar_MenuButtonVisibility.htm" />
+  <HelpKINode Title="MenuButtonVisibilityProperty field" Url="html/F_Cimbalino_Toolkit_Controls_HamburgerTitleBar_MenuButtonVisibilityProperty.htm" />
   <HelpKINode Title="MenuItems property">
     <HelpKINode Title="ApplicationBar.MenuItems Property " Url="html/P_Cimbalino_Toolkit_Behaviors_ApplicationBar_MenuItems.htm" />
     <HelpKINode Title="ApplicationBarBehavior.MenuItems Property " Url="html/P_Cimbalino_Toolkit_Behaviors_ApplicationBarBehavior_MenuItems.htm" />
@@ -2472,7 +2659,7 @@
   <HelpKINode Title="NavigationService class">
     <HelpKINode Title="NavigationService Class" Url="html/T_Cimbalino_Toolkit_Services_NavigationService.htm" />
     <HelpKINode Title="about NavigationService class" Url="html/T_Cimbalino_Toolkit_Services_NavigationService.htm" />
-    <HelpKINode Title="constructor" Url="html/M_Cimbalino_Toolkit_Services_NavigationService__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Cimbalino_Toolkit_Services_NavigationService__ctor.htm" />
     <HelpKINode Title="events" Url="html/Events_T_Cimbalino_Toolkit_Services_NavigationService.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Cimbalino_Toolkit_Services_NavigationService.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Cimbalino_Toolkit_Services_NavigationService.htm" />
@@ -2488,7 +2675,7 @@
   <HelpKINode Title="NavigationService.GoForward method" Url="html/M_Cimbalino_Toolkit_Services_NavigationService_GoForward.htm" />
   <HelpKINode Title="NavigationService.Navigate method" Url="html/Overload_Cimbalino_Toolkit_Services_NavigationService_Navigate.htm" />
   <HelpKINode Title="NavigationService.Navigated event" Url="html/E_Cimbalino_Toolkit_Services_NavigationService_Navigated.htm" />
-  <HelpKINode Title="NavigationService.NavigationService constructor" Url="html/M_Cimbalino_Toolkit_Services_NavigationService__ctor.htm" />
+  <HelpKINode Title="NavigationService.NavigationService constructor" Url="html/Overload_Cimbalino_Toolkit_Services_NavigationService__ctor.htm" />
   <HelpKINode Title="NavigationService.QueryString property" Url="html/P_Cimbalino_Toolkit_Services_NavigationService_QueryString.htm" />
   <HelpKINode Title="NavigationService.RaiseBackKeyPressed method" Url="html/M_Cimbalino_Toolkit_Services_NavigationService_RaiseBackKeyPressed.htm" />
   <HelpKINode Title="NavigationService.RaiseNavigated method" Url="html/M_Cimbalino_Toolkit_Services_NavigationService_RaiseNavigated.htm" />
@@ -2504,6 +2691,8 @@
   </HelpKINode>
   <HelpKINode Title="NavigationServiceBackKeyPressedEventArgs.Behavior property" Url="html/P_Cimbalino_Toolkit_Services_NavigationServiceBackKeyPressedEventArgs_Behavior.htm" />
   <HelpKINode Title="NavigationServiceBackKeyPressedEventArgs.NavigationServiceBackKeyPressedEventArgs constructor" Url="html/M_Cimbalino_Toolkit_Services_NavigationServiceBackKeyPressedEventArgs__ctor.htm" />
+  <HelpKINode Title="NavigationSourcePageType property" Url="html/P_Cimbalino_Toolkit_Controls_HamburgerMenuButton_NavigationSourcePageType.htm" />
+  <HelpKINode Title="NavigationSourcePageTypeProperty field" Url="html/F_Cimbalino_Toolkit_Controls_HamburgerMenuButton_NavigationSourcePageTypeProperty.htm" />
   <HelpKINode Title="NegativeBooleanConverter class">
     <HelpKINode Title="NegativeBooleanConverter Class" Url="html/T_Cimbalino_Toolkit_Converters_NegativeBooleanConverter.htm" />
     <HelpKINode Title="about NegativeBooleanConverter class" Url="html/T_Cimbalino_Toolkit_Converters_NegativeBooleanConverter.htm" />
@@ -2633,6 +2822,10 @@
   <HelpKINode Title="ObservableTaskBase&lt;T&gt;.Task property" Url="html/P_Cimbalino_Toolkit_Helpers_ObservableTaskBase_1_Task.htm" />
   <HelpKINode Title="OfferId property" Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppOfferNode_OfferId.htm" />
   <HelpKINode Title="Offers property" Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppNode_Offers.htm" />
+  <HelpKINode Title="OnApplyTemplate method">
+    <HelpKINode Title="HamburgerFrame.OnApplyTemplate Method " Url="html/M_Cimbalino_Toolkit_Controls_HamburgerFrame_OnApplyTemplate.htm" />
+    <HelpKINode Title="HamburgerTitleBar.OnApplyTemplate Method " Url="html/M_Cimbalino_Toolkit_Controls_HamburgerTitleBar_OnApplyTemplate.htm" />
+  </HelpKINode>
   <HelpKINode Title="OnAttached method">
     <HelpKINode Title="ApplicationBarBehavior.OnAttached Method " Url="html/M_Cimbalino_Toolkit_Behaviors_ApplicationBarBehavior_OnAttached.htm" />
     <HelpKINode Title="AutoFocusBehavior.OnAttached Method " Url="html/M_Cimbalino_Toolkit_Behaviors_AutoFocusBehavior_OnAttached.htm" />
@@ -2677,6 +2870,7 @@
     <HelpKINode Title="ApplicationBar.OnOpacityChanged Method " Url="html/M_Cimbalino_Toolkit_Behaviors_ApplicationBar_OnOpacityChanged.htm" />
     <HelpKINode Title="ApplicationBarBehavior.OnOpacityChanged Method " Url="html/M_Cimbalino_Toolkit_Behaviors_ApplicationBarBehavior_OnOpacityChanged.htm" />
   </HelpKINode>
+  <HelpKINode Title="OnToggle method" Url="html/M_Cimbalino_Toolkit_Controls_HamburgerMenuButton_OnToggle.htm" />
   <HelpKINode Title="Opacity property">
     <HelpKINode Title="ApplicationBar.Opacity Property " Url="html/P_Cimbalino_Toolkit_Behaviors_ApplicationBar_Opacity.htm" />
     <HelpKINode Title="ApplicationBarBehavior.Opacity Property " Url="html/P_Cimbalino_Toolkit_Behaviors_ApplicationBarBehavior_Opacity.htm" />
@@ -2689,6 +2883,8 @@
     <HelpKINode Title="IStorageServiceHandler.OpenFileForReadAsync Method " Url="html/M_Cimbalino_Toolkit_Services_IStorageServiceHandler_OpenFileForReadAsync.htm" />
     <HelpKINode Title="StorageServiceHandler.OpenFileForReadAsync Method " Url="html/M_Cimbalino_Toolkit_Services_StorageServiceHandler_OpenFileForReadAsync.htm" />
   </HelpKINode>
+  <HelpKINode Title="OpenPaneLength property" Url="html/P_Cimbalino_Toolkit_Controls_HamburgerFrame_OpenPaneLength.htm" />
+  <HelpKINode Title="OpenPaneLengthProperty field" Url="html/F_Cimbalino_Toolkit_Controls_HamburgerFrame_OpenPaneLengthProperty.htm" />
   <HelpKINode Title="OpenStreamForReadAsync method" Url="html/M_Cimbalino_Toolkit_Services_FilePickerServiceFileResult_OpenStreamForReadAsync.htm" />
   <HelpKINode Title="Optimal enumeration member" Url="html/T_Cimbalino_Toolkit_Compression_CompressionLevel.htm" />
   <HelpKINode Title="OptimizedObservableCollection(Of T) class">
@@ -2722,7 +2918,7 @@
   <HelpKINode Title="Options property" Url="html/P_Cimbalino_Toolkit_Converters_StringRegexConverter_Options.htm" />
   <HelpKINode Title="OptionsProperty field" Url="html/F_Cimbalino_Toolkit_Converters_StringRegexConverter_OptionsProperty.htm" />
   <HelpKINode Title="Orientation property" Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppImageNode_Orientation.htm" />
-  <HelpKINode Title="Package enumeration member" Url="html/T_Cimbalino_Toolkit_Services_StorageServiceStorageType.htm" />
+  <HelpKINode Title="Package field" Url="html/F_Cimbalino_Toolkit_Services_StorageServiceStorageType_Package.htm" />
   <HelpKINode Title="Package property">
     <HelpKINode Title="IStorageService.Package Property " Url="html/P_Cimbalino_Toolkit_Services_IStorageService_Package.htm" />
     <HelpKINode Title="StorageService.Package Property " Url="html/P_Cimbalino_Toolkit_Services_StorageService_Package.htm" />
@@ -2730,6 +2926,15 @@
   </HelpKINode>
   <HelpKINode Title="PackageFamilyName property" Url="html/P_Cimbalino_Toolkit_Services_LauncherServiceAppInfo_PackageFamilyName.htm" />
   <HelpKINode Title="PackageSize property" Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppEntryNode_PackageSize.htm" />
+  <HelpKINode Title="Pane property" Url="html/P_Cimbalino_Toolkit_Controls_HamburgerFrame_Pane.htm" />
+  <HelpKINode Title="PaneBackground property" Url="html/P_Cimbalino_Toolkit_Controls_HamburgerFrame_PaneBackground.htm" />
+  <HelpKINode Title="PaneBackgroundProperty field" Url="html/F_Cimbalino_Toolkit_Controls_HamburgerFrame_PaneBackgroundProperty.htm" />
+  <HelpKINode Title="PaneClosed event" Url="html/E_Cimbalino_Toolkit_Controls_HamburgerFrame_PaneClosed.htm" />
+  <HelpKINode Title="PaneClosing event" Url="html/E_Cimbalino_Toolkit_Controls_HamburgerFrame_PaneClosing.htm" />
+  <HelpKINode Title="PaneProperty field">
+    <HelpKINode Title="Hamburger.PaneProperty Field" Url="html/F_Cimbalino_Toolkit_Helpers_Hamburger_PaneProperty.htm" />
+    <HelpKINode Title="HamburgerFrame.PaneProperty Field" Url="html/F_Cimbalino_Toolkit_Controls_HamburgerFrame_PaneProperty.htm" />
+  </HelpKINode>
   <HelpKINode Title="ParentId property" Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppCategoryNode_ParentId.htm" />
   <HelpKINode Title="Pattern property" Url="html/P_Cimbalino_Toolkit_Converters_StringRegexConverter_Pattern.htm" />
   <HelpKINode Title="PatternProperty field" Url="html/F_Cimbalino_Toolkit_Converters_StringRegexConverter_PatternProperty.htm" />
@@ -2967,7 +3172,7 @@
   </HelpKINode>
   <HelpKINode Title="Right method" Url="html/M_Cimbalino_Toolkit_Extensions_StringExtensions_Right.htm" />
   <HelpKINode Title="Right property" Url="html/P_Cimbalino_Toolkit_Foundation_Rect_Right.htm" />
-  <HelpKINode Title="Roaming enumeration member" Url="html/T_Cimbalino_Toolkit_Services_StorageServiceStorageType.htm" />
+  <HelpKINode Title="Roaming field" Url="html/F_Cimbalino_Toolkit_Services_StorageServiceStorageType_Roaming.htm" />
   <HelpKINode Title="Roaming property">
     <HelpKINode Title="ApplicationSettingsService.Roaming Property " Url="html/P_Cimbalino_Toolkit_Services_ApplicationSettingsService_Roaming.htm" />
     <HelpKINode Title="IApplicationSettingsService.Roaming Property " Url="html/P_Cimbalino_Toolkit_Services_IApplicationSettingsService_Roaming.htm" />
@@ -3050,11 +3255,13 @@
     <HelpKINode Title="IClipboardService.SetBitmap Method " Url="html/M_Cimbalino_Toolkit_Services_IClipboardService_SetBitmap.htm" />
   </HelpKINode>
   <HelpKINode Title="SetFragment method" Url="html/M_Cimbalino_Toolkit_Extensions_UriBuilderExtensions_SetFragment.htm" />
+  <HelpKINode Title="SetHeader method" Url="html/M_Cimbalino_Toolkit_Helpers_Hamburger_SetHeader.htm" />
   <HelpKINode Title="SetHost method" Url="html/M_Cimbalino_Toolkit_Extensions_UriBuilderExtensions_SetHost.htm" />
   <HelpKINode Title="SetHtml method">
     <HelpKINode Title="ClipboardService.SetHtml Method " Url="html/M_Cimbalino_Toolkit_Services_ClipboardService_SetHtml.htm" />
     <HelpKINode Title="IClipboardService.SetHtml Method " Url="html/M_Cimbalino_Toolkit_Services_IClipboardService_SetHtml.htm" />
   </HelpKINode>
+  <HelpKINode Title="SetIsPaneOpen method" Url="html/M_Cimbalino_Toolkit_Helpers_Hamburger_SetIsPaneOpen.htm" />
   <HelpKINode Title="SetLength method">
     <HelpKINode Title="ChunkedStream.SetLength Method " Url="html/M_Cimbalino_Toolkit_Helpers_ChunkedStream_SetLength.htm" />
     <HelpKINode Title="ZlibStream.SetLength Method " Url="html/M_Cimbalino_Toolkit_Compression_ZlibStream_SetLength.htm" />
@@ -3069,6 +3276,7 @@
   </HelpKINode>
   <HelpKINode Title="SetNoCacheHeaders method" Url="html/M_Cimbalino_Toolkit_Extensions_WebRequestExtensions_SetNoCacheHeaders.htm" />
   <HelpKINode Title="SetPageProgressIndicator method" Url="html/M_Cimbalino_Toolkit_Services_StatusBarService_SetPageProgressIndicator.htm" />
+  <HelpKINode Title="SetPane method" Url="html/M_Cimbalino_Toolkit_Helpers_Hamburger_SetPane.htm" />
   <HelpKINode Title="SetPassword method" Url="html/M_Cimbalino_Toolkit_Extensions_UriBuilderExtensions_SetPassword.htm" />
   <HelpKINode Title="SetPath method" Url="html/Overload_Cimbalino_Toolkit_Extensions_UriBuilderExtensions_SetPath.htm" />
   <HelpKINode Title="SetPort method" Url="html/M_Cimbalino_Toolkit_Extensions_UriBuilderExtensions_SetPort.htm" />
@@ -3081,6 +3289,7 @@
     <HelpKINode Title="IClipboardService.SetRtf Method " Url="html/M_Cimbalino_Toolkit_Services_IClipboardService_SetRtf.htm" />
   </HelpKINode>
   <HelpKINode Title="SetScheme method" Url="html/M_Cimbalino_Toolkit_Extensions_UriBuilderExtensions_SetScheme.htm" />
+  <HelpKINode Title="SetSubHeader method" Url="html/M_Cimbalino_Toolkit_Helpers_Hamburger_SetSubHeader.htm" />
   <HelpKINode Title="SetText method">
     <HelpKINode Title="ClipboardService.SetText Method " Url="html/M_Cimbalino_Toolkit_Services_ClipboardService_SetText.htm" />
     <HelpKINode Title="IClipboardService.SetText Method " Url="html/M_Cimbalino_Toolkit_Services_IClipboardService_SetText.htm" />
@@ -3396,7 +3605,18 @@
   <HelpKINode Title="StorageServiceHandler.WriteAllBytesAsync method" Url="html/M_Cimbalino_Toolkit_Services_StorageServiceHandler_WriteAllBytesAsync.htm" />
   <HelpKINode Title="StorageServiceHandler.WriteAllLinesAsync method" Url="html/Overload_Cimbalino_Toolkit_Services_StorageServiceHandler_WriteAllLinesAsync.htm" />
   <HelpKINode Title="StorageServiceHandler.WriteAllTextAsync method" Url="html/Overload_Cimbalino_Toolkit_Services_StorageServiceHandler_WriteAllTextAsync.htm" />
-  <HelpKINode Title="StorageServiceStorageType enumeration" Url="html/T_Cimbalino_Toolkit_Services_StorageServiceStorageType.htm" />
+  <HelpKINode Title="StorageServiceStorageType class">
+    <HelpKINode Title="StorageServiceStorageType Class" Url="html/T_Cimbalino_Toolkit_Services_StorageServiceStorageType.htm" />
+    <HelpKINode Title="about StorageServiceStorageType class" Url="html/T_Cimbalino_Toolkit_Services_StorageServiceStorageType.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Cimbalino_Toolkit_Services_StorageServiceStorageType.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Cimbalino_Toolkit_Services_StorageServiceStorageType.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StorageServiceStorageType.Local field" Url="html/F_Cimbalino_Toolkit_Services_StorageServiceStorageType_Local.htm" />
+  <HelpKINode Title="StorageServiceStorageType.LocalCache field" Url="html/F_Cimbalino_Toolkit_Services_StorageServiceStorageType_LocalCache.htm" />
+  <HelpKINode Title="StorageServiceStorageType.Package field" Url="html/F_Cimbalino_Toolkit_Services_StorageServiceStorageType_Package.htm" />
+  <HelpKINode Title="StorageServiceStorageType.Roaming field" Url="html/F_Cimbalino_Toolkit_Services_StorageServiceStorageType_Roaming.htm" />
+  <HelpKINode Title="StorageServiceStorageType.Temporary field" Url="html/F_Cimbalino_Toolkit_Services_StorageServiceStorageType_Temporary.htm" />
+  <HelpKINode Title="StorageServiceStorageType.value__ field" Url="html/F_Cimbalino_Toolkit_Services_StorageServiceStorageType_value__.htm" />
   <HelpKINode Title="Store property" Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppOfferNode_Store.htm" />
   <HelpKINode Title="StoreService class">
     <HelpKINode Title="StoreService Class" Url="html/T_Cimbalino_Toolkit_Services_StoreService.htm" />
@@ -3515,6 +3735,13 @@
   <HelpKINode Title="StringToVisibilityConverter.InvertValueProperty field" Url="html/F_Cimbalino_Toolkit_Converters_StringToVisibilityConverter_InvertValueProperty.htm" />
   <HelpKINode Title="StringToVisibilityConverter.StringToVisibilityConverter constructor" Url="html/M_Cimbalino_Toolkit_Converters_StringToVisibilityConverter__ctor.htm" />
   <HelpKINode Title="SubCategory property" Url="html/P_Cimbalino_Toolkit_Services_WindowsStoreServiceAppPackageNode_SubCategory.htm" />
+  <HelpKINode Title="SubHeader property" Url="html/P_Cimbalino_Toolkit_Controls_HamburgerFrame_SubHeader.htm" />
+  <HelpKINode Title="SubHeaderBackground property" Url="html/P_Cimbalino_Toolkit_Controls_HamburgerFrame_SubHeaderBackground.htm" />
+  <HelpKINode Title="SubHeaderBackgroundProperty field" Url="html/F_Cimbalino_Toolkit_Controls_HamburgerFrame_SubHeaderBackgroundProperty.htm" />
+  <HelpKINode Title="SubHeaderProperty field">
+    <HelpKINode Title="Hamburger.SubHeaderProperty Field" Url="html/F_Cimbalino_Toolkit_Helpers_Hamburger_SubHeaderProperty.htm" />
+    <HelpKINode Title="HamburgerFrame.SubHeaderProperty Field" Url="html/F_Cimbalino_Toolkit_Controls_HamburgerFrame_SubHeaderProperty.htm" />
+  </HelpKINode>
   <HelpKINode Title="SuggestedStartLocation property" Url="html/P_Cimbalino_Toolkit_Services_FilePickerServiceOptions_SuggestedStartLocation.htm" />
   <HelpKINode Title="SupportedArchitectures property" Url="html/P_Cimbalino_Toolkit_Services_WindowsStoreServiceAppNode_SupportedArchitectures.htm" />
   <HelpKINode Title="SupportedLanguages property">
@@ -3539,7 +3766,7 @@
   <HelpKINode Title="TaskName property" Url="html/P_Cimbalino_Toolkit_Helpers_ApplicationManifestTokenNode_TaskName.htm" />
   <HelpKINode Title="Tasks property" Url="html/P_Cimbalino_Toolkit_Helpers_ApplicationManifestAppNode_Tasks.htm" />
   <HelpKINode Title="TaxString property" Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppNode_TaxString.htm" />
-  <HelpKINode Title="Temporary enumeration member" Url="html/T_Cimbalino_Toolkit_Services_StorageServiceStorageType.htm" />
+  <HelpKINode Title="Temporary field" Url="html/F_Cimbalino_Toolkit_Services_StorageServiceStorageType_Temporary.htm" />
   <HelpKINode Title="Temporary property">
     <HelpKINode Title="IStorageService.Temporary Property " Url="html/P_Cimbalino_Toolkit_Services_IStorageService_Temporary.htm" />
     <HelpKINode Title="StorageService.Temporary Property " Url="html/P_Cimbalino_Toolkit_Services_StorageService_Temporary.htm" />
@@ -3559,6 +3786,7 @@
   <HelpKINode Title="Timestamp property" Url="html/P_Cimbalino_Toolkit_Services_LocationServicePosition_Timestamp.htm" />
   <HelpKINode Title="Title property">
     <HelpKINode Title="ApplicationManifestAppNode.Title Property " Url="html/P_Cimbalino_Toolkit_Helpers_ApplicationManifestAppNode_Title.htm" />
+    <HelpKINode Title="HamburgerTitleBar.Title Property " Url="html/P_Cimbalino_Toolkit_Controls_HamburgerTitleBar_Title.htm" />
     <HelpKINode Title="WindowsPhoneStoreServiceAppCapabilityNode.Title Property " Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppCapabilityNode_Title.htm" />
     <HelpKINode Title="WindowsPhoneStoreServiceAppCategoryNode.Title Property " Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppCategoryNode_Title.htm" />
     <HelpKINode Title="WindowsPhoneStoreServiceAppEntryNode.Title Property " Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppEntryNode_Title.htm" />
@@ -3587,6 +3815,7 @@
   <HelpKINode Title="TitleBarService.Height property" Url="html/P_Cimbalino_Toolkit_Services_TitleBarService_Height.htm" />
   <HelpKINode Title="TitleBarService.IsVisibleChanged event" Url="html/E_Cimbalino_Toolkit_Services_TitleBarService_IsVisibleChanged.htm" />
   <HelpKINode Title="TitleBarService.TitleBarService constructor" Url="html/M_Cimbalino_Toolkit_Services_TitleBarService__ctor.htm" />
+  <HelpKINode Title="TitleProperty field" Url="html/F_Cimbalino_Toolkit_Controls_HamburgerTitleBar_TitleProperty.htm" />
   <HelpKINode Title="To method" Url="html/M_Cimbalino_Toolkit_Extensions_IntExtensions_To.htm" />
   <HelpKINode Title="ToArray method" Url="html/M_Cimbalino_Toolkit_Extensions_StreamExtensions_ToArray.htm" />
   <HelpKINode Title="ToArrayAsync method" Url="html/M_Cimbalino_Toolkit_Extensions_StreamExtensions_ToArrayAsync.htm" />
@@ -3608,6 +3837,28 @@
   <HelpKINode Title="ToQueue&lt;TResult&gt; method" Url="html/M_Cimbalino_Toolkit_Extensions_IEnumerableExtensions_ToQueue__1.htm" />
   <HelpKINode Title="ToStack(Of TResult) method" Url="html/M_Cimbalino_Toolkit_Extensions_IEnumerableExtensions_ToStack__1.htm" />
   <HelpKINode Title="ToStack&lt;TResult&gt; method" Url="html/M_Cimbalino_Toolkit_Extensions_IEnumerableExtensions_ToStack__1.htm" />
+  <HelpKINode Title="ToString enumeration member">
+    <HelpKINode Title="ApplicationProfileServiceMode Enumeration" Url="html/T_Cimbalino_Toolkit_Services_ApplicationProfileServiceMode.htm" />
+    <HelpKINode Title="ApplicationProfileServiceMode Enumeration" Url="html/T_Cimbalino_Toolkit_Services_ApplicationProfileServiceMode.htm" />
+    <HelpKINode Title="CompressionLevel Enumeration" Url="html/T_Cimbalino_Toolkit_Compression_CompressionLevel.htm" />
+    <HelpKINode Title="CompressionLevel Enumeration" Url="html/T_Cimbalino_Toolkit_Compression_CompressionLevel.htm" />
+    <HelpKINode Title="DeviceStatusServicePowerSource Enumeration" Url="html/T_Cimbalino_Toolkit_Services_DeviceStatusServicePowerSource.htm" />
+    <HelpKINode Title="DeviceStatusServicePowerSource Enumeration" Url="html/T_Cimbalino_Toolkit_Services_DeviceStatusServicePowerSource.htm" />
+    <HelpKINode Title="FilePickerServiceLocationId Enumeration" Url="html/T_Cimbalino_Toolkit_Services_FilePickerServiceLocationId.htm" />
+    <HelpKINode Title="FilePickerServiceLocationId Enumeration" Url="html/T_Cimbalino_Toolkit_Services_FilePickerServiceLocationId.htm" />
+    <HelpKINode Title="FilePickerServiceViewMode Enumeration" Url="html/T_Cimbalino_Toolkit_Services_FilePickerServiceViewMode.htm" />
+    <HelpKINode Title="FilePickerServiceViewMode Enumeration" Url="html/T_Cimbalino_Toolkit_Services_FilePickerServiceViewMode.htm" />
+    <HelpKINode Title="LocationServiceAccuracy Enumeration" Url="html/T_Cimbalino_Toolkit_Services_LocationServiceAccuracy.htm" />
+    <HelpKINode Title="LocationServiceAccuracy Enumeration" Url="html/T_Cimbalino_Toolkit_Services_LocationServiceAccuracy.htm" />
+    <HelpKINode Title="LocationServiceStatus Enumeration" Url="html/T_Cimbalino_Toolkit_Services_LocationServiceStatus.htm" />
+    <HelpKINode Title="LocationServiceStatus Enumeration" Url="html/T_Cimbalino_Toolkit_Services_LocationServiceStatus.htm" />
+    <HelpKINode Title="LockScreenServiceRequestResult Enumeration" Url="html/T_Cimbalino_Toolkit_Services_LockScreenServiceRequestResult.htm" />
+    <HelpKINode Title="LockScreenServiceRequestResult Enumeration" Url="html/T_Cimbalino_Toolkit_Services_LockScreenServiceRequestResult.htm" />
+    <HelpKINode Title="NavigationServiceBackKeyPressedBehavior Enumeration" Url="html/T_Cimbalino_Toolkit_Services_NavigationServiceBackKeyPressedBehavior.htm" />
+    <HelpKINode Title="NavigationServiceBackKeyPressedBehavior Enumeration" Url="html/T_Cimbalino_Toolkit_Services_NavigationServiceBackKeyPressedBehavior.htm" />
+    <HelpKINode Title="RuntimeInformationServiceProfile Enumeration" Url="html/T_Cimbalino_Toolkit_Services_RuntimeInformationServiceProfile.htm" />
+    <HelpKINode Title="RuntimeInformationServiceProfile Enumeration" Url="html/T_Cimbalino_Toolkit_Services_RuntimeInformationServiceProfile.htm" />
+  </HelpKINode>
   <HelpKINode Title="ToString method">
     <HelpKINode Title="ByteArrayExtensions.ToString Method " Url="html/M_Cimbalino_Toolkit_Extensions_ByteArrayExtensions_ToString.htm" />
     <HelpKINode Title="LocationServicePosition.ToString Method " Url="html/M_Cimbalino_Toolkit_Services_LocationServicePosition_ToString.htm" />
@@ -3701,6 +3952,19 @@
   <HelpKINode Title="ValueConverterBase.ConvertBack method" Url="html/M_Cimbalino_Toolkit_Converters_ValueConverterBase_ConvertBack.htm" />
   <HelpKINode Title="ValueConverterBase.ValueConverterBase constructor" Url="html/M_Cimbalino_Toolkit_Converters_ValueConverterBase__ctor.htm" />
   <HelpKINode Title="ValueProperty field" Url="html/F_Cimbalino_Toolkit_Behaviors_MultiBindingItem_ValueProperty.htm" />
+  <HelpKINode Title="value__ enumeration member">
+    <HelpKINode Title="ApplicationProfileServiceMode Enumeration" Url="html/T_Cimbalino_Toolkit_Services_ApplicationProfileServiceMode.htm" />
+    <HelpKINode Title="CompressionLevel Enumeration" Url="html/T_Cimbalino_Toolkit_Compression_CompressionLevel.htm" />
+    <HelpKINode Title="DeviceStatusServicePowerSource Enumeration" Url="html/T_Cimbalino_Toolkit_Services_DeviceStatusServicePowerSource.htm" />
+    <HelpKINode Title="FilePickerServiceLocationId Enumeration" Url="html/T_Cimbalino_Toolkit_Services_FilePickerServiceLocationId.htm" />
+    <HelpKINode Title="FilePickerServiceViewMode Enumeration" Url="html/T_Cimbalino_Toolkit_Services_FilePickerServiceViewMode.htm" />
+    <HelpKINode Title="LocationServiceAccuracy Enumeration" Url="html/T_Cimbalino_Toolkit_Services_LocationServiceAccuracy.htm" />
+    <HelpKINode Title="LocationServiceStatus Enumeration" Url="html/T_Cimbalino_Toolkit_Services_LocationServiceStatus.htm" />
+    <HelpKINode Title="LockScreenServiceRequestResult Enumeration" Url="html/T_Cimbalino_Toolkit_Services_LockScreenServiceRequestResult.htm" />
+    <HelpKINode Title="NavigationServiceBackKeyPressedBehavior Enumeration" Url="html/T_Cimbalino_Toolkit_Services_NavigationServiceBackKeyPressedBehavior.htm" />
+    <HelpKINode Title="RuntimeInformationServiceProfile Enumeration" Url="html/T_Cimbalino_Toolkit_Services_RuntimeInformationServiceProfile.htm" />
+  </HelpKINode>
+  <HelpKINode Title="value__ field" Url="html/F_Cimbalino_Toolkit_Services_StorageServiceStorageType_value__.htm" />
   <HelpKINode Title="Version property">
     <HelpKINode Title="ApplicationManifestAppNode.Version Property " Url="html/P_Cimbalino_Toolkit_Helpers_ApplicationManifestAppNode_Version.htm" />
     <HelpKINode Title="IRuntimeInformationService.Version Property " Url="html/P_Cimbalino_Toolkit_Services_IRuntimeInformationService_Version.htm" />
@@ -3723,6 +3987,12 @@
   <HelpKINode Title="VideosLibrary enumeration member" Url="html/T_Cimbalino_Toolkit_Services_FilePickerServiceLocationId.htm" />
   <HelpKINode Title="ViewMode property" Url="html/P_Cimbalino_Toolkit_Services_FilePickerServiceOptions_ViewMode.htm" />
   <HelpKINode Title="VisibilityStatus property" Url="html/P_Cimbalino_Toolkit_Services_WindowsPhoneStoreServiceAppNode_VisibilityStatus.htm" />
+  <HelpKINode Title="VisualStateNarrowMinWidth property" Url="html/P_Cimbalino_Toolkit_Controls_HamburgerFrame_VisualStateNarrowMinWidth.htm" />
+  <HelpKINode Title="VisualStateNarrowMinWidthProperty field" Url="html/F_Cimbalino_Toolkit_Controls_HamburgerFrame_VisualStateNarrowMinWidthProperty.htm" />
+  <HelpKINode Title="VisualStateNormalMinWidth property" Url="html/P_Cimbalino_Toolkit_Controls_HamburgerFrame_VisualStateNormalMinWidth.htm" />
+  <HelpKINode Title="VisualStateNormalMinWidthProperty field" Url="html/F_Cimbalino_Toolkit_Controls_HamburgerFrame_VisualStateNormalMinWidthProperty.htm" />
+  <HelpKINode Title="VisualStateWideMinWidth property" Url="html/P_Cimbalino_Toolkit_Controls_HamburgerFrame_VisualStateWideMinWidth.htm" />
+  <HelpKINode Title="VisualStateWideMinWidthProperty field" Url="html/F_Cimbalino_Toolkit_Controls_HamburgerFrame_VisualStateWideMinWidthProperty.htm" />
   <HelpKINode Title="WeakAction class">
     <HelpKINode Title="WeakAction Class" Url="html/T_Cimbalino_Toolkit_Helpers_WeakAction.htm" />
     <HelpKINode Title="about WeakAction class" Url="html/T_Cimbalino_Toolkit_Helpers_WeakAction.htm" />
